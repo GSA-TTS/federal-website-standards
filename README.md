@@ -7,6 +7,8 @@ Federal web standards are evidence-based requirements that will help agencies:
 - Reduce the burden of researching, designing, and developing core web components
 - Participate in communities of practice around standards implementation
 
+Federal web standards will help us deliver a high-quality, digital-first experience for the public.
+
 ## Who's involved
 - USWDS
 - 18F
