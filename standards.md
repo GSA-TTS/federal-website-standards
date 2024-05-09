@@ -10,7 +10,9 @@ This is a prototype. The information on this site is not official.
 
 Intro text…these are the standards… [View potential standards we’re exploring.]()
 
-## .gov domain (teaser content)
+<br />
+
+## .gov domain (teaser view)
 **Applies to:** Executive branch federal agencies
 
 **Why:** It’s secure…users look for it…
@@ -19,57 +21,99 @@ Intro text…these are the standards… [View potential standards we’re explor
 
 [View more]()
 
+<br />
+
 ## .gov domain (full content)
 **[Category:]()** Secure by design, secure by default
 
 **[Standard:]()** Use a .gov domain…
 
-Applies to: Executive branch federal agencies that…Organizations at all levels of government are eligible for .gov domains…
-Why: It’s secure…users look for it…
-Implementation status: 97% of executive branch gov sites use .gov 🟢
-How to implement: get.gov…
-Examples: …
-Where to go for help: …
-Other agencies working on this standard: …
-Page flow section: Top of page
+**[Applies to:]()** Executive branch federal agencies that…Organizations at all levels of government are eligible for .gov domains…
+
+**[Why:]()** It’s secure…users look for it…
+
+**[Implementation status:]()** 97% of executive branch gov sites use .gov 🟢
+
+**How to implement:** get.gov…
+
+**Examples:** …
+
+**Where to go for help:** …
+
+**[Other agencies working on this standard:]()** …
+
+**[Page flow section:]()** Top of page
+
+<br />
 
 ## HTTPS
-Category: Secure by design, secure by default
-Standard: Use https…
-Applies to: Executive branch federal agencies
-Why: It’s secure…users look for it…
-Implementation status: 85% of executive branch gov sites use .gov 🟢
-How to implement: …
-Examples: …
-Where to go for help: …
-Other agencies working on this standard: …
-Page flow section: Top of page
+**[Category:]()** Secure by design, secure by default
+
+**[Standard:]()** Use https…
+
+**[Applies to:]()** Executive branch federal agencies
+
+**[Why:]()** It’s secure…users look for it…
+
+**[Implementation status:]()** 85% of executive branch gov sites use .gov 🟢
+
+**How to implement:** …
+
+**Examples:** …
+
+**Where to go for help:** …
+
+**[Other agencies working on this standard:]()** …
+
+**[Page flow section:]()** Top of page
+
+<br />
 
 ## HTML page title
-Category: Information and services that are discoverable and optimized for search
-Standard: HTML page titles…
-Applies to: Executive branch federal agencies
-Why: Search engine optimization…
-Implementation status: 45% of executive branch gov sites use unique, descriptive HTML page titles 🟡
-How to implement: Where it is in the code, where it shows up, how to manage…
-Examples: …
-Where to go for help: …
-Other agencies working on this standard: …
-Page flow section: Top of page
+**[Category:]()** Information and services that are discoverable and optimized for search
+
+**[Standard:]()** HTML page titles…
+
+**[Applies to:]()** Executive branch federal agencies
+
+**[Why:]()** Search engine optimization…
+
+**[Implementation status:]()** 45% of executive branch gov sites use unique, descriptive HTML page titles 🟡
+
+**How to implement:** Where it is in the code, where it shows up, how to manage…
+
+**Examples:** …
+
+**Where to go for help:** …
+
+**[Other agencies working on this standard:]()** …
+
+**[Page flow section:]()** Top of page
+
+<br />
 
 ## Meta tag description of the page
-Category: Information and services that are discoverable and optimized for search
-Standard: Meta tag description…
-Applies to: Executive branch federal agencies
-Why: Search engine optimization…
-Implementation status: 22% of executive branch gov sites use unique, descriptive HTML page titles 🔴
-How to implement: Where it is in the code, where it shows up, how it’s used, how to manage…
-Examples: 
-Where to go for help: 
-Other agencies working on this standard: 
-Page flow section: Top of page
+**[Category:]()** Information and services that are discoverable and optimized for search
 
+**[Standard:]()** Meta tag description…
 
+**[Applies to:]()** Executive branch federal agencies
+
+**[Why:]()** Search engine optimization…
+
+**[Implementation status:]()** 22% of executive branch gov sites use unique, descriptive HTML page titles 🔴
+
+**How to implement:** Where it is in the code, where it shows up, how it’s used, how to manage…
+
+**Examples:** 
+
+**Where to go for help:** 
+
+**[Other agencies working on this standard:]()**
+
+**[Page flow section:]()** Top of page
+
+<br />
 
 future state...
 
