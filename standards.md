@@ -10,15 +10,20 @@ This is a prototype. The information on this site is not official.
 
 Intro text…these are the standards… [View potential standards we’re exploring.]()
 
-## .gov domain 
-Applies to: Executive branch federal agencies
-Why: It’s secure…users look for it…
-Implementation status: 97% of executive branch gov sites use .gov 🟢
-View more
+## .gov domain (teaser content)
+**Applies to:** Executive branch federal agencies
 
-## .gov domain
-Category: Secure by design, secure by default
-Standard: Use a .gov domain…
+**Why:** It’s secure…users look for it…
+
+**Implementation status:** 97% of executive branch gov sites use .gov 🟢
+
+[View more]()
+
+## .gov domain (full content)
+**[Category:]()** Secure by design, secure by default
+
+**[Standard:]()** Use a .gov domain…
+
 Applies to: Executive branch federal agencies that…Organizations at all levels of government are eligible for .gov domains…
 Why: It’s secure…users look for it…
 Implementation status: 97% of executive branch gov sites use .gov 🟢
