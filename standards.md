@@ -1,14 +1,13 @@
-Federal web standards
-Intro text…these are the standards…View potential standards we’re exploring.
-(Default view is grid or list of standard teasers)
-[Teaser view]
-.gov domain 
+# Federal web standards
+Intro text…these are the standards… [View potential standards we’re exploring.]()
+
+## .gov domain 
 Applies to: Executive branch federal agencies
 Why: It’s secure…users look for it…
 Implementation status: 97% of executive branch gov sites use .gov 🟢
 View more
 
-.gov domain
+## .gov domain
 Category: Secure by design, secure by default
 Standard: Use a .gov domain…
 Applies to: Executive branch federal agencies that…Organizations at all levels of government are eligible for .gov domains…
@@ -19,7 +18,8 @@ Examples: …
 Where to go for help: …
 Other agencies working on this standard: …
 Page flow section: Top of page
-HTTPS
+
+## HTTPS
 Category: Secure by design, secure by default
 Standard: Use https…
 Applies to: Executive branch federal agencies
@@ -30,7 +30,8 @@ Examples: …
 Where to go for help: …
 Other agencies working on this standard: …
 Page flow section: Top of page
-HTML page title
+
+## HTML page title
 Category: Information and services that are discoverable and optimized for search
 Standard: HTML page titles…
 Applies to: Executive branch federal agencies
@@ -41,7 +42,8 @@ Examples: …
 Where to go for help: …
 Other agencies working on this standard: …
 Page flow section: Top of page
-Meta tag description of the page
+
+## Meta tag description of the page
 Category: Information and services that are discoverable and optimized for search
 Standard: Meta tag description…
 Applies to: Executive branch federal agencies
@@ -53,11 +55,9 @@ Where to go for help:
 Other agencies working on this standard: 
 Page flow section: Top of page
 
-# Federal web standards
-Intro text…these are the standards…View potential standards we’re exploring.
-(Default view is grid or list of standard teasers)
 
 
+future state...
 
 1. Accessible to people of diverse abilities
     1. [508 accessibility](https://www.section508.gov/develop/) is this the right link?
