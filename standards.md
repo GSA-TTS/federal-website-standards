@@ -115,7 +115,7 @@ Intro text…these are the standards… [View potential standards we’re explor
 
 <br />
 
-future state...
+<!--
 
 1. Accessible to people of diverse abilities
     1. [508 accessibility](https://www.section508.gov/develop/) is this the right link?
@@ -146,3 +146,5 @@ future state...
     5. [Search.gov](https://search.gov/)
     6. [DAP](https://digital.gov/guides/dap/) is this the right link?
     7. [Get.gov]() (for .gov domains)
+
+-->
