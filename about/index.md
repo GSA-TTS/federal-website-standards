@@ -2,7 +2,7 @@
 layout: layouts/page
 title: About federal web standards
 eleventyNavigation:
-  key: About
+  key: about
   order: 2
 ---
 
