@@ -1,6 +1,12 @@
-This is a prototype. The information on this site is not official.
+---
+layout: layouts/page
+title: List of federal web standards
+eleventyNavigation:
+  key: Standards
+  order: 2
+---
 
-[Gov website ribbon]
+This is a prototype. The information on this site is not official.
 
 # Federal web standards  
 
