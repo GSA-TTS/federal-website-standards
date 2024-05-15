@@ -2,11 +2,7 @@ This is a prototype. The information on this site is not official.
 
 [Gov website ribbon]
 
-# Federal Web Standards  
-
-[Home](index.md) | Federal web standards | [Get involved]() | [About]() | [Contact]()
-
-[Search box]
+# Federal web standards  
 
 Intro text…these are the standards… [View potential standards we’re exploring.]()
 
