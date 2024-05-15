@@ -54,26 +54,30 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: Blog
-    url: /blog/
-  - name: Document
-    url: /document/
-  - name: Document with sidenav
-    url: /document-with-sidenav/
-  - name: Document submenu
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+  - name: Federal website standards
+    url: /standards/
+  - name: Get involved
+    url: /get-involved/
+  - name: About
+    url: /about/
+  - name: Contact
+    url: /contact/
+#  - name: Document with sidenav
+#    url: /document-with-sidenav/
+#  - name: Document submenu
+#    children:
+#     - name: Navigation link
+#       url: "#main-content"
+#     - name: Navigation link
+#       url: "#main-content"
+#     - name: Navigation link
+#       url: "#main-content"
 
-secondary_navigation:
-  - name: Secondary link
-    url: "#main-content"
-  - name: Another secondary link
-    url: "#main-content"
+# secondary_navigation:
+#   - name: Secondary link
+#     url: "#main-content"
+#   - name: Another secondary link
+#     url: "#main-content"
 
 # Search.gov configuration
 #
