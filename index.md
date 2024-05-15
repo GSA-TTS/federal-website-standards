@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: layouts/home
-title: Federal Web Standards
+title: Federal web standards
 ---
 
 ## What are federal web standards?
