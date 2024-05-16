@@ -1,10 +1,8 @@
 ---
 permalink: /
 layout: layouts/page
-title: Federal web standards
+title: Deliver a high-quality, digital-first experience for the public
 ---
-
-# Deliver a high-quality, digital-first experience for the public
 
 The public primarily interacts with the federal government through digital channels. More than five hundred million users visit executive branch federal sites each month, increasingly from mobile devices.
 

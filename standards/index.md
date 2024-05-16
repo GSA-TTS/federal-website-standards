@@ -6,15 +6,12 @@ eleventyNavigation:
   order: 2
 ---
 
-This is a prototype. The information on this site is not official.
-
-# Federal web standards  
-
 Intro text…these are the standards… [View potential standards we’re exploring.]()
 
 <br />
 
 ## .gov domain (teaser view)
+
 **Applies to:** Executive branch federal agencies
 
 **Why:** It’s secure…users look for it…
@@ -26,6 +23,7 @@ Intro text…these are the standards… [View potential standards we’re explor
 <br />
 
 ## .gov domain (full content)
+
 **[Category:]()** Secure by design, secure by default
 
 **[Standard:]()** Use a .gov domain…
@@ -49,6 +47,7 @@ Intro text…these are the standards… [View potential standards we’re explor
 <br />
 
 ## HTTPS
+
 **[Category:]()** Secure by design, secure by default
 
 **[Standard:]()** Use https…
@@ -72,6 +71,7 @@ Intro text…these are the standards… [View potential standards we’re explor
 <br />
 
 ## HTML page title
+
 **[Category:]()** Information and services that are discoverable and optimized for search
 
 **[Standard:]()** HTML page titles…
@@ -95,6 +95,7 @@ Intro text…these are the standards… [View potential standards we’re explor
 <br />
 
 ## Meta tag description of the page
+
 **[Category:]()** Information and services that are discoverable and optimized for search
 
 **[Standard:]()** Meta tag description…
@@ -107,9 +108,9 @@ Intro text…these are the standards… [View potential standards we’re explor
 
 **How to implement:** Where it is in the code, where it shows up, how it’s used, how to manage…
 
-**Examples:** 
+**Examples:**
 
-**Where to go for help:** 
+**Where to go for help:**
 
 **[Other agencies working on this standard:]()**
 
@@ -123,7 +124,7 @@ Intro text…these are the standards… [View potential standards we’re explor
     1. [508 accessibility](https://www.section508.gov/develop/) is this the right link?
 2. Consistent visual design and agency brand identity
     1. [Banner](https://designsystem.digital.gov/components/banner/)
-    2. Bottom of the page? South pole?/Identifier 
+    2. Bottom of the page? South pole?/Identifier
     3. Top of page elements: login, search, language selection
 3. Content that is authoritative and easy to understand
     1. Content timeliness
