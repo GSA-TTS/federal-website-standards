@@ -8,7 +8,7 @@ why:
 status:
 statusIndicator:
 pageFlowSection:
-draft: true
+eleventyExcludeFromCollections: true
 ---
 
 Accessible to people of diverse abilities
