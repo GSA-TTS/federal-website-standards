@@ -18,7 +18,7 @@ This template uses the USWDS collection component to display teasers.
       <h3 class="usa-collection__heading">
         <a
           class="usa-link font-heading-xl"
-          href="{{ standard.url }}"
+          href="{{ standard.url | url }}"
           >{{ standard.data.title }}</a
         >
       </h3>
@@ -43,4 +43,4 @@ This template uses the USWDS collection component to display teasers.
   {%- endfor -%}
   </ul>
 
-<a href="./cards">View these standards as cards</a>
+<a href="{{ './cards' | url }}">View these standards as cards</a>

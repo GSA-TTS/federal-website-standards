@@ -26,7 +26,7 @@ This template uses the USWDS collection component to display teasers.
           <p><strong>Status: </strong>{{ standard.data.status }} {{ standard.data.statusIndicator }}</p>
         </div>
         <div class="usa-card__footer">
-          <a href="{{ standard.url }}" class="usa-button">Learn about
+          <a href="{{ standard.url | url }}" class="usa-button">Learn about
             {{ standard.data.title }}</a>
         </div>
       </div>
@@ -34,4 +34,4 @@ This template uses the USWDS collection component to display teasers.
   {%- endfor -%}
 </ul>
 
-<a href="../">View these standards as a collection</a>
+<a href="{{ '..' | url }}">View these standards as a collection</a>
