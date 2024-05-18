@@ -1,5 +1,5 @@
 ---
-layout: layouts/standards
+layout: layouts/cards
 title: List of federal web standards
 eleventyNavigation:
   key: Standards
