@@ -9,6 +9,7 @@ why: Search engine optimization…
 status: 45% of executive branch gov sites use unique, descriptive HTML page titles
 statusIndicator: 🟡
 pageFlowSection: "Top of page"
+summary: true
 ---
 
 HTML page titles…
