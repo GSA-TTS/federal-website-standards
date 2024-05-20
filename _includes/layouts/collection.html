@@ -1,0 +1,46 @@
+---
+layout: layouts/page
+---
+
+{% comment %}
+This template uses the USWDS collection component to display teasers.
+{% endcomment %}
+
+<nav>
+  <p>Filter by New | Category | Status</p>
+  <p>Sort by Date | A-Z</p>
+</nav>
+
+<ul class="usa-collection">
+  {%- for standard in collections.standards -%}
+  <li class="usa-collection__item">
+    <div class="usa-collection__body">
+      <h3 class="usa-collection__heading">
+        <a
+          class="usa-link font-heading-xl"
+          href="{{ standard.url | url }}"
+          >{{ standard.data.title }}</a
+        >
+      </h3>
+      <p class="usa-collection__description">
+        <strong>Category: </strong>{{ standard.data.category }}
+      </p>
+      <p><strong>Applies to: </strong>{{ standard.data.appliesTo }}</p>
+      <p><strong>Why: </strong>{{ standard.data.why }}</p>
+      <p><strong>Status: </strong>{{ standard.data.status }} {{ standard.data.statusIndicator }}</p>
+      <ul class="usa-collection__meta" aria-label="More information">
+        <li class="usa-collection__meta-item">
+          Updated <time datetime="2020-09-30T12:00:00+01:00">September 30, 2020</time>
+        </li>
+      </ul>
+      <ul class="usa-collection__meta" aria-label="Topics">
+        <li class="usa-collection__meta-item usa-tag usa-tag--new">New</li>
+        <li class="usa-collection__meta-item usa-tag">PMA</li>
+        <li class="usa-collection__meta-item usa-tag">OMB</li>
+      </ul>
+    </div>
+  </li>
+  {%- endfor -%}
+  </ul>
+
+<a href="{{ './cards' | url }}">View these standards as cards</a>
