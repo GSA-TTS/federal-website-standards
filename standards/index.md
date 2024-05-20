@@ -6,8 +6,6 @@ eleventyNavigation:
   order: 2
 ---
 
-This is a prototype. The information on this site is not official.
-
 # Federal web standards  
 
 Intro text…these are the standards… [View potential standards we’re exploring.]()
