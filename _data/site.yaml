@@ -54,7 +54,7 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: Federal web standards
+  - name: Standards
     url: /standards/
   - name: Get involved
     url: /get-involved/
