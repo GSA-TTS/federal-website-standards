@@ -34,11 +34,11 @@ The banner component should avoid customization. Both text and semantic structur
 ## Examples
 [U.S. Department of State](https://www.state.gov/)
 
-![U.S. Department of State banner](../../_img/state.png)
+![U.S. Department of State banner](../../../_img/state.png)
 
 [U.S. Department of Defense](https://www.defense.gov/)
 
-![U.S. Department of Defense banner](../../_img/defense.png)
+![U.S. Department of Defense banner](../../../_img/defense.png)
 
 ## Implementation status
 16% of executive branch public sites scanned by the [Site Scanner](https://digital.gov/guides/site-scanning/) have implemented the banner in a way that is compliant with the U.S. Web Design System (USWDS).
