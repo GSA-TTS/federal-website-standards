@@ -17,7 +17,7 @@ summary: true
 ## Standard
 Use the banner at the top of every page to identify your site as an official federal government site.
 
-![USWDS banner component](../../_img/banner.png)
+![USWDS banner component](../../../_img/banner.png)
 
 ## Why
 The banner identifies official websites of government organizations in the United States. The banner includes a drop-down that helps people understand that the website is official and secure. The banner is one of the most recognizable design elements on federal websites. 
