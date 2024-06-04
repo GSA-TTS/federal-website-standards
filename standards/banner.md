@@ -26,7 +26,7 @@ The banner identifies official websites of government organizations in the Unite
 Use the [USWDS banner component](https://designsystem.digital.gov/components/banner/).
 
 ## When to use
-The USWDS banner text identifies .gov and .mil domains and HTTPS as indicators that a website is an official government website. **Use this banner only if your site uses both the proper top-level domain (TLD) and HTTPS.**
+The banner text identifies .gov and .mil domains and HTTPS as indicators that a website is an official government website. **Use this banner only if your site uses both the proper top-level domain (TLD) and HTTPS.**
 
 ## Flexibility
 The banner component should avoid customization. Both text and semantic structure for this component should come from USWDS.
