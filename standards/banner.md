@@ -17,7 +17,7 @@ summary: true
 ## Standard
 Use the banner at the top of every page to identify your site as an official federal government site.
 
-![USWDS banner component](../../_site/assets/banner.png)
+![USWDS banner component](../../_img/banner.png)
 
 ## Why
 The banner identifies official websites of government organizations in the United States. The banner includes a drop-down that helps people understand that the website is official and secure. The banner is one of the most recognizable design elements on federal websites. 
@@ -34,11 +34,11 @@ The banner component should avoid customization. Both text and semantic structur
 ## Examples
 [U.S. Department of State](https://www.state.gov/)
 
-![U.S. Department of State banner](../../_site/assets/state.png)
+![U.S. Department of State banner](../../_img/state.png)
 
 [U.S. Department of Defense](https://www.defense.gov/)
 
-![U.S. Department of Defense banner](../../_site/assets/defense.png)
+![U.S. Department of Defense banner](../../_img/defense.png)
 
 ## Implementation status
 16% of executive branch public sites scanned by the [Site Scanner](https://digital.gov/guides/site-scanning/) have implemented the banner in a way that is compliant with the U.S. Web Design System (USWDS).
