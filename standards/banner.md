@@ -1,7 +1,7 @@
 ---
 layout: layouts/page
 tags: standards
-title: Banner
+title: Federal government banner
 category:
   ["Consistent visual design and agency brand identity"]
 appliesTo: Executive branch federal agencies
@@ -12,10 +12,8 @@ pageFlowSection: "Top of page"
 summary: true
 ---
 
-# Banner
-
 ## Standard
-Use the banner at the top of every page to identify your site as an official federal government site.
+Use the federal government banner at the top of every page to identify your site as an official federal government site.
 
 ![USWDS banner component](https://github.com/GSA-TTS/federal-web-standards/blob/banner-standard/_img/banner.png)
 
