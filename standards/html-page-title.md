@@ -30,9 +30,9 @@ A descriptive page title is important for accessibility and discoverability. Peo
 ## Examples
 
 These examples show the HTML code for HTML page titles.
-<title>Medicaid and CHIP Quality Rating System | Medicaid</title>   
-<title>Digital.gov Communities of Practice – Digital.gov</title>
-## Where to go for help
+
+```<title>Medicaid and CHIP Quality Rating System | Medicaid</title>```   
+```<title>Digital.gov Communities of Practice – Digital.gov</title>```
 
 ## Where to go for help
 
