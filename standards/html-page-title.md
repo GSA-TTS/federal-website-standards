@@ -4,10 +4,8 @@ tags: standards
 title: HTML page title
 category:
   ["Information and services that are discoverable and optimized for search"]
-appliesTo: Executive branch federal agencies
-why: Search engine optimization…
+why: A descriptive page title is important for accessibility and discoverability.
 status: 45% of executive branch gov sites use unique, descriptive HTML page titles
-statusIndicator: 🟡
 pageFlowSection: "Top of page"
 summary: true
 ---
@@ -30,7 +28,6 @@ A descriptive page title is important for accessibility and discoverability. Peo
 ## Examples
 
 These examples show the HTML code for HTML page titles.
-
 
 `<title>Medicaid and CHIP Quality Rating System | Medicaid</title>`
         
