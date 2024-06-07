@@ -4,10 +4,7 @@ tags: standards
 title: Federal government banner
 category:
   ["Consistent visual design and agency brand identity"]
-appliesTo: Executive branch federal agencies
-why: Lorem ipsum…
-status: 16% of executive branch gov sites have implemented the banner
-statusIndicator: 🟡
+why: The banner identifies official websites of government organizations in the United States.
 pageFlowSection: "Top of page"
 summary: true
 ---
