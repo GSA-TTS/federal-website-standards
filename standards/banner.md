@@ -26,11 +26,11 @@ Use the [USWDS banner component](https://designsystem.digital.gov/components/ban
 ## Examples
 [U.S. Department of State](https://www.state.gov/)
 
-![U.S. Department of State banner](https://github.com/GSA-TTS/federal-web-standards/blob/banner-standard/_img/state.png)
+{% image "_img/state-banner.png" "State.gov banner and header" %}
 
 [U.S. Department of Defense](https://www.defense.gov/)
 
-![U.S. Department of Defense banner](https://github.com/GSA-TTS/federal-web-standards/blob/banner-standard/_img/defense.png)
+{% image "_img/defense-banner.png" "Defense.gov banner and header" %}
 
 ## Where to go for help
 [USWDS community](https://designsystem.digital.gov/about/community/)
