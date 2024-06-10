@@ -21,7 +21,7 @@ A descriptive page title is important for accessibility and discoverability. Peo
 ## How to implement
 
 - Follow the U.S. Web Design System (USWDS) guidance on HTML page titles.
-- Specify a title in the HTML `<title>` element for every page of your website. The `<title>` element is part of the `<head>` section in the web page HTML code.
+- Specify a title in the HTML ```<title>``` element for every page of your website. The ```<title>``` element is part of the ```<head>``` section in the web page HTML code.
 - Titles should be descriptive, unique, and concise. Try to keep titles to 60 characters or fewer.
 - Provide context for visitors by including the site, product, service, or agency this page is part of in your HTML page title.     
 
@@ -29,13 +29,13 @@ A descriptive page title is important for accessibility and discoverability. Peo
 
 These examples show the HTML code for HTML page titles.
 
-`<title>Medicaid and CHIP Quality Rating System | Medicaid</title>`
+```<title>Medicaid and CHIP Quality Rating System | Medicaid</title>```
         
-`<title>Digital.gov Communities of Practice – Digital.gov</title>`
+```<title>Digital.gov Communities of Practice – Digital.gov</title>```
 
 ## Where to go for help
 
 - [Search.gov’s guidance for HTML page titles](https://search.gov/indexing/metadata.html#title)
 - [WCAG page titled success criterion](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html)
 - [How title links in Google Search are created](https://developers.google.com/search/docs/appearance/title-link#how-title-links-in-google-search-are-created)
-- [About the <title> element (MDN web docs)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+- [About the title element (MDN web docs)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
