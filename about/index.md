@@ -13,9 +13,3 @@ The standards are evidence-based actions that will help agencies:
 - Meet the public’s evolving expectations for digital experiences
 - Reduce the burden of researching, designing, and developing core web components
 - Participate in communities of practice around standards implementation
-
-Who's involved
-
-- USWDS
-- OMB
-- 18F
