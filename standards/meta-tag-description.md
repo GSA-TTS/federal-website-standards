@@ -15,7 +15,7 @@ Summarize the content of the page in the meta description tag. The description s
 
 ## Why
 
-The meta description supports accessibility and discoverability. The meta description will often appear in search results pages instead of a snippet of page content. The description, along with the [HTML page title](/standards/html-page-title), helps a person decide whether or not to click a search result.
+The meta description supports accessibility and discoverability. The meta description will often appear in search results pages instead of a snippet of page content. The description, along with the [HTML page title](standards/html-page-title), helps a person decide whether or not to click a search result.
 
 ## How to implement
 
