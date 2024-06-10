@@ -5,9 +5,9 @@ tags: standards
 category: ["secure by design", "secure by default"]
 appliesTo: Executive branch federal agencies that…Organizations at all levels of government are eligible for .gov domains…
 why: It’s secure…users look for it…
-status: 97% of executive branch gov sites use .gov
-statusIndicator: 🟢
+status: Research
 pageFlowSection: "top of page"
+eleventyExcludeFromCollections: true
 ---
 
 Use a .gov domain...
