@@ -55,7 +55,7 @@ primary_navigation:
   - name: Home
     url: /
   - name: Standards
-    url: /standards/
+    url: /standards/cards/
   - name: Get involved
     url: /get-involved/
   - name: About
