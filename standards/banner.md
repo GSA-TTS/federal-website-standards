@@ -7,7 +7,6 @@ category:
 why: The banner identifies official websites of government organizations in the United States.
 status: Draft
 pageFlowSection: "Top of page"
-summary: true
 ---
 
 ## Standard
