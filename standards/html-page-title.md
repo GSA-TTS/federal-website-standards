@@ -21,7 +21,7 @@ A descriptive page title is important for accessibility and discoverability. Peo
 ## How to implement
 
 - Follow the U.S. Web Design System (USWDS) guidance on HTML page titles.
-- Specify a title in the HTML ```<title>``` element for every page of your website. The ```<title>``` element is part of the ```<head>``` section in the web page HTML code.
+- Specify a title in the HTML `<title>` element for every page of your website. The `<title>` element is part of the `<head>` section in the web page HTML code.
 - Titles should be descriptive, unique, and concise. Try to keep titles to 60 characters or fewer.
 - Provide context for visitors by including the site, product, service, or agency this page is part of in your HTML page title.     
 
