@@ -5,9 +5,9 @@ title: HTTPS
 category: ["secure by design", "secure by default"]
 appliesTo: Executive branch federal agencies
 why: It’s secure…users look for it…
-status: 85% of executive branch gov sites use .gov
-statusIndicator: 🟢
+status:
 pageFlowSection: "metadata"
+eleventyExcludeFromCollections: true
 ---
 
 Use https...
