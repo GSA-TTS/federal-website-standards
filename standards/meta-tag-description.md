@@ -7,7 +7,6 @@ category:
 why: The meta description supports accessibility and discoverability. 
 status: Draft
 pageFlowSection: "Metadata"
-summary: true
 ---
 
 ## Standard
