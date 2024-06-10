@@ -7,7 +7,6 @@ category:
 why: A descriptive page title is important for accessibility and discoverability.
 status: Draft
 pageFlowSection: "Top of page"
-summary: true
 ---
 
 ## Standard
