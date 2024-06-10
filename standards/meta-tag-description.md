@@ -21,7 +21,7 @@ The meta description supports accessibility and discoverability. The meta descri
 ## How to implement
 
 - Follow the U.S. Web Design System (USWDS) guidance on meta page descriptions. 
-- Include a description in the ```<meta name=”description”>``` tag for every page of your website. The ```<meta name=”description”>``` tag is part of the ```<head>``` section of a web page.
+- Include a description in the `<meta name=”description”>` tag for every page of your website. The `<meta name=”description”>` tag is part of the `<head>` section of a web page.
 - Page descriptions should summarize the content of a page. Descriptions should be written in plain language and include the most important information.
 - Try to keep descriptions to 160 characters or fewer. Longer descriptions often get truncated on search results pages. 
 
