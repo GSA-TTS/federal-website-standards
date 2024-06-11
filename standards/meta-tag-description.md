@@ -36,3 +36,9 @@ These examples show the HTML code for meta page descriptions.
 - [Google's best practices for quality meta descriptions](https://developers.google.com/search/docs/appearance/snippet#meta-descriptions)
 - [USA.gov’s tips for using meta descriptions](https://blog.usa.gov/three-tips-for-using-meta-descriptions)
 - [Search.gov’s guidance for descriptions](https://search.gov/indexing/metadata.html#description)
+
+## Category
+Information and services that are discoverable and optimized for search
+
+## Page flow section
+Metadata
