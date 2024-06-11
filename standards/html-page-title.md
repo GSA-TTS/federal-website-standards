@@ -36,3 +36,9 @@ These examples show the HTML code for HTML page titles.
 - [WCAG page titled success criterion](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html)
 - [How title links in Google Search are created](https://developers.google.com/search/docs/appearance/title-link#how-title-links-in-google-search-are-created)
 - [About the title element (MDN web docs)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+
+## Category
+Information and services that are discoverable and optimized for search
+
+## Page flow section
+Top of page
