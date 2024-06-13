@@ -8,7 +8,7 @@ eleventyNavigation:
 
 ## For Agencies
 
-Contact the federal web standards team to participate in standards development, implementation, or provide feedback.
+Contact the federal website standards team to participate in standards development, implementation, or provide feedback.
 
 ## Events
 
