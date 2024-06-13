@@ -1,12 +1,12 @@
 ---
 layout: layouts/page
-title: About federal web standards
+title: About federal website standards
 eleventyNavigation:
   key: about
   order: 2
 ---
 
-Federal web standards will help us deliver a high-quality, digital-first experience for the public.
+Federal website standards will help us deliver a high-quality, digital-first experience for the public.
 
 The standards are evidence-based actions that will help agencies:
 
