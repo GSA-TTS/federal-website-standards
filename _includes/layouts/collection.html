@@ -1,20 +1,21 @@
 ---
-layout: layouts/page
+layout: layouts/page-columns
 ---
 
 {% comment %}
-This template uses the USWDS collection component to display teasers.
+This template uses the USWDS collection component.
+The collection component features content with limited metadata.
+See https://designsystem.digital.gov/components/collection/#when-to-use-the-collection-component.
 {% endcomment %}
-
-<nav>
-  <p>Filter by New | Category | Status</p>
-  <p>Sort by Date | A-Z</p>
-</nav>
-
-<ul class="usa-collection">
+  <h1 class="title"> {{ title }} </h1>
+  <nav>
+      <p>Filter by New | Category | Status</p>
+      <p>Sort by Date | A-Z</p>
+  </nav>
+  <ul class="usa-collection grid-row grid-gap">
   {%- for standard in collections.standards -%}
-  <li class="usa-collection__item">
-    <div class="usa-collection__body">
+  <li class="usa-collection__item mobile:grid-col desktop:grid-col-4 ">
+    <div class="usa-collection__body border border radius-lg border-base-light padding-4">
       <h3 class="usa-collection__heading">
         <a
           class="usa-link font-heading-xl"
@@ -41,5 +42,3 @@ This template uses the USWDS collection component to display teasers.
   </li>
   {%- endfor -%}
   </ul>
-
-<a href="{{ './cards' | url }}">View these standards as cards</a>
