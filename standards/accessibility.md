@@ -8,7 +8,7 @@ why:
 status:
 statusIndicator:
 pageFlowSection:
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 Accessible to people of diverse abilities
@@ -19,7 +19,9 @@ Where it is in the code, where it shows up, how to manage…
 
 ## Examples
 
-...
+This is a link that opens in the current tab and goes to an {% ext_link "external website" "https://google.com" %}.
+
+This is {% ext_link "another link", "https://gsa.gov" %} that goes to an external page.
 
 ## Where to go for help
 

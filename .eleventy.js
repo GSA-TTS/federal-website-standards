@@ -129,6 +129,15 @@ module.exports = function (config) {
     </svg>`;
   });
 
+  // Set external link shortcode
+  config.addLiquidShortcode('ext_link', function (text, url) {
+    return `
+    <a class="usa-link usa-link--external"
+      rel="noreferrer"
+      href="${url}">
+      ${text}</a>`;
+  });
+
   // If BASEURL env variable exists, update pathPrefix to the BASEURL
   if (process.env.BASEURL) {
     pathPrefix = process.env.BASEURL
