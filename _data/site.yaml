@@ -55,7 +55,7 @@ primary_navigation:
   - name: Home
     url: /
   - name: Standards
-    url: /standards/cards/
+    url: /standards/
   - name: Get involved
     url: /get-involved/
   - name: About
@@ -85,7 +85,6 @@ primary_navigation:
 # 2. Add a new site.
 # 3. Add your site/affiliate name here.
 searchgov:
-
   # Only change this if you're using a CNAME. Learn more here: https://search.gov/manual/cname.html
   endpoint: https://search.usa.gov
 
@@ -101,7 +100,6 @@ searchgov:
   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
   # If you do not want to present search suggestions, set this value to false.
   suggestions: true
-
 ##########################################################################################
 # The values below here are more advanced and should only be
 # changed if you know what they do
