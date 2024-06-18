@@ -1,15 +1,19 @@
+// Global variables
+$default-max-width: "widescreen";
+
+// USWDS settings
 @use "uswds-core" as * with (
   $theme-show-notifications: false,
   $theme-font-path: "../node_modules/@uswds/uswds/dist/fonts",
   $theme-image-path: "../node_modules/@uswds/uswds/dist/img",
   $theme-font-type-sans: "public-sans",
   $theme-hero-image: "../_img/hero.png",
-  $theme-grid-container-max-width: "widescreen",
-  $theme-banner-max-width: "widescreen",
-  $theme-footer-max-width: "widescreen",
-  $theme-header-max-width: "widescreen",
-  $theme-identifier-max-width: "widescreen",
-  $theme-site-alert-max-width: "widescreen"
+  $theme-grid-container-max-width: $default-max-width,
+  $theme-banner-max-width: $default-max-width,
+  $theme-footer-max-width: $default-max-width,
+  $theme-header-max-width: $default-max-width,
+  $theme-identifier-max-width: $default-max-width,
+  $theme-site-alert-max-width: $default-max-width
 );
 
 @forward "uswds";
