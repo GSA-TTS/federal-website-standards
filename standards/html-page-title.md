@@ -1,13 +1,13 @@
 ---
 layout: layouts/page-single
-tags: standards
+tags: standards, draft, metadata
 title: HTML page title
 category:
   ["Information and services that are discoverable and optimized for search"]
 why: A descriptive page title is important for accessibility and discoverability.
 status: Draft
 surveyLink: https://feedback.gsa.gov/jfe/form/SV_br8d6vovTIZ9R9s
-pageFlowSection: "Top of page"
+pageFlowSection: "Metadata"
 ---
 
 ## Standard
