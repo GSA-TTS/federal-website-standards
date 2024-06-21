@@ -1,7 +1,7 @@
 ---
 layout: layouts/page
 tags: standards
-title: Meta tag description
+title: Meta page description
 category:
   ["Information and services that are discoverable and optimized for search"]
 why: The meta description supports accessibility and discoverability. 
