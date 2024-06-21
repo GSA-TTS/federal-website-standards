@@ -8,7 +8,7 @@ why:
 status:
 statusIndicator:
 pageFlowSection:
-survey: https://feedback.gsa.gov/
+surveyLink: https://feedback.gsa.gov/
 eleventyExcludeFromCollections: true
 ---
 

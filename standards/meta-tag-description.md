@@ -6,7 +6,7 @@ category:
   ["Information and services that are discoverable and optimized for search"]
 why: The meta description supports accessibility and discoverability.
 status: Draft
-survey: https://feedback.gsa.gov/
+surveyLink: https://feedback.gsa.gov/
 pageFlowSection: "Metadata"
 ---
 

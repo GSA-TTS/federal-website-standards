@@ -5,7 +5,7 @@ title: Federal government banner
 category: ["Consistent visual design and agency brand identity"]
 why: The banner identifies official websites of government organizations in the United States.
 status: Draft
-survey: https://feedback.gsa.gov/
+surveyLink: https://feedback.gsa.gov/
 pageFlowSection: "Top of page"
 eleventyExcludeFromCollections: false
 ---

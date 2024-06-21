@@ -6,7 +6,7 @@ category: ["secure by design", "secure by default"]
 appliesTo: Executive branch federal agencies
 why: It’s secure…users look for it…
 status:
-survey: https://feedback.gsa.gov/
+surveyLink: https://feedback.gsa.gov/
 pageFlowSection: "metadata"
 eleventyExcludeFromCollections: true
 ---

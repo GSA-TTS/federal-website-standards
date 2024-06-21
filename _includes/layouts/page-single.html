@@ -8,36 +8,20 @@ This template is for a single page with meta data. It should feed the page-colum
 
 <div class="usa-layout-docs usa-section">
   <div class="grid-container">
-    <div class="grid-row grid-gap">
+    <div class="grid-row grid-gap-6">
       {% if sidenav == true %}
       {% include "sidenav.html" %}
       {% endif %}
       <div class="desktop:grid-col-9 usa-prose">
         <h1 class="title"> {{ title }} </h1>
         {{ content }}
-        <hr/>
-        {% if survey  %}
-        <section id="page-survey">
-          <div class="bg-base-lightest maxw-tablet padding-4 radius-lg">
-            <h2 class="margin-top-0">Help improve the standards</h2>
-            <p>Do we have a lot more to say? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="{{ survey }}" class="usa-button">Take the survey</a>
-          </div>
-          <a class="usa-link usa-link--external margin-top-4" href="{{ survey }}">A simple link to the survey</a>
-        </section>
-        {% endif %}
       </div>
-      {% if survey %}
+      {% if surveyLink %}
       <aside class="desktop:grid-col-3">
         <div class="bg-base-lightest padding-4 radius-lg margin-bottom-4">
           <h2 class="margin-top-0">Help improve the standards</h2>
-          <p>Do we have a lot more to say? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <a href="{{ survey }}" class="usa-button">Take the survey</a>
-        </div>
-        <div class="bg-base-lightest padding-4 radius-lg margin-bottom-4 position-fixed maxw-mobile z-100">
-          <h2 class="margin-top-0">Help improve the standards</h2>
-          <p>This is a fixed position box. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <a href="{{ survey }}" class="usa-button">Take the survey</a>
+          <p>Let us know what you think about this standard.</p>
+          <a href="{{ surveyLink }}" class="usa-button">Take the survey</a>
         </div>
       </aside>
       {% endif %}

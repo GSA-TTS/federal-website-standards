@@ -7,7 +7,7 @@ appliesTo: Executive branch federal agencies that…Organizations at all levels 
 why: It’s secure…users look for it…
 status: Research
 pageFlowSection: "top of page"
-survey: https://feedback.gsa.gov/
+surveyLink: https://feedback.gsa.gov/
 eleventyExcludeFromCollections: true
 ---
 
