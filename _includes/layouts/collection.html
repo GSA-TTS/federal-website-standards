@@ -14,31 +14,31 @@ See https://designsystem.digital.gov/components/collection/#when-to-use-the-coll
   </nav>
   <ul class="usa-collection grid-row grid-gap">
   {%- for standard in collections.standards -%}
-  <li class="usa-collection__item mobile:grid-col desktop:grid-col-4 border-top-width-0">
-    <div class="usa-collection__body border border radius-lg border-base-light padding-4">
-      <h3 class="usa-collection__heading">
-        <a
-          class="usa-link font-heading-xl"
-          href="{{ standard.url | url }}"
-          >{{ standard.data.title }}</a
-        >
-      </h3>
-      <p class="usa-collection__description">
-        <strong>Category: </strong>{{ standard.data.category }}
-      </p>
-      <p><strong>Why: </strong>{{ standard.data.why }}</p>
-      <p><strong>Status: </strong>{{ standard.data.status }} {{ standard.data.statusIndicator }}</p>
-      <ul class="usa-collection__meta" aria-label="More information">
-        <li class="usa-collection__meta-item">
-          Updated <time datetime="2020-09-30T12:00:00+01:00">September 30, 2020</time>
-        </li>
-      </ul>
-      <ul class="usa-collection__meta" aria-label="Topics">
-        <li class="usa-collection__meta-item usa-tag usa-tag--new">New</li>
-        <li class="usa-collection__meta-item usa-tag">PMA</li>
-        <li class="usa-collection__meta-item usa-tag">OMB</li>
-      </ul>
-    </div>
-  </li>
+    <li class="usa-collection__item mobile:grid-col desktop:grid-col-4 border-top-width-0">
+      <div class="usa-collection__body border border radius-lg border-base-light padding-4">
+        <h3 class="usa-collection__heading">
+          <a
+            class="usa-link font-heading-xl"
+            href="{{ standard.url | url }}"
+            >{{ standard.data.title }}</a
+          >
+        </h3>
+        <p class="usa-collection__description">
+          <strong>Category: </strong>{{ standard.data.category }}
+        </p>
+        <p><strong>Why: </strong>{{ standard.data.why }}</p>
+        <p><strong>Status: </strong>{{ standard.data.status }} {{ standard.data.statusIndicator }}</p>
+        <ul class="usa-collection__meta" aria-label="More information">
+          <li class="usa-collection__meta-item">
+            Updated <time datetime="2020-09-30T12:00:00+01:00">September 30, 2020</time>
+          </li>
+        </ul>
+        <ul class="usa-collection__meta" aria-label="Topics">
+          <li class="usa-collection__meta-item usa-tag usa-tag--new">New</li>
+          <li class="usa-collection__meta-item usa-tag">PMA</li>
+          <li class="usa-collection__meta-item usa-tag">OMB</li>
+        </ul>
+      </div>
+    </li>
   {%- endfor -%}
   </ul>

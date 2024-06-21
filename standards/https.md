@@ -1,11 +1,12 @@
 ---
-layout: layouts/page
+layout: layouts/page-single
 tags: standards
 title: HTTPS
 category: ["secure by design", "secure by default"]
 appliesTo: Executive branch federal agencies
 why: It’s secure…users look for it…
 status:
+surveyLink: https://feedback.gsa.gov/
 pageFlowSection: "metadata"
 eleventyExcludeFromCollections: true
 ---

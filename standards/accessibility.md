@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: layouts/page-single
 tags: standards
 title: Accessibility
 category:
@@ -8,6 +8,7 @@ why:
 status:
 statusIndicator:
 pageFlowSection:
+surveyLink: https://feedback.gsa.gov/
 eleventyExcludeFromCollections: true
 ---
 
