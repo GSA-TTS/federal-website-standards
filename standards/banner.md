@@ -28,6 +28,11 @@ The banner identifies official websites of government organizations in the Unite
 
 Follow the [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner/).
 
+## Applies to
+
+Public-facing websites of executive branch federal agencies
+
+
 ## Examples
 
 [U.S. Department of State](https://www.state.gov/)
