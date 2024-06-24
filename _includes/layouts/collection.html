@@ -34,7 +34,13 @@ See https://designsystem.digital.gov/components/collection/#when-to-use-the-coll
           </li>
         </ul>
         <ul class="usa-collection__meta" aria-label="Topics">
-          <li class="usa-collection__meta-item usa-tag">Draft</li>
+          {%- for tag in standard.data.tags -%}
+          {% if tag != "standards" %}
+          <li class="usa-collection__meta-item usa-tag">
+          {{ tag }}
+          </li>
+        {% endif %}
+      {% endfor %}
         </ul>
       </div>
     </li>
