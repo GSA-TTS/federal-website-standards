@@ -1,6 +1,6 @@
 ---
 layout: layouts/page-single
-tags: standards, draft, metadata
+tags: ["standards", "draft", "metadata"]
 title: HTML page title
 category:
   ["Information and services that are discoverable and optimized for search"]

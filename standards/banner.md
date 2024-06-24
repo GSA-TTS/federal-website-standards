@@ -1,6 +1,6 @@
 ---
 layout: layouts/page-single
-tags: standards, draft, user interface
+tags: ["standards", "draft", "user interface"]
 title: Federal government banner
 category: ["Consistent visual design and agency brand identity"]
 why: The banner identifies official websites of government organizations in the United States.
