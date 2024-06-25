@@ -39,7 +39,7 @@ See https://designsystem.digital.gov/components/collection/#when-to-use-the-coll
         {%- for tag in standard.data.tags -%}
           {% if tag != "standards" %}
           <li class="usa-collection__meta-item usa-tag bg-color-primary">
-            <a class="text-primary-dark text-no-underline hover:text-underline" href="/standards/tag/{{ tag | slugify }}">{{ tag }}</a>
+            <a class="text-primary-dark text-no-underline hover:text-underline" href="{{ site.baseurl }}/standards/tag/{{ tag | slugify }}">{{ tag }}</a>
           </li>
           {% endif %}
         {% endfor %}
