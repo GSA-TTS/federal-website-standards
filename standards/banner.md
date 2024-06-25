@@ -8,6 +8,7 @@ status: Draft
 surveyLink: https://feedback.gsa.gov/jfe/form/SV_8uc2Vf3nlORaE5g
 pageFlowSection: "Top of page"
 eleventyExcludeFromCollections: false
+date: Last Modified
 ---
 
 ## Standard
@@ -27,6 +28,11 @@ The banner identifies official websites of government organizations in the Unite
 ## How to implement
 
 Follow the [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner/).
+
+## Applies to
+
+Public-facing websites of executive branch federal agencies
+
 
 ## Examples
 

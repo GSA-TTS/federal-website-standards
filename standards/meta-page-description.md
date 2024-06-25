@@ -8,6 +8,7 @@ why: The meta description supports accessibility and discoverability.
 status: Draft
 surveyLink: https://feedback.gsa.gov/jfe/form/SV_bEn53yx1LYB816u
 pageFlowSection: "Metadata"
+date: Last Modified
 ---
 
 ## Standard
@@ -22,9 +23,12 @@ Draft
 
 The meta description supports accessibility and discoverability. The meta description will often appear in search results pages instead of a snippet of page content. The description, along with the [HTML page title](../html-page-title), helps a person decide whether or not to click a search result.
 
+## Applies to
+
+Public-facing websites of executive branch federal agencies
+
 ## How to implement
 
-- Follow the U.S. Web Design System (USWDS) guidance on meta page descriptions.
 - Include a description in the `<meta name=”description”>` tag for every page of your website. The `<meta name=”description”>` tag is part of the `<head>` section of a web page.
 - Page descriptions should summarize the content of a page. Descriptions should be written in plain language and include the most important information.
 - Try to keep descriptions to between 50 and 160 characters. Descriptions that are too short might not include enough information about the content of the page. Descriptions that are too long often get truncated on search results pages.
