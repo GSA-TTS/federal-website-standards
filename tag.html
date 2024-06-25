@@ -1,0 +1,17 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  addAllPagesToCollections: true
+layout: layouts/page
+permalink: /standards/tag/{{tag | slugify }}
+eleventyComputed:
+  title: Standards tagged with "{{ tag }}"
+---
+
+<ul class="usa-list">
+{% for item in collections[tag] %}
+  <li><a href="{{ item.url  }}">{{ item.data.title }}</a></li>
+{% endfor %}
+</ul>

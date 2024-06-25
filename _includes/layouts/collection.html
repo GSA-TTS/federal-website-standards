@@ -34,13 +34,13 @@ See https://designsystem.digital.gov/components/collection/#when-to-use-the-coll
           </li>
         </ul>
         <ul class="usa-collection__meta" aria-label="Topics">
-          {%- for tag in standard.data.tags -%}
+        {%- for tag in standard.data.tags -%}
           {% if tag != "standards" %}
-          <li class="usa-collection__meta-item usa-tag">
-          {{ tag }}
+          <li class="usa-collection__meta-item usa-tag bg-color-primary">
+            <a class="text-primary-dark text-no-underline hover:text-underline" href="/standards/tag/{{ tag | slugify }}">{{ tag }}</a>
           </li>
-        {% endif %}
-      {% endfor %}
+          {% endif %}
+        {% endfor %}
         </ul>
       </div>
     </li>
