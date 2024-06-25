@@ -26,5 +26,11 @@ This template is for a single page with meta data. It should feed the page-colum
       </aside>
       {% endif %}
     </div>
-  </div>
+    <div class="grid-row text-italic margin-top-4" id="last-updated">
+      <span>Last updated&nbsp;</span>
+      <time datetime="{{ page.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
+       {{ page.date | date: '%B %d, %Y' }}
+      </time>
+    </div>
+    </div>
 </div>

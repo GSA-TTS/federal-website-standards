@@ -30,8 +30,8 @@ See https://designsystem.digital.gov/components/collection/#when-to-use-the-coll
         <p><strong>Status: </strong>{{ standard.data.status }} {{ standard.data.statusIndicator }}</p>
         <ul class="usa-collection__meta" aria-label="More information">
           <li class="usa-collection__meta-item">
-            Updated <time datetime="{{ page.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
-          {{ page.date | date: '%B %d, %Y' }}
+            Updated <time datetime="{{ standard.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
+          {{ standard.date | date: '%B %d, %Y' }}
         </time>
           </li>
         </ul>
