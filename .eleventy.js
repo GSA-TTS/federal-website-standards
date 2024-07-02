@@ -127,9 +127,10 @@ module.exports = function (config) {
   });
 
   // If BASEURL env variable exists, update pathPrefix to the BASEURL
-  let baseurl = '/';
+
+  let pathPrefix = '/';
   if (process.env.BASEURL) {
-    baseurl = process.env.BASEURL
+    pathPrefix = process.env.BASEURL
   }
 
   return {
@@ -158,7 +159,7 @@ module.exports = function (config) {
     // You can also pass this in on the command line using `--pathprefix`
 
     // Optional (default is shown)
-    pathPrefix: baseurl,
+    pathPrefix: pathPrefix,
     // -----------------------------------------------------------------
 
     // These are all optional (defaults are shown):
