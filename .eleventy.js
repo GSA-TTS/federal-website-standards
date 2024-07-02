@@ -9,9 +9,6 @@ const svgSprite = require("eleventy-plugin-svg-sprite");
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
 module.exports = function (config) {
-  // Set pathPrefix for site
-  let pathPrefix = '/';
-
   // Copy the `admin` folders to the output
   config.addPassthroughCopy('admin');
 
@@ -67,23 +64,6 @@ module.exports = function (config) {
     return Math.min.apply(null, numbers);
   });
 
-  function filterTagList(tags) {
-    return (tags || []).filter(
-      (tag) => ['all', 'nav', 'post', 'posts'].indexOf(tag) === -1
-    );
-  }
-
-  config.addFilter('filterTagList', filterTagList);
-
-  // Create an array of all tags
-  config.addCollection('tagList', function (collection) {
-    let tagSet = new Set();
-    collection.getAll().forEach((item) => {
-      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
-    });
-
-    return filterTagList([...tagSet]);
-  });
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
@@ -130,6 +110,8 @@ module.exports = function (config) {
   });
 
   // If BASEURL env variable exists, update pathPrefix to the BASEURL
+
+  let pathPrefix = '/';
   if (process.env.BASEURL) {
     pathPrefix = process.env.BASEURL
   }
