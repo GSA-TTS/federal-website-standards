@@ -1,11 +1,11 @@
 ---
 pagination:
   data: collections
-  size: 1
+  size: 2
   alias: tag
   addAllPagesToCollections: true
 layout: layouts/page
-permalink: /standards/tag/{{tag}}
+permalink: /standards/tags/{{tag | slugify }}
 eleventyComputed:
   title: Standards tagged with "{{ tag }}"
 ---

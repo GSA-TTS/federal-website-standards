@@ -82,6 +82,13 @@ module.exports = function (config) {
     return filterTagList([...tagSet]);
   });
 
+   // add Standards pages to a named collection
+   config.addCollection("standards", collection => {
+    return collection.getFilteredByGlob("standards/*.md").sort(function (a, b) {
+      return b.date - a.date; // sort by date, newest first
+    });
+  });
+
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
     html: true,
