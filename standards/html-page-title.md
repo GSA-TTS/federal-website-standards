@@ -27,6 +27,11 @@ A descriptive page title is important for accessibility and discoverability. Peo
 
 Public-facing websites of executive branch federal agencies
 
+## Acceptance criteria
+
+Every page of your site must have a unique HTML page title.
+
+
 ## How to implement
 
 - Specify a title in the HTML `<title>` element for every page of your website. The `<title>` element is part of the `<head>` section in the web page HTML code.
