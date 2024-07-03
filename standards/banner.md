@@ -25,6 +25,22 @@ Draft
 
 The banner identifies official websites of government organizations in the United States. The banner helps people understand that the website is official and secure. The banner includes a drop-down with text options appropriate for your .gov or .mil domain. The banner is one of the most recognizable design elements on federal websites.
 
+## Applies to
+
+Public-facing websites of executive branch federal agencies using .gov or .mil domains
+
+## Acceptance criteria
+
+- The federal government banner must be at the top of every page of your site.
+- The banner must appear on a line by itself.
+- The banner implementation must include:
+    - U.S. flag image
+    - Text that identifies an official U.S. government site
+    - Drop-down component with:
+      - Text that identifies an official .gov or .mil domain
+      - Text that describes HTTPS connections
+
+
 ## How to implement
 
 Follow the [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner/).
