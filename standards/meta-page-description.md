@@ -27,6 +27,11 @@ The meta description supports accessibility and discoverability. The meta descri
 
 Public-facing websites of executive branch federal agencies
 
+## Acceptance criteria
+
+Every page of your site must have a unique meta page description.
+
+
 ## How to implement
 
 - Include a description in the `<meta name=”description”>` tag for every page of your website. The `<meta name=”description”>` tag is part of the `<head>` section of a web page.
