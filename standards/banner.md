@@ -45,15 +45,11 @@ Public-facing websites of executive branch federal agencies using .gov or .mil d
 
 Follow the [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner/).
 
-## Examples
+## Example
 
 [U.S. Department of State](https://www.state.gov/)
 
 {% image "_img/state-banner.png" "State.gov banner and header" %}
-
-[U.S. Department of Defense](https://www.defense.gov/)
-
-{% image "_img/defense-banner.png" "Defense.gov banner and header" %}
 
 ## Where to go for help
 
