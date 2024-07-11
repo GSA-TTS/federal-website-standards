@@ -51,7 +51,7 @@ Follow the [U.S. Web Design System (USWDS) guidance on the banner component](htt
 
 {% image "_img/state-banner.png" "State.gov banner and header" %}
 
-## Where to go for help
+## Read more
 
 [USWDS community](https://designsystem.digital.gov/about/community/)
 
