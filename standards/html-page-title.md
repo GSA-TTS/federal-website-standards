@@ -46,7 +46,7 @@ These examples show the HTML code for HTML page titles.
 
 `<title>Digital.gov Communities of Practice – Digital.gov</title>`
 
-## Where to go for help
+## Read more
 
 - [Search.gov’s guidance for HTML page titles](https://search.gov/indexing/metadata.html#title)
 - [WCAG page titled success criterion](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html)
