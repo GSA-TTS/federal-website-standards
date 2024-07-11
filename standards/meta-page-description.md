@@ -46,7 +46,7 @@ These examples show the HTML code for meta page descriptions.
 
 `<meta name="description" content="Learn steps you can take to lower your risk for health problems from high blood pressure, such as heart disease and stroke."/>`
 
-## Where to go for help
+## Read more
 
 - [Google's best practices for quality meta descriptions](https://developers.google.com/search/docs/appearance/snippet#meta-descriptions)
 - [USA.gov’s tips for using meta descriptions](https://blog.usa.gov/three-tips-for-using-meta-descriptions)
