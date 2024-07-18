@@ -2,10 +2,8 @@
 
 This repo is for prototyping federal website standards for executive branch federal agencies. 
 
-Federal website standards help agencies deliver high-quality, consistent digital experiences for the public.
-
-The standards are evidence-based actions that help federal agencies:
-- Meet the public’s evolving expectations for digital experiences
+The standards are evidence-based actions that will help federal agencies:
+- Deliver high-quality, consistent digital experiences for the public
 - Reduce the burden on agencies to research and design core web components
 - Prioritize and plan web design and development projects
 
