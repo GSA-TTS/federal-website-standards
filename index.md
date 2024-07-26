@@ -10,10 +10,12 @@ Agencies should ensure their websites, including web applications, digital servi
 
 ## What are federal website standards?
 
-Federal website standards are evidence-based actions that will help agencies:
+The standards are evidence-based actions that will help federal agencies:
 
 - Meet the public’s evolving expectations for digital experiences
-- Reduce the burden of researching, designing, and developing core web components
-- Participate in communities of practice around standards implementation
+- Reduce the burden on agencies to research and design core web components
+- Prioritize and plan web design and development projects
+
+Federal website standards will help us deliver high-quality, consistent digital experiences for the public.
 
 [View the standards](standards) | [Learn more about the standards](about)
