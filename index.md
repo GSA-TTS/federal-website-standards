@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: layouts/page
-title: Deliver a high-quality, digital-first experience for the public
+title: Deliver a high-quality, consistent digital-first experience for the public
 ---
 
 The public primarily interacts with the federal government through digital channels. More than five hundred million users visit executive branch federal sites each month, increasingly from mobile devices.
