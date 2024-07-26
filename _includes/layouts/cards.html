@@ -6,10 +6,12 @@ layout: layouts/page
 This template uses the USWDS collection component to display teasers.
 {% endcomment %}
 
+{% comment %}
 <nav>
   <p>Filter by New | Category | Status</p>
   <p>Sort by Date | A-Z</p>
 </nav>
+{% endcomment %}
 
 <ul class="usa-card-group">
   {%- for standard in collections.standards -%}
