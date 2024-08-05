@@ -1,12 +1,12 @@
 ---
 permalink: /
 layout: layouts/page
-title: Deliver high-quality, consistent, digital-first experiences for the public
+title: Deliver consistent, digital-first experiences for the public
 ---
 
-The public primarily interacts with the federal government through digital channels. More than five hundred million users visit executive branch federal sites each month, increasingly from mobile devices.
+Most people interact with the federal government online. Each month, more than 500 million users visit federal websites, with more and more doing so from their mobile devices.
 
-Agencies should ensure their websites, including web applications, digital services, and mobile applications, are meeting user needs by adhering to best practices and implementing the federal website standards. The standards will help us deliver high-quality, consistent digital-first experiences for the public.
+To serve the public better, agencies should make sure their websites, apps, and online services are easy to use and meet people's needs. By following federal website standards, we can provide high-quality, consistent digital experiences for everyone.
 
 
 ## What are federal website standards?
