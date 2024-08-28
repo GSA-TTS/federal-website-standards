@@ -7,7 +7,7 @@ why: The banner identifies official websites of government organizations in the 
 status: Standard
 surveyLink: 
 eleventyExcludeFromCollections: false
-date: Last Modified
+date: Last modified
 ---
 
 ## Standard
