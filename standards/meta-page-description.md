@@ -5,7 +5,7 @@ title: Meta page description
 category:
   ["Information and services that are discoverable and optimized for search"]
 why: The meta description supports accessibility and discoverability.
-status: Draft
+status: Standard
 surveyLink: 
 date: Last Modified
 ---
@@ -16,7 +16,7 @@ Summarize the content of the page in the meta description tag. The description s
 
 ## Status
 
-Draft
+Standard
 
 ## Why
 
