@@ -4,7 +4,7 @@ tags: standards
 title: Federal government banner
 category: ["Consistent visual design and agency brand identity"]
 why: The banner identifies official websites of government organizations in the United States.
-status: Draft
+status: Standard
 surveyLink: 
 eleventyExcludeFromCollections: false
 date: Last Modified
@@ -18,7 +18,7 @@ Use the federal government banner at the top of every page to identify your site
 
 ## Status
 
-Draft
+Standard
 
 ## Why
 
