@@ -7,7 +7,6 @@ category:
 why: The meta description supports accessibility and discoverability.
 status: Draft
 surveyLink: 
-pageFlowSection: "Metadata"
 date: Last Modified
 ---
 
@@ -55,7 +54,3 @@ These examples show the HTML code for meta page descriptions.
 ## Category
 
 Information and services that are discoverable and optimized for search
-
-## Page flow section
-
-Metadata
