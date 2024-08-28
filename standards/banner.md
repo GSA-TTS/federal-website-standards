@@ -33,7 +33,7 @@ Public-facing websites of executive branch federal agencies using .gov or .mil d
 
 - The federal government banner must be at the top of every page of your site.
 - The banner must appear on a line by itself.
-- The banner design, text, and image should not be customized. [Use the design, text, and image provided by the U.S. Web Design System (USWDS)](https://designsystem.digital.gov/components/banner/). 
+- The banner design, text, and image should not be customized. [Use the current design, text, and image provided by the U.S. Web Design System (USWDS)](https://designsystem.digital.gov/components/banner/). 
 - The banner implementation must include the following elements as specified by USWDS:
     - U.S. flag image
     - Text that identifies an official U.S. government site
@@ -45,7 +45,7 @@ Agencies are encouraged to [use the USWDS banner component to meet this standard
 
 ## How to implement
 
-Follow the [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner/).
+Follow the current [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner/).
 
 ## Example
 
