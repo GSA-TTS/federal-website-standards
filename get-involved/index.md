@@ -6,11 +6,10 @@ eleventyNavigation:
   order: 2
 ---
 
-## For Agencies
+## For agencies
 
-Contact the federal website standards team to participate in standards development, implementation, or provide feedback.
+Contact the federal website standards team to participate in standards development, implementation, or provide feedback. Email us at website-standards@gsa.gov.
 
-## Events
+## Follow our work on GitHub
 
-- Office hours
-- TBD...
+We maintain a [Github project board for standards](https://github.com/orgs/GSA-TTS/projects/48/views/1?filterQuery=label%3A%22Potential+standard%22) and a [public repository for the standards site](https://github.com/GSA-TTS/federal-website-standards).
