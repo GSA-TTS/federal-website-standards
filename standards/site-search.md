@@ -8,7 +8,7 @@ why: A descriptive page title is important for accessibility and discoverability
 status: Draft
 surveyLink: 
 pageFlowSection: "Top of page"
-date: Last Modified
+date: Last modified
 ---
 
 ## Standard
