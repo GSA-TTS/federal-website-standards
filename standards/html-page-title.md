@@ -7,7 +7,7 @@ category:
 why: A descriptive page title is important for accessibility and discoverability.
 status: Standard
 surveyLink: 
-date: Last Modified
+date: Last modified
 ---
 
 ## Standard
