@@ -7,7 +7,7 @@ category:
 why: The meta description supports accessibility and discoverability.
 status: Standard
 surveyLink: 
-date: Last Modified
+date: Last modified
 ---
 
 ## Standard
