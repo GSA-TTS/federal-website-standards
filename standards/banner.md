@@ -6,7 +6,6 @@ category: ["Consistent visual design and agency brand identity"]
 why: The banner identifies official websites of government organizations in the United States.
 status: Draft
 surveyLink: 
-pageFlowSection: "Top of page"
 eleventyExcludeFromCollections: false
 date: Last Modified
 ---
@@ -61,6 +60,3 @@ Follow the current [U.S. Web Design System (USWDS) guidance on the banner compon
 
 Consistent visual design and agency brand identity
 
-## Page flow section
-
-Top of page
