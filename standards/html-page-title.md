@@ -7,7 +7,6 @@ category:
 why: A descriptive page title is important for accessibility and discoverability.
 status: Draft
 surveyLink: 
-pageFlowSection: "Top of page"
 date: Last Modified
 ---
 
@@ -58,6 +57,3 @@ These examples show the HTML code for HTML page titles.
 
 Information and services that are discoverable and optimized for search
 
-## Page flow section
-
-Top of page
