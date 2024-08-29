@@ -5,10 +5,9 @@ title: HTML page title
 category:
   ["Information and services that are discoverable and optimized for search"]
 why: A descriptive page title is important for accessibility and discoverability.
-status: Draft
-surveyLink: https://feedback.gsa.gov/jfe/form/SV_br8d6vovTIZ9R9s
-pageFlowSection: "Top of page"
-date: Last Modified
+status: Standard
+surveyLink: 
+date: Last modified
 ---
 
 ## Standard
@@ -17,7 +16,7 @@ Use a descriptive, unique, and concise HTML page title for every page of your we
 
 ## Status
 
-Draft
+Standard
 
 ## Why
 
@@ -58,6 +57,3 @@ These examples show the HTML code for HTML page titles.
 
 Information and services that are discoverable and optimized for search
 
-## Page flow section
-
-Metadata

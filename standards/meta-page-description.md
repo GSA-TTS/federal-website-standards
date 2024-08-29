@@ -5,10 +5,9 @@ title: Meta page description
 category:
   ["Information and services that are discoverable and optimized for search"]
 why: The meta description supports accessibility and discoverability.
-status: Draft
-surveyLink: https://feedback.gsa.gov/jfe/form/SV_bEn53yx1LYB816u
-pageFlowSection: "Metadata"
-date: Last Modified
+status: Standard
+surveyLink: 
+date: Last modified
 ---
 
 ## Standard
@@ -17,7 +16,7 @@ Summarize the content of the page in the meta description tag. The description s
 
 ## Status
 
-Draft
+Standard
 
 ## Why
 
@@ -55,7 +54,3 @@ These examples show the HTML code for meta page descriptions.
 ## Category
 
 Information and services that are discoverable and optimized for search
-
-## Page flow section
-
-Metadata

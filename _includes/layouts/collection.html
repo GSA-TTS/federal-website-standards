@@ -8,12 +8,10 @@ The collection component features content with limited metadata.
 See https://designsystem.digital.gov/components/collection/#when-to-use-the-collection-component.
 {% endcomment %}
   <h1 class="font-heading-2xl"> {{ title }} </h1>
-{% comment %}
-<nav>
-      <p>Filter by New | Category | Status</p>
-      <p>Sort by Date | A-Z</p>
-  </nav>
-{% endcomment %}
+
+
+Federal website standards are evidence-based actions that will help agencies deliver high-quality, consistent digital experiences for the public. We publish standards that must be followed and potential standards that are in development so you can follow their progress. 
+
   <ul class="usa-collection grid-row grid-gap">
   {%- for standard in collections.standards -%}
     <li class="usa-collection__item mobile:grid-col desktop:grid-col-4 border-top-width-0">
@@ -25,19 +23,14 @@ See https://designsystem.digital.gov/components/collection/#when-to-use-the-coll
             >{{ standard.data.title }}</a
           >
         </h3>
-        <p class="usa-collection__description">
-          <strong>Category: </strong>{{ standard.data.category }}
-        </p>
         <p><strong>Why: </strong>{{ standard.data.why }}</p>
+         <p><strong>Status: </strong>{{ standard.data.status }}</p>
         <ul class="usa-collection__meta" aria-label="More information">
           <li class="usa-collection__meta-item">
             Updated <time datetime="{{ standard.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
           {{ standard.date | date: '%B %d, %Y' }}
         </time>
           </li>
-        </ul>
-        <ul class="usa-collection__meta" aria-label="Topics">
-          <li class="usa-collection__meta-item usa-tag">Draft</li>
         </ul>
       </div>
     </li>
