@@ -4,7 +4,7 @@ tags: standards
 title: Content timeliness indicator
 category:
   ["Information and services that are discoverable and optimized for search"]
-why: A descriptive page title is important for accessibility and discoverability.
+why: Timeliness indicators can increase user trust in the currency and accuracy of information.
 status: Research
 surveyLink: 
 date: Last modified
