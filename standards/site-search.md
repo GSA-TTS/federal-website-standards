@@ -4,10 +4,10 @@ tags: standards
 title: Site search
 category:
   ["Information and services that are discoverable and optimized for search"]
-why: A descriptive page title is important for accessibility and discoverability.
+why: Search functionality is an expected feature for websites and digital services.
 status: Draft
 surveyLink: 
-pageFlowSection: "Top of page"
+pageFlowSection:
 date: Last modified
 ---
 
@@ -30,7 +30,7 @@ Public-facing websites of executive branch federal agencies
 ## Acceptance criteria
 
 - Every website must include a search function.
-- The search function must be available from the upper right corner of the page.
+- The search function must be available from the upper right corner of the page on a desktop view.
 - The search function must be in the same place on every page of your site.
 
 ## How to implement
@@ -52,7 +52,3 @@ TBD
 ## Category
 
 Information and services that are discoverable and optimized for search
-
-## Page flow section
-
-Top of page
