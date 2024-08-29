@@ -4,7 +4,7 @@ tags: standards
 title: Contact
 category:
   ["Information and services that are discoverable and optimized for search"]
-why: A descriptive page title is important for accessibility and discoverability.
+why: Contact information that is easily and consistently accessible builds trust and credibility.
 status: Research
 surveyLink: 
 date: Last modified
