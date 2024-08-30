@@ -11,9 +11,34 @@ See https://designsystem.digital.gov/components/collection/#when-to-use-the-coll
 
 Federal website standards are evidence-based actions that will help agencies deliver high-quality, consistent digital experiences for the public. We publish standards that are required and potential standards that are in development so you can follow their progress. 
 
- <nav>
-      <p>Sort by status</p>
-  </nav>
+<h2 class="font-heading-xl">Standards</h2>
+ <ul class="usa-collection grid-row grid-gap">
+  {%- for standard in collections.standards -%}
+    <li class="usa-collection__item mobile:grid-col desktop:grid-col-4 border-top-width-0">
+      <div class="usa-collection__body border border radius-lg border-base-light padding-4">
+        <h3 class="usa-collection__heading">
+          <a
+            class="usa-link font-heading-xl"
+            href="{{ standard.url | url }}"
+            >{{ standard.data.title }}</a
+          >
+        </h3>
+        <p><strong>Why: </strong>{{ standard.data.why }}</p>
+         <p><strong>Status: </strong>{{ standard.data.status }}</p>
+        <ul class="usa-collection__meta" aria-label="More information">
+          <li class="usa-collection__meta-item">
+            Updated <time datetime="{{ standard.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
+          {{ standard.date | date: '%B %d, %Y' }}
+        </time>
+          </li>
+        </ul>
+      </div>
+    </li>
+  {%- endfor -%}
+  </ul>
+
+
+<h2 class="font-heading-xl">Potential standards</h2>
 
   <ul class="usa-collection grid-row grid-gap">
   {%- for standard in collections.standards -%}
