@@ -6,14 +6,15 @@ eleventyNavigation:
   order: 2
 ---
 
-Federal website standards help us deliver high-quality, consistent digital experiences for the public.
-
-The standards are evidence-based actions that will help federal agencies:
+Federal website standards are evidence-based actions that will help federal agencies:
 - Meet the public’s evolving expectations for digital experiences
 - Reduce the burden on agencies to research and design core web components
 - Prioritize and plan web design and development projects
 
-## Who establishes and manages the standards?
+The standards will describe how agencies can offer a more consistent, high-quality user experience for the public. The [21st Century IDEA](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) instructs agencies to maintain as much standardization and commonality with other agencies as practicable in implementing the requirements of the Act. Increased standardization and cross-government collaboration reduce government-wide implementation costs and ensure a more consistent digital experience for the public. 
+
+
+## OMB and GSA work with federal agencies to develop standards
 
 ### Office of Management and Budget (OMB)
 
@@ -29,19 +30,19 @@ The [DX Council](https://digital.gov/resources/an-introduction-to-the-digital-ex
 
 ## Scope of the standards
 
-There are many sources that describe federal website requirements and policies, (e.g., Section 508, WCAG, or SEO guidelines on Search.gov). Our goal is to create standards that aren’t explicitly covered by other federal policies. 
+There are many sources that describe federal website requirements and policies, (e.g., Section 508). Our goal is to create standards that aren’t explicitly covered by other federal policies. 
 
 We’ll point to existing policies and guidance to make it easier for agencies to find federal website requirements and best practices.
 
 ## Status of the standards on this site
 
-We’ll publish official standards and draft standards that are being developed. Each standard will have a status to indicate where it is in the process. 
+We’ll publish official standards and potential standards that are being developed. Each standard will have a status to indicate where it is in the process. 
 
 - **Research**: Potential standards that are being researched with the public and with federal agency staff.
 - **Draft**: The text of this potential standard has been drafted and is being shared with federal agencies and other stakeholders.
 - **Standard**: Federal agencies are required to comply with these standards.
 
-## How the standards are created and managed
+## Potential standards are researched with the public and with agency staff
 
 Federal website standards go through a rigorous workflow as described below. 
 
