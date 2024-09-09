@@ -14,4 +14,5 @@ The standards will be developed through a deliberative process that involves res
 
 ## Federal agencies must comply with these standards 
 
-Per [OMB’s memo on delivering a digital-first public experience (PDF)](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf), agencies are required to comply with these standards. 
+Per [OMB’s memo on delivering a digital-first public experience (PDF)](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf), agencies are required to comply with these standards. This site includes approved standards and standards that are being developed so you can follow their progress. 
+
