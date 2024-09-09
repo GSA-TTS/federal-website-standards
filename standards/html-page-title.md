@@ -5,7 +5,7 @@ title: HTML page title
 category:
   ["Information and services that are discoverable and optimized for search"]
 why: A descriptive page title is important for accessibility and discoverability.
-status: Standard
+status: Pending
 surveyLink: 
 date: Last modified
 ---
@@ -16,7 +16,7 @@ Use a descriptive, unique, and concise HTML page title for every page of your we
 
 ## Status
 
-Standard
+Pending
 
 ## Why
 

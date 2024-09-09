@@ -8,12 +8,14 @@ See https://designsystem.digital.gov/components/collection/#when-to-use-the-coll
 {% endcomment %}
 <h1 class="font-heading-2xl"> {{ title }} </h1>
  
-Federal website standards are evidence-based actions that will help agencies deliver high-quality, consistent digital experiences for the public. We publish standards that are required and potential standards that are in development so you can follow their progress. 
+Federal website standards are evidence-based actions that will help agencies deliver high-quality, consistent digital experiences for the public. This page includes pending standards that will be required and potential standards that are in development so you can follow their progress. 
 
- <ul class="usa-collection grid-row grid-gap">
+<h2 class="font-heading-xl">Pending standards</h2>
+
+<ul class="usa-collection grid-row grid-gap">
 
 {%- for standard in collections.standards -%}
-  {% if standard.data.status == "Standard" %}
+  {% if standard.data.status == "Pending" %}
     <li class="usa-collection__item mobile:grid-col desktop:grid-col-4 border-top-width-0">
       <div class="usa-collection__body border border radius-lg border-base-light padding-4">
         <h3 class="usa-collection__heading">
@@ -43,7 +45,7 @@ Federal website standards are evidence-based actions that will help agencies del
  <ul class="usa-collection grid-row grid-gap">
 
 {%- for standard in collections.standards -%}
-  {% if standard.data.status != "Standard" %}
+  {% if standard.data.status != "Pending" %}
     <li class="usa-collection__item mobile:grid-col desktop:grid-col-4 border-top-width-0">
       <div class="usa-collection__body border border radius-lg border-base-light padding-4">
         <h3 class="usa-collection__heading">
