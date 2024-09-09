@@ -1,6 +1,6 @@
 ---
 layout: layouts/collection
-title: Standards and potential standards
+title: Standards
 eleventyNavigation:
   key: Standards
   order: 2
