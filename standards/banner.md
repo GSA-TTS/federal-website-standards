@@ -18,7 +18,8 @@ Use the federal government banner at the top of every page to identify your site
 
 ## Status
 
-Standard
+Pending
+
 
 ## Why
 
