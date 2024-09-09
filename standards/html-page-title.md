@@ -16,7 +16,7 @@ Use a descriptive, unique, and concise HTML page title for every page of your we
 
 ## Status
 
-Standard
+Pending
 
 ## Why
 
