@@ -38,9 +38,10 @@ We’ll point to existing policies and guidance to make it easier for agencies t
 
 We’ll publish official standards and potential standards that are being developed. Each standard will have a status to indicate where it is in the process. 
 
-- **Research**: Potential standards that are being researched with the public and with federal agency staff.
+- **Research**: This potential standard is being researched with the public and with federal agency staff.
 - **Draft**: The text of this potential standard has been drafted and is being shared with federal agencies and other stakeholders.
-- **Standard**: Federal agencies are required to comply with these standards.
+- **Pending**: This will become a standard after a period of time. Agencies should plan to implement this standard.
+- **Standard**: Federal agencies are required to comply with this standard.
 
 ## Potential standards are researched with the public and with agency staff
 
