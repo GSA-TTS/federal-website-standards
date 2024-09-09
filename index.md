@@ -12,7 +12,7 @@ The [21st Century IDEA](https://www.congress.gov/bill/115th-congress/house-bill/
 
 The standards will be developed through a deliberative process that involves research with the public and with agency staff. We’ll continuously improve the standards to help agencies meet evolving best practices and user expectations. 
 
-## Federal agencies must comply with these standards 
+## Federal agencies should plan to implement pending standards 
 
-Per [OMB’s memo on delivering a digital-first public experience (PDF)](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf), agencies are required to comply with these standards. This site includes approved standards and standards that are being developed so you can follow their progress. 
+Per [OMB’s memo on delivering a digital-first public experience (PDF)](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf), agencies are required to comply with standards. This site includes pending standards that will be required and potential standards that are in development so you can follow their progress. 
 
