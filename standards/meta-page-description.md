@@ -16,7 +16,7 @@ Summarize the content of the page in the meta description tag. The description s
 
 ## Status
 
-Standard
+Pending
 
 ## Why
 
