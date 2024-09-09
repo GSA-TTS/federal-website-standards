@@ -11,7 +11,7 @@ pageFlowSection:
 date: Last modified
 ---
 
-## Standard
+## Potential standard
 
 Public-facing websites must contain a search function that allows users to easily search content intended for public use. 
 
@@ -39,10 +39,6 @@ Public-facing websites of executive branch federal agencies
 - Follow the [U.S. Web Design System (USWDS) guidance on search](https://designsystem.digital.gov/components/search/).
 - The search function should be a site-wide global search. When appropriate for your users, the search feature could search subsets of content (e.g., help, blog).
 
-
-## Examples
-
-TBD
 
 ## Read more
 
