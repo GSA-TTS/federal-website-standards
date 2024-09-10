@@ -11,13 +11,13 @@ surveyLink:
 date: Last modified
 ---
 
+## Status
+
+{% include "_includes/status/research.html" %}
+
 ## Potential standard
 
 Inform users about the timeliness of content.
-
-## Status
-
-Research
 
 ## Why
 

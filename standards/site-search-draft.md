@@ -12,13 +12,13 @@ pageFlowSection:
 date: Last modified
 ---
 
+## Status
+
+{% include "_includes/status/draft.html" %}
+
 ## Potential standard
 
 Public-facing websites must contain a search function that allows users to easily search content intended for public use. 
-
-## Status
-
-Draft
 
 ## Why
 

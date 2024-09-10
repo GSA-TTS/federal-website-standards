@@ -11,13 +11,13 @@ surveyLink:
 date: Last modified
 ---
 
+## Status
+
+{% include "_includes/status/pending.html" %}
+
 ## Standard
 
 Use a descriptive, unique, and concise HTML page title for every page of your website.
-
-## Status
-
-Pending
 
 ## Why
 

@@ -11,14 +11,13 @@ eleventyExcludeFromCollections: false
 date: Last modified
 ---
 
+## Status
+
+{% include "_includes/status/pending.html" %}
+
 ## Standard
 
 Use the federal government banner at the top of every page to identify your site as an official federal government site.
-
-## Status
-
-Pending
-
 
 ## Why
 

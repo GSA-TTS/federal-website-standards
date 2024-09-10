@@ -11,13 +11,13 @@ surveyLink:
 date: Last modified
 ---
 
+## Status
+
+{% include "_includes/status/pending.html" %}
+
 ## Standard
 
 Summarize the content of the page in the meta description tag. The description should be unique and include key information about the page content.
-
-## Status
-
-Pending
 
 ## Why
 
