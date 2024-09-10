@@ -28,6 +28,8 @@ Public-facing websites of executive branch federal agencies
 
 ## Acceptance criteria
 
+These conditions must be met to comply with this standard.
+
 - Every page of your site must have a unique HTML page title.
 - HTML page titles must be at least 20 characters to ensure that they provide enough detail about the page's purpose.
 
