@@ -14,8 +14,6 @@ date: Last modified
 
 Use the federal government banner at the top of every page to identify your site as an official federal government site.
 
-{% image "_img/banner.png" "Federal government banner for a .gov site with drop-down expanded" %}
-
 ## Status
 
 Pending
@@ -51,9 +49,7 @@ Follow the current [U.S. Web Design System (USWDS) guidance on the banner compon
 
 ## Example
 
-[U.S. Department of State](https://www.state.gov/)
-
-{% image "_img/state-banner.png" "State.gov banner and header" %}
+{% image "_img/banner.png" "Federal government banner for a .gov site with drop-down expanded" %}
 
 ## Read more
 
