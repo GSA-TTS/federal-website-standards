@@ -1,6 +1,7 @@
 ---
 layout: layouts/page
 title: Contact the federal website standards team
+description: Contact the federal website standards team at GSA’s Technology Transformation Services.
 eleventyNavigation:
   key: contact
   order: 2
