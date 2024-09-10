@@ -41,10 +41,10 @@ twitter: 18F
 #
 #################################################################
 dap:
-  # agency: your-agency
+  agency: GSA
 
   # Optional
-  # subagency: your-subagency
+  subagency: TTS
 
 # Configuration for Google Analytics
 ga:
