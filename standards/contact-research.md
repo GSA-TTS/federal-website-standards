@@ -6,6 +6,7 @@ category:
   ["Information and services that are discoverable and optimized for search"]
 why: Contact information that is easily and consistently accessible builds trust and credibility.
 status: Research
+description: A contact page is important for building trust and serving your users. Learn how to create a good contact page for your federal government site.
 surveyLink: 
 date: Last modified
 ---
