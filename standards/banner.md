@@ -30,6 +30,7 @@ The banner identifies official websites of government organizations in the Unite
 Public-facing websites of executive branch federal agencies using .gov or .mil domains
 
 ## Acceptance criteria
+
 These conditions must be met to comply with this standard.
 
 - The federal government banner must be at the top of every page of your site.
