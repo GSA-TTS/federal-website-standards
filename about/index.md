@@ -1,6 +1,7 @@
 ---
 layout: layouts/page
 title: About federal website standards
+description: Learn about the benefits of federal website standards and how they're created and managed.
 eleventyNavigation:
   key: about
   order: 2

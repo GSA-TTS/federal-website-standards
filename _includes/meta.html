@@ -17,14 +17,14 @@ to modify some of the meta-data for the site, this is the place to do it.
   <!-- Title and meta description
     ================================================== -->
   <title>{{ site.title }} | {{ title }}</title>
-  <meta property="og:title" content="{{ site.title }} | {{ title }}" />
-  <meta name="description" content="{{ site.description }}" />
-  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:title" content="{{ title }} | {{ site.title }}" />
+  <meta name="description" content="{{ description }}" />
+  <meta property="og:description" content="{{ description }}" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
-  <meta name="twitter:title" content="{{ site.title }} | {{ title }}" />
-  <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:title" content="{{ title }} | {{ site.title }}" />
+  <meta name="twitter:description" content="{{ description }}" />
 
   <meta property="og:type" content="article" />
   <link rel="canonical" href="{{ page.url | url }}" />

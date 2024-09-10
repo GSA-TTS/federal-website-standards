@@ -6,6 +6,7 @@ category:
   ["Information and services that are discoverable and optimized for search"]
 why: Timeliness indicators can increase user trust in the currency and accuracy of information.
 status: Research
+description: Timeliness indicators can increase trust in the currency and accuracy of information. Learn how to add timeliness indicators on your federal government site.
 surveyLink: 
 date: Last modified
 ---

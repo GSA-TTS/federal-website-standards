@@ -6,6 +6,7 @@ category:
   ["Information and services that are discoverable and optimized for search"]
 why: A descriptive page title is important for accessibility and discoverability.
 status: Pending
+description: A descriptive and unique page title is important for accessibility and discoverability. Learn how to create quality HTML page titles for your federal government site.
 surveyLink: 
 date: Last modified
 ---
