@@ -28,6 +28,8 @@ Public-facing websites of executive branch federal agencies
 
 ## Acceptance criteria
 
+These conditions must be met to comply with this standard.
+
 - Every page of your site must have a unique meta page description.
 - Meta page descriptions must be at least 50 characters to ensure that they provide enough detail about the page’s content.
 
