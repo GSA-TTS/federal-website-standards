@@ -131,6 +131,7 @@ module.exports = function (config) {
 
   // If BASEURL env variable exists, update pathPrefix to the BASEURL
   if (process.env.BASEURL) {
+    console.log(process.env.BASEURL);
     config.addGlobalData('baseUrl', process.env.BASEURL);
   }
 
