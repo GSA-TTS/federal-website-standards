@@ -14,6 +14,8 @@ Federal website standards are evidence-based actions that will help federal agen
 
 The standards will describe how agencies can offer a more consistent, high-quality user experience for the public. The [21st Century IDEA](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) instructs agencies to maintain as much standardization and commonality with other agencies as practicable in implementing the requirements of the Act. Increased standardization and cross-government collaboration reduce government-wide implementation costs and ensure a more consistent digital experience for the public. 
 
+Agencies must comply with federal website standards. As stated in [OMB M-23-22, “Delivering a digital-first public experience” (PDF)](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf), “All public-facing websites and digital services must comply with the Federal website standards published by the Technology Transformation Services of the General Services Administration (GSA) which incorporate the USWDS.”
+
 
 ## OMB and GSA work with federal agencies to develop standards
 
