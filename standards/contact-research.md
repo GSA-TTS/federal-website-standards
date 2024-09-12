@@ -11,13 +11,13 @@ surveyLink:
 date: Last modified
 ---
 
+## Status
+
+{% include "_includes/status/research.html" %}
+
 ## Potential standard
 
 Every website must include a contact page. Every web page or screen must link to your contact page. Your contact page must include all contact options for your agency, product, or service.
-
-## Status
-
-Research
 
 ## Why
 
