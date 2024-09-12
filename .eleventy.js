@@ -130,9 +130,15 @@ module.exports = function (config) {
   });
 
   // If BASEURL env variable exists, update pathPrefix to the BASEURL
-  console.log(process.env.BASEURL);
   if (process.env.BASEURL) {
-    config.addGlobalData('baseUrl', process.env.BASEURL);
+    pathPrefix = process.env.BASEURL
+  }
+
+  // We want the hostname because the sitemap needs fully qualified URLs for Search.gov
+  if (process.env.BRANCH == 'main') {
+    const { hosts } = yaml.load(fs.readFileSync('./_data/site.yaml', 'utf8'));
+    baseUrl = new URL(hosts.prod).href.replace(/\/$/, '');
+    config.addGlobalData('baseUrl', baseUrl);
   }
 
   return {

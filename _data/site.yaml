@@ -4,6 +4,11 @@ description: >- # this means to ignore newlines
   Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone.
 
 
+hosts:
+  # This should be changed to https://standards.digital.gov when the site transitions
+  prod: https://federalist-142078a8-f654-4daa-8f73-db9770b3ec7a.sites.pages.cloud.gov
+  sandbox: https://federalist-142078a8-f654-4daa-8f73-db9770b3ec7a.sites.pages.cloud.gov
+
 #################################################################
 #
 # Digital Analytics Program (DAP) configuration
@@ -57,17 +62,6 @@ primary_navigation:
     url: /about/
   - name: Contact
     url: /contact/
-#  - name: Document with sidenav
-#    url: /document-with-sidenav/
-#  - name: Document submenu
-#    children:
-#     - name: Navigation link
-#       url: "#main-content"
-#     - name: Navigation link
-#       url: "#main-content"
-#     - name: Navigation link
-#       url: "#main-content"
-
 # secondary_navigation:
 #   - name: Secondary link
 #     url: "#main-content"
