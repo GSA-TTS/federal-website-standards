@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 {%- for page in collections.all %}
   {% set absoluteUrl %}{{ page.url | url | absoluteUrl }}{% endset %}
   <url>
-    <loc>{{ absoluteUrl }}</loc>
+    <loc>{{ baseUrl }}{{ absoluteUrl }}</loc>
     <lastmod>{{ page.date | htmlDateString }}</lastmod>
   </url>
 {%- endfor %}

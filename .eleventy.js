@@ -134,6 +134,13 @@ module.exports = function (config) {
     pathPrefix = process.env.BASEURL
   }
 
+  // We want the hostname because the sitemap needs fully qualified URLs for Search.gov
+  if (process.env.BRANCH == 'main') {
+    const { hosts } = yaml.load(fs.readFileSync('./_data/site.yaml', 'utf8'));
+    baseUrl = new URL(hosts.prod).href.replace(/\/$/, '');
+    config.addGlobalData('baseUrl', baseUrl);
+  }
+
   return {
     // Control which files Eleventy will process
     // e.g.: *.md, *.njk, *.html, *.liquid
