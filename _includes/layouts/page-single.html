@@ -28,8 +28,8 @@ This template is for a single page with meta data. It should feed the page-colum
     </div>
     <div class="grid-row text-italic margin-top-4" id="last-updated">
       <span>Last updated&nbsp;</span>
-      <time datetime="{{ page.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
-       {{ page.date | date: '%B %d, %Y' }}
+      <time datetime="{{ page.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
+       {{ page.date | toISOString: 'DDD' }}
       </time>
     </div>
     </div>
