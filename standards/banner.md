@@ -49,7 +49,7 @@ Follow the current [U.S. Web Design System (USWDS) guidance on the banner compon
 
 ## Example
 
-{% image "_img/banner.png" "Federal government banner for a .gov site with drop-down expanded" %}
+{% include "_includes/uswds-components/banner.html" %}
 
 ## Read more
 
