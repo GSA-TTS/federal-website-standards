@@ -8,7 +8,7 @@ why: Contact information that is easily and consistently accessible builds trust
 status: Research
 description: A contact page is important for building trust and serving your users. Learn how to create a good contact page for your federal government site.
 surveyLink: 
-date: Last modified
+date: "2024-09-12"
 ---
 
 ## Status

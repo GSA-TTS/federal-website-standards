@@ -50,6 +50,11 @@ module.exports = function (config) {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
   });
 
+  config.addFilter('toISOString', (dateObj, formatString) => {
+    // https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(formatString);
+  });
+
   // Get the first `n` elements of a collection.
   config.addFilter('head', (array, n) => {
     if (!Array.isArray(array) || array.length === 0) {
