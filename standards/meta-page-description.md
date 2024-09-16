@@ -8,7 +8,7 @@ why: The meta description supports accessibility and discoverability.
 status: Pending
 description: A descriptive and unique meta page description is important for accessibility and discoverability. Learn how to create quality meta page descriptions for your federal government site.
 surveyLink: 
-date: Last modified
+date: "2024-09-12"
 ---
 
 ## Status

@@ -29,8 +29,8 @@ Federal website standards are evidence-based actions that will help agencies del
         <p><strong>Status: </strong>{{ standard.data.status }}</p>
         <ul class="usa-collection__meta" aria-label="More information">
           <li class="usa-collection__meta-item">
-            Updated <time datetime="{{ standard.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
-              {{ standard.date | date: '%B %d, %Y' }}
+            Updated <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
+              {{ standard.date | toISOString: 'DDD' }}
             </time>
           </li>
         </ul>
@@ -59,8 +59,8 @@ Federal website standards are evidence-based actions that will help agencies del
         <p><strong>Status: </strong>{{ standard.data.status }}</p>
         <ul class="usa-collection__meta" aria-label="More information">
           <li class="usa-collection__meta-item">
-            Updated <time datetime="{{ standard.date | date: '%Y-%m-%dT12:00:00+01:00' }}">
-              {{ standard.date | date: '%B %d, %Y' }}
+            Updated <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
+              {{ standard.date | toISOString: 'DDD' }}
             </time>
           </li>
         </ul>
