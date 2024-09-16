@@ -51,10 +51,8 @@ module.exports = function (config) {
   });
 
   config.addFilter('toISOString', (dateObj, formatString) => {
-    let date;
-
     // https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-    date = DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(formatString);
+    const date = DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(formatString);
 
     return date;
   });
