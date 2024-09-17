@@ -27,7 +27,7 @@ Contact information that is easily and consistently accessible enables people to
 
 We’re researching this potential standard. Research questions include:
 - Where do users expect to find contact information on a page on desktop and mobile?
-- Are users able to find the contact link as easily in the header, footer, and mobile menu?
+- Are users able to find the contact link as easily in the header, footer, or mobile menu?
 - What kind of contact information do users expect to see (at a minimum)?
 
 If you have research findings to share, let us know at website.standards@gsa.gov or [join a discussion on GitHub about contact information](https://github.com/GSA-TTS/federal-website-standards/discussions/183). 
