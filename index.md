@@ -1,7 +1,6 @@
 ---
 permalink: /
 layout: layouts/page
-title: Deliver consistent, digital-first experiences for the public
 description: Federal website standards will help agencies provide high-quality, consistent experiences for everyone. Comply with standards to improve your federal site.
 ---
 

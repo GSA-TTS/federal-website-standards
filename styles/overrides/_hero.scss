@@ -1,0 +1,17 @@
+@use 'uswds-core' as *;
+
+.usa-hero {
+  @include u-bg('primary-light');
+  background-image: none;
+
+  &__callout {
+    @include u-bg('primary-light');
+    max-width: 30rem;
+  }
+
+  &__heading {
+    color: white;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+}
