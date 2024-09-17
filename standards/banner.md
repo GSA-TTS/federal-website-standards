@@ -53,6 +53,6 @@ Follow the current [U.S. Web Design System (USWDS) guidance on the banner compon
 
 ## Read more
 
-- U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner)
+- [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner)
 - [OMB memo on Delivering a Digital-First Public Experience: Consistent Visual Design and Agency Brand Identity](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/#IIIA:~:text=2.%20Consistent%20Visual%20Design%20and%20Agency%20Brand%20Identity)
 
