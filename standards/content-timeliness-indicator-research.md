@@ -38,8 +38,3 @@ If you have research findings to share let us know at website.standards@gsa.gov 
 
 - [Use clear, unambiguous formatting and punctuation (Web Accessibility Initiative)](https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p06-format-punctuation/#examples)
 - [Express dates and times in a clear and unambiguous way (Google developer documentation)](https://developers.google.com/style/dates-times)
-
-
-## Category
-
-Content that is authoritative and easy to understand
