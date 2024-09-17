@@ -30,7 +30,7 @@ We’re researching this potential standard. Research questions include:
 - Are users able to find the contact link as easily in the header, footer, and mobile menu?
 - What kind of contact information do users expect to see (at a minimum)?
 
-If you have research findings to share let us know at website.standards@gsa.gov or [join a discussion on Github about contact information](https://github.com/GSA-TTS/federal-website-standards/discussions/183). 
+If you have research findings to share, let us know at website.standards@gsa.gov or [join a discussion on GitHub about contact information](https://github.com/GSA-TTS/federal-website-standards/discussions/183). 
 
 
 ## Examples of agency contact pages
