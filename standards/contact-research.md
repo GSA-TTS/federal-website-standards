@@ -44,7 +44,3 @@ If you have research findings to share let us know at website.standards@gsa.gov 
 ## Read more
 
 - [Nielsen/Norman 2019 report on contact pages](https://www.nngroup.com/articles/contact-us-pages/)
-
-## Category
-
-Information and services that are discoverable and optimized for search
