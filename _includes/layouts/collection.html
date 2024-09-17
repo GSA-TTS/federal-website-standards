@@ -2,9 +2,8 @@
 layout: layouts/page-columns
 ---
 {% comment %}
-This template uses the USWDS collection component.
-The collection component features content with limited metadata.
-See https://designsystem.digital.gov/components/collection/#when-to-use-the-collection-component.
+This template uses the USWDS card component.
+See https://designsystem.digital.gov/components/card/#when-to-use-the-card-component
 {% endcomment %}
 <h1 class="font-heading-2xl"> {{ title }} </h1>
  
@@ -12,61 +11,65 @@ Federal website standards are evidence-based actions that will help agencies del
 
 <h2 class="font-heading-xl">Pending standards</h2>
 
-<ul class="usa-collection grid-row grid-gap">
+<ul class="usa-card-group">
 
 {%- for standard in collections.standards -%}
   {% if standard.data.status == "Pending" %}
-    <li class="usa-collection__item mobile:grid-col desktop:grid-col-4 border-top-width-0">
-      <div class="usa-collection__body border border radius-lg border-base-light padding-4">
-        <h3 class="usa-collection__heading">
+  <li class="usa-card mobile:grid-col desktop:grid-col-4">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h4 class="usa-card__heading">
           <a
             class="usa-link font-heading-xl"
             href="{{ standard.url | url }}"
             >{{ standard.data.title }}</a
           >
-        </h3>
+        </h4>
+      </div>
+      <div class="usa-card__body">
         <p><strong>Why: </strong>{{ standard.data.why }}</p>
         <p><strong>Status: </strong>{{ standard.data.status }}</p>
-        <ul class="usa-collection__meta" aria-label="More information">
-          <li class="usa-collection__meta-item">
-            Updated <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
+      </div>
+      <div class="usa-card__footer">
+        Updated <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
               {{ standard.date | toISOString: 'DDD' }}
             </time>
-          </li>
-        </ul>
       </div>
-    </li>
+    </div>
+  </li>
   {% endif %}
 {%- endfor -%}
 
+</ul>
 
 <h2 class="font-heading-xl">Potential standards</h2>
-
- <ul class="usa-collection grid-row grid-gap">
+<ul class="usa-card-group">
 
 {%- for standard in collections.standards -%}
   {% if standard.data.status != "Pending" %}
-    <li class="usa-collection__item mobile:grid-col desktop:grid-col-4 border-top-width-0">
-      <div class="usa-collection__body border border radius-lg border-base-light padding-4">
-        <h3 class="usa-collection__heading">
+  <li class="usa-card mobile:grid-col desktop:grid-col-4">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h4 class="usa-card__heading">
           <a
             class="usa-link font-heading-xl"
             href="{{ standard.url | url }}"
             >{{ standard.data.title }}</a
           >
-        </h3>
+        </h4>
+      </div>
+      <div class="usa-card__body">
         <p><strong>Why: </strong>{{ standard.data.why }}</p>
         <p><strong>Status: </strong>{{ standard.data.status }}</p>
-        <ul class="usa-collection__meta" aria-label="More information">
-          <li class="usa-collection__meta-item">
-            Updated <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
+      </div>
+      <div class="usa-card__footer">
+        Updated <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
               {{ standard.date | toISOString: 'DDD' }}
             </time>
-          </li>
-        </ul>
       </div>
-    </li>
+    </div>
+  </li>
   {% endif %}
 {%- endfor -%}
 
-
+</ul>
