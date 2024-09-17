@@ -36,9 +36,9 @@ Public-facing websites of executive branch federal agencies
 
 ## How to implement
 
-- Use [Search.gov](http://Search.gov) for on-site search solutions or make sure your site can be indexed by Search.gov.
+- Use [Search.gov](http://Search.gov) for on-site search solutions, or make sure your site can be indexed by Search.gov.
 - Follow the [U.S. Web Design System (USWDS) guidance on search](https://designsystem.digital.gov/components/search/).
-- The search function should be a site-wide global search. When appropriate for your users, the search feature could search subsets of content (e.g., help, blog).
+- The search function should be a site-wide global search. When appropriate for your users, the search feature could search subsets of content (e.g., help, blog, videos).
 
 
 ## Read more
