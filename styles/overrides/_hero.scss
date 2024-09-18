@@ -1,11 +1,12 @@
 @use 'uswds-core' as *;
+@use '../colors' as *;
 
 .usa-hero {
-  @include u-bg('primary-light');
+  background-color: $hero-blue;
   background-image: none;
 
   &__callout {
-    @include u-bg('primary-light');
+    background-color: $hero-blue;
     max-width: 30rem;
   }
 
