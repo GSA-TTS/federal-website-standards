@@ -141,8 +141,8 @@ module.exports = function (config) {
 
   // We want the hostname because the sitemap needs fully qualified URLs for Search.gov
   if (process.env.BRANCH == 'main') {
-    const { hosts } = yaml.load(fs.readFileSync('./_data/site.yaml', 'utf8'));
-    baseUrl = new URL(hosts.prod).href.replace(/\/$/, '');
+    const { host } = yaml.load(fs.readFileSync('./_data/site.yaml', 'utf8'));
+    baseUrl = new URL(host).href.replace(/\/$/, '');
     config.addGlobalData('baseUrl', baseUrl);
   }
 
