@@ -101,6 +101,11 @@ module.exports = function (config) {
       class: 'font-heading-lg text-primary-light hover:text-primary',
       symbol: `<svg class="usa-icon" aria-hidden="true" role="img"><use xlink:href="#svg-link"></use></svg>`,
       level: [1, 2, 3, 4],
+      renderAttrs: _ => {
+        return {
+          'tabindex': -1
+        }
+      }
     }),
     slugify: config.getFilter('slug'),
   });
