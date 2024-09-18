@@ -16,6 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     )
     // For all the remaining anchors, add the external link class
     .forEach((anchor) => {
-      anchor.className = [anchor.className, 'usa-link--external'].join(' ')
+      anchor.className = [anchor.className, 'usa-link--external'].join(' ').trim();
     })
 });
