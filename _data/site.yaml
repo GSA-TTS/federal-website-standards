@@ -3,11 +3,7 @@ email: website.standards@gsa.gov
 description: >- # this means to ignore newlines
   Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone.
 
-
-hosts:
-  # This should be changed to https://standards.digital.gov when the site transitions
-  prod: https://federalist-142078a8-f654-4daa-8f73-db9770b3ec7a.sites.pages.cloud.gov
-  sandbox: https://federalist-142078a8-f654-4daa-8f73-db9770b3ec7a.sites.pages.cloud.gov
+host: https://standards.digital.gov
 
 # Configuration for the Digital Analytics Program
 dap:
