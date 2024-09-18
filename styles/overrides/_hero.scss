@@ -7,12 +7,13 @@
 
   &__callout {
     background-color: $hero-blue;
-    max-width: 30rem;
+    max-width: 28rem;
+    padding: 2rem 0 2rem 0;
   }
 
   &__heading {
     color: white;
-    font-weight: 400;
+    font-size: 2.05rem;
     line-height: 1.4;
   }
 }
