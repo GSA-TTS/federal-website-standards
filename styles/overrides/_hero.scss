@@ -8,6 +8,22 @@
     background-color: $hero-blue;
     max-width: 32rem;
     padding: 2rem 0 2rem 0;
+
+    .usa-button {
+      background-color: $hero-button-default;
+
+      &:hover {
+        background-color: $hero-button-hover;
+      }
+
+      &:active {
+        background-color: $hero-button-active;
+      }
+
+      &:focus {
+        outline: 0.25rem solid #fff;
+      }
+    }
   }
 
   &__heading {
