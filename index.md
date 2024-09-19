@@ -15,4 +15,3 @@ The standards will be developed through a deliberative process that involves res
 ## Federal agencies should plan to implement pending standards 
 
 Per the [Office of Management and Budget memo on delivering a digital-first public experience (PDF)](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf), agencies are required to comply with standards. This site includes pending standards that will be required and potential standards that are in development so you can follow their progress. 
-
