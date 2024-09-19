@@ -1,4 +1,3 @@
-@use 'uswds-core' as *;
 @use '../colors' as *;
 
 .usa-hero {
@@ -7,13 +6,13 @@
 
   &__callout {
     background-color: $hero-blue;
-    max-width: 28rem;
+    max-width: 32rem;
     padding: 2rem 0 2rem 0;
   }
 
   &__heading {
     color: white;
-    font-size: 2.05rem;
+    font-size: 2.4rem;
     line-height: 1.4;
   }
 }
