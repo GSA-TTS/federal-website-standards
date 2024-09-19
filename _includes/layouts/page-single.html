@@ -13,7 +13,9 @@ This template is for a single page with meta data. It should feed the page-colum
       {% include "sidenav.html" %}
       {% endif %}
       <div class="desktop:grid-col-9 usa-prose">
-        <h1 class="title"> {{ title }} </h1>
+        {% if title %}
+          <h1 class="title"> {{ title }} </h1>
+        {% endif %}
         {{ content }}
       </div>
       {% if surveyLink %}
