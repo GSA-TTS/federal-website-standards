@@ -7,7 +7,13 @@ eleventyNavigation:
   order: 2
 ---
 
-Federal website standards help agencies provide high-quality, consistent digital experiences for everyone. The standards are developed through an iterative process involving federal agencies and the public.
+Federal website standards help agencies provide high-quality, consistent digital experiences for everyone. 
+
+The standards will align with the requirements of the [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) and with [OMB’s memo on Delivering a Digital-First Public Experience](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/). 
+
+## How the standards are developed
+
+The standards are developed through an iterative process involving federal agencies and the public.
 
 ### OMB
 
@@ -23,20 +29,16 @@ The [21st Century Integrated Digital Experience Act](https://www.congress.gov/bi
 
 The [DX Council](https://digital.gov/resources/an-introduction-to-the-digital-experience-council/) is a cross-agency group that supports government-wide efforts to deliver a digital-first public experience. The DX Council provides feedback on potential standards and advises the Federal Website Standards program office.
 
-## Scope of the standards
+### Status of the standards on this site
 
-The standards will align with the requirements of the [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) and with [OMB’s memo on Delivering a Digital-First Public Experience](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/). 
-
-## Status of the standards on this site
-
-We’ll publish approved standards and potential standards that are being developed. Each standard will have a status to indicate where it is in the process. 
+We’ll publish information about standards as they're being developed. Each standard will have a status to indicate where it is in the process. 
 
 - **Research**: This potential standard is being researched with the public, federal agencies, and other stakeholders.
 - **Draft**: The text of this potential standard has been drafted and is being shared with federal agencies and other stakeholders.
 - **Pending**: This will become a standard after a specified period of time. Agencies should plan to comply with this standard.
 - **Standard**: Federal agencies must comply with this standard.
 
-## Potential standards are researched with the public and with federal agencies
+### Standards development workflow
 
 Federal website standards go through a rigorous workflow as described below. 
 
@@ -50,15 +52,15 @@ If we find evidence that implementing a standard will improve the public’s use
 
 ### Approve and publish
 
-The next steps are to approve and publish the standard. Standards are formally approved by TTS and OMB. Standards are published by TTS.
+The next steps are to approve and publish the standard to this website. Standards are formally approved by TTS and OMB. Standards are published by TTS.
 
-### Revise a published standard
+### Revise a standard
 
-For a change to a published standard to be considered, the revision must be shown to improve the public user experience of agency websites or to improve the clarity of the standard. Revisions could be prompted by new technologies or changes in user behavior.
+To revise a standard, the revision must be shown to improve the public user experience of agency websites or to improve the clarity of the standard. Revisions could be prompted by new technologies or changes in user behavior.
 
-### Withdraw a published standard
+### Withdraw a standard
 
-If we find evidence that a published standard should be withdrawn, we draft a justification. We share the justification with OMB, the DX Council, and other stakeholders. The next steps are to withdraw and archive the standard. Withdrawals are formally approved by TTS and OMB. Standards are removed by the TTS Federal Website Standards program office.
+If we find evidence that a standard should be withdrawn, we draft a justification. We share the justification with OMB, the DX Council, and other stakeholders. The next steps are to withdraw and archive the standard. Withdrawals are formally approved by TTS and OMB. Standards are removed by the TTS Federal Website Standards program office.
 
 
 
