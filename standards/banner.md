@@ -3,7 +3,7 @@ layout: layouts/page-single
 tags: standards
 title: Federal government banner
 category: ["Consistent visual design and agency brand identity"]
-why: The banner identifies official websites of government organizations in the United States.
+why: The banner identifies official websites of federal government organizations in the United States.
 status: Pending
 description: The federal government banner identifies official federal government sites. Learn how to implement the banner on your federal government site.
 surveyLink: 
@@ -21,7 +21,7 @@ Use the federal government banner at the top of every page to identify your site
 
 ## Why
 
-The banner identifies official websites of government organizations in the United States. The banner helps people understand that the website is official and secure. The banner includes a drop-down with text options appropriate for your .gov or .mil domain. The banner is one of the most recognizable design elements on federal websites.
+The banner identifies official websites of federal government organizations in the United States. The banner helps people understand that the website is official and secure. The banner is one of the most recognizable design elements on federal websites.
 
 ## Applies to
 
@@ -33,11 +33,10 @@ These conditions must be met to comply with this standard.
 
 - The federal government banner must be at the top of every page of your site.
 - The banner must appear on a line by itself.
-- The banner design, text, and image should not be customized. [Use the current design, text, and image provided by the U.S. Web Design System (USWDS)](https://designsystem.digital.gov/components/banner/). 
-- The banner implementation must include the following elements as specified by USWDS:
+- The banner implementation must include the following elements as specified by the [U.S. Web Design System (USWDS) banner component](https://designsystem.digital.gov/components/banner/):
     - U.S. flag image
     - Text that identifies an official U.S. government site
-    - Drop-down component with:
+    - Drop-down with:
       - Text that identifies an official .gov or .mil domain
       - Text that describes HTTPS connections
      
@@ -53,6 +52,5 @@ Follow the current [U.S. Web Design System (USWDS) guidance on the banner compon
 
 ## Read more
 
-- [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner)
 - [OMB memo on Delivering a Digital-First Public Experience: Consistent Visual Design and Agency Brand Identity](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/#IIIA:~:text=2.%20Consistent%20Visual%20Design%20and%20Agency%20Brand%20Identity)
 
