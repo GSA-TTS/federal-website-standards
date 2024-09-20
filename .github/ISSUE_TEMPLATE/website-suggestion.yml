@@ -1,0 +1,13 @@
+name: Website suggestion
+description: Suggest an improvement to this website
+title: "Federal website standards - Suggestion: [YOUR TITLE]"
+labels: ['Type: Suggestion','Needs: Evaluation']
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Describe your suggestion for this website.
+    validations:
+      required: true
+
+    
