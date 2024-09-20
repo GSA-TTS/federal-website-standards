@@ -7,18 +7,13 @@ eleventyNavigation:
   order: 2
 ---
 
-Federal website standards are evidence-based actions that will help federal agencies:
-- Meet the public’s evolving expectations for digital experiences
-- Reduce the burden on agencies to research and design core web components
-- Prioritize and plan web design and development projects
+Federal website standards help agencies provide high-quality, consistent digital experiences for everyone. The standards are developed through an iterative process involving federal agencies and the public.
 
-## OMB and GSA work with federal agencies to develop standards
+### OMB
 
-### Office of Management and Budget (OMB)
+The Office of Management and Budget (OMB) sets the policy and conducts oversight for federal websites. 
 
-OMB sets the policy and conducts oversight for federal websites. 
-
-### General Services Administration (GSA)
+### General Services Administration
 
 GSA’s Technology Transformation Services (TTS) works with OMB to develop standards that align with OMB policies. TTS manages standards development and publication through the Federal Website Standards program. 
 
@@ -30,7 +25,7 @@ The [DX Council](https://digital.gov/resources/an-introduction-to-the-digital-ex
 
 ## Scope of the standards
 
-There are many sources that describe federal website requirements and policies. Our goal is to create specific standards that aren’t explicitly covered by other federal policies. 
+The standards will align with the requirements of the [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) and with [OMB’s memo on Delivering a Digital-First Public Experience](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/). 
 
 ## Status of the standards on this site
 
