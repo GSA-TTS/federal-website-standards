@@ -17,8 +17,8 @@ We’ll publish information about standards as they're being developed. Each sta
 
 - **Research**: This potential standard is being researched with the public, federal agencies, and other stakeholders.
 - **Draft**: The text of this potential standard has been drafted and is being shared with federal agencies and other stakeholders.
-- **Pending**: This will become a standard after a specified period of time. Agencies should plan to comply with this standard.
-- **Standard**: Federal agencies must comply with this standard.
+- **Pending**: This will be required after a specified period of time. Agencies should plan to comply with this standard.
+- **Required**: Federal agencies must comply with this standard.
 
 ## How the standards are developed
 
