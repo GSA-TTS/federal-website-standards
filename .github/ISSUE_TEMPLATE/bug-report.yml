@@ -1,5 +1,5 @@
-name: Bug Report 🐞
-description: Report a bug and help us improve this website.
+name: Bug report 🐞
+description: Report a bug to help us improve this website.
 title: "Federal website standards - Bug: [YOUR TITLE]"
 labels: ['Type: Bug','Needs: Confirmation']
 body:
