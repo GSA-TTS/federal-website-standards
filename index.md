@@ -6,12 +6,14 @@ description: Federal website standards will help agencies provide high-quality, 
 
 Most people interact with the federal government online. Websites, apps, and online services offered by federal agencies should be easy to use and effective. We’re developing federal website standards to help agencies provide high-quality, consistent digital experiences for everyone. 
 
-The standards will align with the requirements of the [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) and with [OMB’s memo on Delivering a Digital-First Public Experience](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/). 
+The standards will align with the requirements of the [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) and with [OMB’s memo on Delivering a Digital-First Public Experience (M-23-22)](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/). 
+
+## Actions for federal agencies to take
+
+- Review the standards.
+- Consider how the standards apply to your public-facing websites.
+- Plan to evaluate your compliance with the [three pending standards](standards). Pending standards have already been finalized and will be required after a specified period of time.
 
 ## Standards will be released incrementally
 
-The standards will be developed through a deliberative process that involves research with the public and with agency staff. We’ll continuously improve the standards to help agencies meet evolving best practices and user expectations. 
-
-## Federal agencies should plan to comply with pending standards 
-
-This site includes pending standards that will be required and potential standards that are in development so you can follow their progress. 
+The standards will be developed through a deliberative process that involves research with the public and with federal agencies.
