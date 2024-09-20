@@ -11,4 +11,6 @@ GSA’s Technology Transformation Services manages the development and publicati
 
 ## Follow our work on GitHub
 
-We maintain a [GitHub project board for standards](https://github.com/orgs/GSA-TTS/projects/48/views/1?filterQuery=label%3A%22Potential+standard%22) and a [public repository for the standards site](https://github.com/GSA-TTS/federal-website-standards).
+We maintain a public [project board on GitHub for standards](https://github.com/orgs/GSA-TTS/projects/48/views/1?filterQuery=label%3A%22Potential+standard%22). You can see the standards we're working on and provide your input. 
+
+We also have a public [repository for the standards website on GitHub](https://github.com/GSA-TTS/federal-website-standards). You can [make suggestions for the site or file a bug report](https://github.com/GSA-TTS/federal-website-standards/issues/new/choose) if you find an issue.
