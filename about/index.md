@@ -54,11 +54,11 @@ If we find evidence that implementing a standard will improve the public’s use
 
 The next steps are to approve and publish the standard to this website. Standards are formally approved by TTS and OMB. Standards are published by TTS.
 
-#### Revise a standard
+#### Revise
 
 To revise a standard, the revision must be shown to improve the public user experience of agency websites or to improve the clarity of the standard. Revisions could be prompted by new technologies or changes in user behavior.
 
-#### Withdraw a standard
+#### Withdraw
 
 If we find evidence that a standard should be withdrawn, we draft a justification. We share the justification with OMB, the DX Council, and other stakeholders. The next steps are to withdraw and archive the standard. Withdrawals are formally approved by TTS and OMB. Standards are removed by the TTS Federal Website Standards program office.
 
