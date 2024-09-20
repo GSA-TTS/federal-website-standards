@@ -1,0 +1,34 @@
+@use '../colors' as *;
+
+.usa-hero {
+  background-color: $hero-blue;
+  background-image: none;
+
+  &__callout {
+    background-color: $hero-blue;
+    max-width: 32rem;
+    padding: 2rem 0 2rem 0;
+
+    .usa-button {
+      background-color: $hero-button-default;
+
+      &:hover {
+        background-color: $hero-button-hover;
+      }
+
+      &:active {
+        background-color: $hero-button-active;
+      }
+
+      &:focus {
+        outline: 0.25rem solid #fff;
+      }
+    }
+  }
+
+  &__heading {
+    color: white;
+    font-size: 2.4rem;
+    line-height: 1.4;
+  }
+}

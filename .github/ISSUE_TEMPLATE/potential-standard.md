@@ -1,6 +1,6 @@
 ---
 name: Potential standard
-about: This is a standard that is being considered.
+about: This is proposal for a website standard.
 title: ''
 labels: Potential standard
 assignees: ''
