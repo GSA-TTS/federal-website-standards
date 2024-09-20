@@ -21,3 +21,27 @@ Custom styling
 @forward "overrides/_hero.scss";
 @forward "overrides/_global.scss";
 @forward "overrides/_usa-section.scss";
+
+/*---------------------------------------------------------
+CHECKLIST 
+----------------------------------------------------------*/
+.checklist+ul {
+  list-style: none;
+
+  li {
+    margin-bottom: units(1);
+    text-indent: (-1 * units(3));
+  }
+
+  li::before {
+    background: url('../_img/check_circle_outline.svg') no-repeat center left;
+    background-size: 85%;
+    content: "\200B"; // Marker is white space but still reads as list item
+    padding-left: units(3);
+  }
+}
+
+// This style gets overriden by other class overrides. We can fix this here.
+.display-none {
+  display: none !important;
+}
