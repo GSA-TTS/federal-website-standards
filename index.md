@@ -16,4 +16,4 @@ The standards will align with the requirements of the [21st Century Integrated D
 
 ## Standards will be released incrementally
 
-The standards will be developed through a deliberative process that involves research with the public and with federal agencies.
+The standards are being developed through a deliberative process that involves research with the public and with federal agencies. We'll continue to add information about standards as they're being developed. We'll also improve this website based on your feedback. 
