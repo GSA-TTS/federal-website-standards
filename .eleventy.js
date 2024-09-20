@@ -95,15 +95,8 @@ module.exports = function (config) {
     html: true,
     breaks: true,
     linkify: true,
-  }).use(markdownItAnchor, {
-    permalink: markdownItAnchor.permalink.ariaHidden({
-      placement: 'after',
-      class: 'font-heading-lg text-primary-light hover:text-primary',
-      symbol: `<svg class="usa-icon" aria-hidden="true" role="img"><use xlink:href="#svg-link"></use></svg>`,
-      level: [1, 2, 3, 4],
-    }),
-    slugify: config.getFilter('slug'),
   });
+
   config.setLibrary('md', markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)
