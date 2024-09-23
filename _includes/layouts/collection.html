@@ -5,14 +5,17 @@ layout: layouts/page-columns
 This template uses the USWDS card component.
 See https://designsystem.digital.gov/components/card/#when-to-use-the-card-component
 {% endcomment %}
+
 {% if title %}
   <h1 class="font-heading-2xl"> {{ title }} </h1>
 {% endif %}
  
-Federal website standards are evidence-based actions that will help agencies deliver high-quality, consistent digital experiences for the public. This page includes pending standards that will be required and potential standards that are in development so you can follow their progress. 
+<div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+  <p>Federal website standards will help agencies deliver high-quality, consistent digital experiences for everyone.</p>
+</div>
 
 <h2 class="font-heading-xl padding-top-6">Pending standards</h2>
-
+<p>Pending standards will be required after a specified period of time. Agencies should plan to comply with pending standards.</p>
 <ul class="usa-card-group">
 
 {%- for standard in collections.standards -%}
@@ -45,6 +48,7 @@ Federal website standards are evidence-based actions that will help agencies del
 </ul>
 
 <h2 class="font-heading-xl padding-top-4">Potential standards</h2>
+<p>Potential standards are being researched or drafted. Agencies can review and provide feedback.</p>
 <ul class="usa-card-group">
 
 {%- for standard in collections.standards -%}
