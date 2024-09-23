@@ -15,9 +15,9 @@ The standards will align with the requirements of the [21st Century Integrated D
 
 We’ll publish information about standards as they're being developed. Each standard will have a status to indicate where it is in the process. 
 
-- **Research**: This potential standard is being researched with the public, federal agencies, and other stakeholders.
-- **Draft**: The text of this potential standard has been drafted and is being shared with federal agencies and other stakeholders.
-- **Pending**: This will be required after a specified period of time. Agencies should plan to comply with this standard.
+- **Research**: This standard is being researched with the public, federal agencies, and other stakeholders.
+- **Draft**: This standard has been drafted and is being shared with federal agencies and other stakeholders.
+- **Pending**: This standard will be required after a specified period of time. Agencies should plan to comply with this standard.
 - **Required**: Federal agencies must comply with this standard.
 
 ## How the standards are developed
