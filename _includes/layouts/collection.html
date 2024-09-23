@@ -7,21 +7,36 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
 {% endcomment %}
 
 {% if title %}
-  <h1 class="font-heading-2xl"> {{ title }} </h1>
+  <h1 class="title"> {{ title }} </h1>
 {% endif %}
- 
-<div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+
+<div class="usa-layout-docs__main usa-prose">
   <p>Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone. The standards cover visual and technical elements that reflect user experience best practices.</p>
-  
   <p>We’ll publish information about standards as they're being developed. Each standard will have a status to indicate where it is in the process. Standards will be released incrementally.</p>
+<div class="usa-step-indicator usa-step-indicator--counters" aria-label="progress">
+  <ol class="usa-step-indicator__segments">
+    <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
+      <span class="usa-step-indicator__segment-label">Research<span class="usa-sr-only">completed</span></span>
+    </li>
+    <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
+      <span class="usa-step-indicator__segment-label">Draft<span class="usa-sr-only">completed</span></span>
+    </li>
+    <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
+      <span class="usa-step-indicator__segment-label">Pending<span class="usa-sr-only">completed</span></span>
+    </li>
+    <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
+      <span class="usa-step-indicator__segment-label">Required<span class="usa-sr-only">completed</span></span>
+    </li>
+  </ol>
 </div>
 
-<h2 class="font-heading-xl padding-top-6">Pending standards</h2>
-<p>Pending standards have been finalized and will be required after a specified period of time following their initial publication. Agencies can begin working to comply with pending standards.</p>
+<h2 class="font-heading-xl padding-top-1">Required standards</h2>
+<p>Currently there are no required standards. They will be added incrementally.</p>
 
+<h2 class="font-heading-xl padding-top-1">Pending standards</h2>
+<p>Pending standards will be required after a specified period of time. Agencies should plan to comply with pending standards.</p>
 
-<ul class="usa-card-group">
-
+<ul class="usa-card-group padding-top-2">
 {%- for standard in collections.standards -%}
   {% if standard.data.status == "Pending" %}
   <li class="usa-card mobile:grid-col desktop:grid-col-4">
@@ -48,14 +63,12 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
   </li>
   {% endif %}
 {%- endfor -%}
-
 </ul>
 
-<h2 class="font-heading-xl padding-top-4">Draft standards</h2>
-<p>This standard has been drafted and is being shared with federal agencies and other stakeholders. Agencies can review and provide feedback.</p>
+<h2 class="font-heading-xl padding-top-1">Draft standards</h2>
+<p>Draft standards have been researched and are under final review.</p>
 
-<ul class="usa-card-group">
-
+<ul class="usa-card-group padding-top-2">
 {%- for standard in collections.standards -%}
   {% if standard.data.status == "Draft" %}
   <li class="usa-card mobile:grid-col desktop:grid-col-4">
@@ -82,15 +95,13 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
   </li>
   {% endif %}
 {%- endfor -%}
-
 </ul>
 
 
-<h2 class="font-heading-xl padding-top-4">Standards in the research phase</h2>
-<p>These standards are being researched with the public, federal agencies, and other stakeholders. Agencies can contribute research and provide feedback.</p>
+<h2 class="font-heading-xl padding-top-1">Research standards</h2>
+<p>Potential standards are being researched or drafted. Agencies can review and provide feedback.</p>
 
-<ul class="usa-card-group">
-
+<ul class="usa-card-group padding-top-2">
 {%- for standard in collections.standards -%}
   {% if standard.data.status == "Research" %}
   <li class="usa-card mobile:grid-col desktop:grid-col-4">
@@ -117,5 +128,4 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
   </li>
   {% endif %}
 {%- endfor -%}
-
 </ul>
