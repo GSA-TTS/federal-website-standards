@@ -11,13 +11,14 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
 {% endif %}
  
 <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-  <p>Federal website standards will help agencies deliver high-quality, consistent digital experiences for everyone.</p>
+  <p>Federal website standards will help agencies deliver high-quality, consistent experiences for everyone. We’ll publish information about standards as they're being developed. Each standard will have a status to indicate where it is in the process. Standards will be released incrementally</p>
 </div>
+
+{% include "_includes/status/pending.html" %}
 
 <h2 class="font-heading-xl padding-top-6">Pending standards</h2>
 <p>Pending standards will be required after a specified period of time. Agencies should plan to comply with pending standards.</p>
 
-{% include "_includes/status/pending.html" %}
 
 <ul class="usa-card-group">
 
@@ -53,8 +54,6 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
 <h2 class="font-heading-xl padding-top-4">Draft standards</h2>
 <p>The text of this potential standard has been drafted and is being shared with federal agencies and other stakeholders. Agencies can review and provide feedback.</p>
 
-{% include "_includes/status/draft.html" %}
-
 <ul class="usa-card-group">
 
 {%- for standard in collections.standards -%}
@@ -89,8 +88,6 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
 
 <h2 class="font-heading-xl padding-top-4">Standards in the research phase</h2>
 <p>These standards are being researched with the public, federal agencies, and other stakeholders. Agencies can contribute research and provide feedback.</p>
-
-{% include "_includes/status/research.html" %}
 
 <ul class="usa-card-group">
 
