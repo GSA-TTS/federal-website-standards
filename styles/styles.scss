@@ -34,7 +34,7 @@ CHECKLIST
   }
 
   li::before {
-    background: url('../_img/check.svg') no-repeat center left;
+    background: url('../node_modules/@uswds/uswds/dist/img/usa-icons/check.svg') no-repeat center left;
     background-size: 85%;
     content: "\200B"; // Marker is white space but still reads as list item
     padding-left: units(3);
