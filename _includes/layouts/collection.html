@@ -11,11 +11,15 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
 {% endif %}
  
 <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-  <p>Federal website standards will help agencies deliver high-quality, consistent digital experiences for everyone.</p>
+  <p>Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone. The standards cover visual and technical elements that reflect user experience best practices.</p>
+  
+  <p>We’ll publish information about standards as they're being developed. Each standard will have a status to indicate where it is in the process. Standards will be released incrementally.</p>
 </div>
 
 <h2 class="font-heading-xl padding-top-6">Pending standards</h2>
-<p>Pending standards will be required after a specified period of time. Agencies should plan to comply with pending standards.</p>
+<p>Pending standards have been finalized and will be required after a specified period of time. Agencies can begin working to comply with pending standards.</p>
+
+
 <ul class="usa-card-group">
 
 {%- for standard in collections.standards -%}
@@ -47,12 +51,48 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
 
 </ul>
 
-<h2 class="font-heading-xl padding-top-4">Potential standards</h2>
-<p>Potential standards are being researched or drafted. Agencies can review and provide feedback.</p>
+<h2 class="font-heading-xl padding-top-4">Draft standards</h2>
+<p>This standard has been drafted and is being shared with federal agencies and other stakeholders. Agencies can review and provide feedback.</p>
+
 <ul class="usa-card-group">
 
 {%- for standard in collections.standards -%}
-  {% if standard.data.status != "Pending" %}
+  {% if standard.data.status == "Draft" %}
+  <li class="usa-card mobile:grid-col desktop:grid-col-4">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h4 class="usa-card__heading">
+          <a
+            class="usa-link font-heading-xl"
+            href="{{ standard.url | url }}"
+            >{{ standard.data.title }}</a
+          >
+        </h4>
+      </div>
+      <div class="usa-card__body">
+        <p><strong>Why: </strong>{{ standard.data.why }}</p>
+        <p><strong>Status: </strong>{{ standard.data.status }}</p>
+      </div>
+      <div class="usa-card__footer">
+        Updated <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
+              {{ standard.date | toISOString: 'DDD' }}
+            </time>
+      </div>
+    </div>
+  </li>
+  {% endif %}
+{%- endfor -%}
+
+</ul>
+
+
+<h2 class="font-heading-xl padding-top-4">Standards in the research phase</h2>
+<p>These standards are being researched with the public, federal agencies, and other stakeholders. Agencies can contribute research and provide feedback.</p>
+
+<ul class="usa-card-group">
+
+{%- for standard in collections.standards -%}
+  {% if standard.data.status == "Research" %}
   <li class="usa-card mobile:grid-col desktop:grid-col-4">
     <div class="usa-card__container">
       <div class="usa-card__header">

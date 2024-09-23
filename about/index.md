@@ -7,22 +7,22 @@ eleventyNavigation:
   order: 2
 ---
 
-Federal website standards help agencies provide high-quality, consistent digital experiences for everyone. 
+Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone. The standards cover visual and technical elements that reflect user experience best practices.
 
-The standards will align with the requirements of the [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) and with [OMB’s memo on Delivering a Digital-First Public Experience](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/). 
+Federal agencies are required to comply with website standards per the [21st Century Integrated Digital Experience Act (IDEA)](https://www.congress.gov/bill/115th-congress/house-bill/5759/text). Standards will align with the 21st Century IDEA and [OMB’s memo on Delivering a Digital-First Public Experience (M-23-22)](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/). 
 
 ## Status of the standards on this site
 
 We’ll publish information about standards as they're being developed. Each standard will have a status to indicate where it is in the process. 
 
-- **Research**: This potential standard is being researched with the public, federal agencies, and other stakeholders.
-- **Draft**: The text of this potential standard has been drafted and is being shared with federal agencies and other stakeholders.
-- **Pending**: This will be required after a specified period of time. Agencies should plan to comply with this standard.
+- **Research**: This standard is being researched with the public, federal agencies, and other stakeholders.
+- **Draft**: This standard has been drafted and is being shared with federal agencies and other stakeholders.
+- **Pending**: This standard has been finalized and will be required after a specified period of time. Agencies should plan to comply with this standard.
 - **Required**: Federal agencies must comply with this standard.
 
 ## How the standards are developed
 
-The standards are developed through an iterative process involving federal agencies and the public.
+The standards are developed through an iterative process involving federal agencies, the public, and other stakeholders.
 
 ### OMB
 
