@@ -16,7 +16,7 @@ date: "2024-09-12"
 
 {% include "_includes/status/draft.html" %}
 
-## Potential standard
+## Standard
 
 Public-facing websites must contain a search function that allows users to easily search content intended for public use. 
 
