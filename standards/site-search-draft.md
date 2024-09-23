@@ -16,7 +16,7 @@ date: "2024-09-12"
 
 {% include "_includes/status/draft.html" %}
 
-Email us know if you have feedback at website.standards@gsa.gov or [join a discussion on GitHub about site search](https://github.com/GSA-TTS/federal-website-standards/discussions/233).
+Email us if you have feedback at website.standards@gsa.gov or [join a discussion on GitHub about site search](https://github.com/GSA-TTS/federal-website-standards/discussions/233).
 
 ## Standard
 
