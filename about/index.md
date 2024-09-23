@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 2
 ---
 
-Federal website standards help agencies provide high-quality, consistent digital experiences for everyone. 
+Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone. The standards will cover visual and technical elements that reflect user experience best practices. By adhering to these standards, federal agencies will deliver websites that are visually consistent, accessible, and mobile-friendly.
 
 Federal agencies are required to comply with website standards per the [21st Century Integrated Digital Experience Act (IDEA)](https://www.congress.gov/bill/115th-congress/house-bill/5759/text). Standards will align with the 21st Century IDEA and [OMB’s memo on Delivering a Digital-First Public Experience (M-23-22)](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/). 
 
