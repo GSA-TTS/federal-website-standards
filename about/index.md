@@ -66,6 +66,6 @@ For a revision to be considered, we must have evidence that it would improve the
 
 #### Withdraw
 
-If we find evidence that a standard should be withdrawn, we draft a justification, obtain concurrence from OMB, and brief the DX Council. Withdrawn standards will remain visible on this site.
+If we find evidence that a standard should be withdrawn, we draft a justification, obtain concurrence from OMB, and brief the DX Council. Withdrawn standards will remain available on this site.
 
 
