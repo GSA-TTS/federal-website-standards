@@ -7,21 +7,22 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
 {% endcomment %}
 
 {% if title %}
-  <h1 class="font-heading-2xl"> {{ title }} </h1>
+  <h1 class="title"> {{ title }} </h1>
 {% endif %}
- 
-<div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-  <p>Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone. The standards cover visual and technical elements that reflect user experience best practices.</p>
-  
-  <p>We’ll publish information about standards as they're being developed. Each standard will have a status to indicate where it is in the process. Standards will be released incrementally.</p>
-</div>
 
-<h2 class="font-heading-xl padding-top-6">Pending standards</h2>
+<div class="usa-layout-docs__main usa-prose">
+  <p>Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone. The standards cover visual and technical elements that reflect user experience best practices.</p>
+  <p>We’ll publish information about standards as they're being developed. Each standard will have a status to indicate where it is in the process: research, draft, pending, or required. </p>
+
+  {% include "_includes/step-indicator.html" %}
+
+<h2 class="font-heading-xl padding-top-1">Required</h2>
+<p>Currently, there are no required standards.</p>
+
+<h2 class="font-heading-xl padding-top-1">Pending</h2>
 <p>Pending standards have been finalized and will be required after a specified period of time following their initial publication. Agencies can begin working to comply with pending standards.</p>
 
-
-<ul class="usa-card-group">
-
+<ul class="usa-card-group padding-top-2">
 {%- for standard in collections.standards -%}
   {% if standard.data.status == "Pending" %}
   <li class="usa-card mobile:grid-col desktop:grid-col-4">
@@ -39,7 +40,7 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
         <p><strong>Why: </strong>{{ standard.data.why }}</p>
         <p><strong>Status: </strong>{{ standard.data.status }}</p>
       </div>
-      <div class="usa-card__footer">
+      <div class="usa-card__footer text-italic">
         Published: <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
               {{ standard.date | toISOString: 'DDD' }}
             </time>
@@ -48,14 +49,12 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
   </li>
   {% endif %}
 {%- endfor -%}
-
 </ul>
 
-<h2 class="font-heading-xl padding-top-4">Draft standards</h2>
+<h2 class="font-heading-xl padding-top-1">Draft</h2>
 <p>This standard has been drafted and is being shared with federal agencies and other stakeholders. Agencies can review and provide feedback.</p>
 
-<ul class="usa-card-group">
-
+<ul class="usa-card-group padding-top-2">
 {%- for standard in collections.standards -%}
   {% if standard.data.status == "Draft" %}
   <li class="usa-card mobile:grid-col desktop:grid-col-4">
@@ -73,7 +72,7 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
         <p><strong>Why: </strong>{{ standard.data.why }}</p>
         <p><strong>Status: </strong>{{ standard.data.status }}</p>
       </div>
-      <div class="usa-card__footer">
+      <div class="usa-card__footer text-italic">
         Updated: <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
               {{ standard.date | toISOString: 'DDD' }}
             </time>
@@ -82,15 +81,13 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
   </li>
   {% endif %}
 {%- endfor -%}
-
 </ul>
 
 
-<h2 class="font-heading-xl padding-top-4">Standards in the research phase</h2>
+<h2 class="font-heading-xl padding-top-1">Research</h2>
 <p>These standards are being researched with the public, federal agencies, and other stakeholders. Agencies can contribute research and provide feedback.</p>
 
-<ul class="usa-card-group">
-
+<ul class="usa-card-group padding-top-2">
 {%- for standard in collections.standards -%}
   {% if standard.data.status == "Research" %}
   <li class="usa-card mobile:grid-col desktop:grid-col-4">
@@ -108,7 +105,7 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
         <p><strong>Why: </strong>{{ standard.data.why }}</p>
         <p><strong>Status: </strong>{{ standard.data.status }}</p>
       </div>
-      <div class="usa-card__footer">
+      <div class="usa-card__footer text-italic">
         Updated: <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
               {{ standard.date | toISOString: 'DDD' }}
             </time>
@@ -117,5 +114,4 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
   </li>
   {% endif %}
 {%- endfor -%}
-
 </ul>

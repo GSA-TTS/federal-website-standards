@@ -15,7 +15,7 @@ date: "2024-09-12"
 
 {% include "_includes/status/research.html" %}
 
-## Potential standard
+## Standard
 
 Every website must include a contact page. Every web page or screen must link to your contact page. Your contact page must include all contact options for your agency, product, or service.
 
