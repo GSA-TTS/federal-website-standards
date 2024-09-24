@@ -1,9 +1,4 @@
 /*---------------------------------------------------------
-Global variables
-----------------------------------------------------------*/
-$default-max-width: "widescreen";
-
-/*---------------------------------------------------------
 USWDS Settings
 ----------------------------------------------------------*/
 @use "uswds-core" as * with (
@@ -12,12 +7,6 @@ USWDS Settings
   $theme-image-path: "../node_modules/@uswds/uswds/dist/img",
   $theme-font-type-sans: "public-sans",
   $theme-hero-image: "../_img/hero.png",
-  $theme-grid-container-max-width: $default-max-width,
-  $theme-banner-max-width: $default-max-width,
-  $theme-footer-max-width: $default-max-width,
-  $theme-header-max-width: $default-max-width,
-  $theme-identifier-max-width: $default-max-width,
-  $theme-site-alert-max-width: $default-max-width
 );
 
 /*---------------------------------------------------------
@@ -28,7 +17,26 @@ USWDS Source
 /*---------------------------------------------------------
 Custom styling
 ----------------------------------------------------------*/
-@forward "overrides/_usa-step-indicator.scss";
+@forward "overrides/_usa-header.scss";
 @forward "overrides/_hero.scss";
 @forward "overrides/_global.scss";
 @forward "overrides/_usa-section.scss";
+
+/*---------------------------------------------------------
+CHECKLIST 
+----------------------------------------------------------*/
+.checklist+ul {
+  list-style: none;
+
+  li {
+    margin-bottom: units(1);
+    text-indent: (-1 * units(3));
+  }
+
+  li::before {
+    background: url('../node_modules/@uswds/uswds/dist/img/usa-icons/check.svg') no-repeat center left;
+    background-size: 85%;
+    content: "\200B"; // Marker is white space but still reads as list item
+    padding-left: units(3);
+  }
+}

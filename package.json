@@ -1,7 +1,7 @@
 {
   "name": "11ty-uswds-template",
   "version": "0.0.2",
-  "description": "A 11ty UWDS template.",
+  "description": "The Federal website standards site",
   "main": "index.js",
   "scripts": {
     "build": "npm run assets:build && npx @11ty/eleventy",
@@ -45,6 +45,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "@uswds/uswds": "3.8.0"
+    "@uswds/uswds": "3.8.0",
+    "markdown-it-attrs": "^4.2.0"
   }
 }

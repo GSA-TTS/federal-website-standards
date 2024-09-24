@@ -6,13 +6,13 @@ description: Federal website standards will help agencies provide high-quality, 
 
 Most people interact with the federal government online. Websites, apps, and online services offered by federal agencies should be easy to use and effective. We’re developing federal website standards to help agencies provide high-quality, consistent digital experiences for everyone. 
 
-The [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) instructs agencies to maintain as much standardization and commonality with other agencies as practicable in implementing the requirements of the Act. Increased standardization and cross-government collaboration reduce government-wide implementation costs and ensure a more consistent digital experience for the public. 
+Federal agencies are required to comply with website standards per the [21st Century Integrated Digital Experience Act (IDEA)](https://www.congress.gov/bill/115th-congress/house-bill/5759/text). Standards will align with the 21st Century IDEA, [OMB’s memo on Delivering a Digital-First Public Experience (M-23-22)](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/), and other relevant policy requirements and best practices. 
+
+## Actions for federal agencies to take{.checklist}
+- Review the [standards](standards).
+- Consider how the standards apply to your public-facing websites.
+- Plan to evaluate your compliance with the [three pending standards](standards). Pending standards have been finalized and will be required after a specified period of time following their initial publication. Agencies can begin working to comply with pending standards.
 
 ## Standards will be released incrementally
 
-The standards will be developed through a deliberative process that involves research with the public and with agency staff. We’ll continuously improve the standards to help agencies meet evolving best practices and user expectations. 
-
-## Federal agencies should plan to implement pending standards 
-
-Per the [Office of Management and Budget memo on delivering a digital-first public experience (PDF)](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf), agencies are required to comply with standards. This site includes pending standards that will be required and potential standards that are in development so you can follow their progress. 
-
+The standards are being developed through a deliberative process that involves research with the public, federal agencies, and other stakeholders. We'll continue to post information about standards as they're being developed. We'll also improve this website based on your feedback. 

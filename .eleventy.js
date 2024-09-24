@@ -4,6 +4,7 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
+const markdownItAttrs = require('markdown-it-attrs');
 const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const { imageShortcode, imageWithClassShortcode } = require('./config');
@@ -95,7 +96,7 @@ module.exports = function (config) {
     html: true,
     breaks: true,
     linkify: true,
-  });
+  }).use(markdownItAttrs);
 
   config.setLibrary('md', markdownLibrary);
 
@@ -134,8 +135,8 @@ module.exports = function (config) {
 
   // We want the hostname because the sitemap needs fully qualified URLs for Search.gov
   if (process.env.BRANCH == 'main') {
-    const { hosts } = yaml.load(fs.readFileSync('./_data/site.yaml', 'utf8'));
-    baseUrl = new URL(hosts.prod).href.replace(/\/$/, '');
+    const { host } = yaml.load(fs.readFileSync('./_data/site.yaml', 'utf8'));
+    baseUrl = new URL(host).href.replace(/\/$/, '');
     config.addGlobalData('baseUrl', baseUrl);
   }
 

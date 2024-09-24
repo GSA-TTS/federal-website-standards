@@ -7,69 +7,65 @@ eleventyNavigation:
   order: 2
 ---
 
-Federal website standards are evidence-based actions that will help federal agencies:
-- Meet the public’s evolving expectations for digital experiences
-- Reduce the burden on agencies to research and design core web components
-- Prioritize and plan web design and development projects
+Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone. The standards cover common visual and technical elements and reflect user experience best practices.
 
-The standards will describe how agencies can offer a more consistent, high-quality user experience for the public. The [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) instructs agencies to maintain as much standardization and commonality with other agencies as practicable in implementing the requirements of the Act. Increased standardization and cross-government collaboration reduce government-wide implementation costs and ensure a more consistent digital experience for the public. 
-
-Agencies must comply with federal website standards. As stated in the Office of Management and Budget (OMB) memo ["Delivering a digital-first public experience" (PDF)](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf), “All public-facing websites and digital services must comply with the Federal website standards published by the Technology Transformation Services of the General Services Administration (GSA) which incorporate the USWDS.”
-
-
-## OMB and GSA work with federal agencies to develop standards
-
-### Office of Management and Budget (OMB)
-
-OMB sets the policy and conducts oversight for federal websites. 
-
-### General Services Administration (GSA)
-
-As stated in [OMB M-23-22, “Delivering a digital-first public experience” (PDF)](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf), GSA’s Technology Transformation Services (TTS) works with OMB to develop standards that align with OMB policies. TTS manages the standards development and publication through the Federal Website Standards program. 
-
-### Digital Experience Council (DX Council)
-
-The [DX Council](https://digital.gov/resources/an-introduction-to-the-digital-experience-council/) is a cross-agency group that supports government-wide efforts to deliver a digital-first public experience. The DX Council provides feedback on potential standards and advises the Federal Website Standards program office.
-
-## Scope of the standards
-
-There are many sources that describe federal website requirements and policies, (e.g., Section 508). Our goal is to create standards that aren’t explicitly covered by other federal policies. 
-
-We’ll point to existing policies and guidance to make it easier for agencies to find federal website requirements and best practices.
+**Federal agencies are required to comply with website standards per the [21st Century Integrated Digital Experience Act (IDEA)](https://www.congress.gov/bill/115th-congress/house-bill/5759/text)**. Standards will align with the 21st Century IDEA, [OMB’s memo on Delivering a Digital-First Public Experience (M-23-22)](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/), and other relevant policy requirements and best practices. 
 
 ## Status of the standards on this site
 
-We’ll publish official standards and potential standards that are being developed. Each standard will have a status to indicate where it is in the process. 
+We’ll publish information about standards as they're being developed. Each standard will have a status to indicate where it is in the process. 
 
-- **Research**: This potential standard is being researched with the public and with federal agency staff.
-- **Draft**: The text of this potential standard has been drafted and is being shared with federal agencies and other stakeholders.
-- **Pending**: This will become a standard after a period of time. Agencies should plan to implement this standard.
-- **Standard**: Federal agencies are required to comply with this standard.
+{% include "_includes/step-indicator.html" %}
 
-## Potential standards are researched with the public and with agency staff
+- **Research**: This standard is being researched with the public, federal agencies, and other stakeholders.
+- **Draft**: This standard has been drafted and is being shared with federal agencies and other stakeholders for feedback and iteration.
+- **Pending**: This standard has been finalized and will be required after a specified period of time following its initial publication. Federal agencies can begin working to comply with pending standards.
+- **Required**: Federal agencies must comply with this standard.
 
-Federal website standards go through a rigorous workflow as described below. 
+## How standards are developed
 
-### Research a potential standard
+The standards are developed through a rigorous and iterative process involving federal agencies, the public, and other stakeholders. Each standard includes acceptance criteria that specify what elements must be present in order to be compliant with the standard.
 
-For a potential standard to be considered, we must have reason to believe that the recommended action would improve the public’s user experience. If implemented by agencies, this action should result in a more consistent digital experience across federal websites. Evidence could be based on industry best practices and/or user research.
+### Teams involved in developing standards
 
-### Draft and iterate
+#### General Services Administration (GSA)
 
-If we find evidence that implementing a standard will improve the public’s user experience across federal websites, we draft the standard. During this phase we share the draft with OMB, the DX Council, and other federal agency staff. The draft standard will likely go through several iterations. The Standards team conducts usability testing sessions with agency staff and iterates as needed. 
+GSA’s Technology Transformation Services (TTS) manages standards development and publication through the Federal Website Standards program.
 
-### Approve and publish
+The [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text) requires federal agencies to be in compliance with the website standards set by TTS.
 
-The next steps are to approve and publish the standard. Standards are formally approved by GSA’s Technology Transformation Services (TTS) and OMB. Standards are published by TTS.
+#### The Office of Management and Budget (OMB)
 
-### Revise a published standard
+OMB advises the Federal Website Standards program and provides concurrence at specific stages of the standards development process. OMB M-23-22 required an updated to federal website standards.
 
-For a change to a published standard to be considered, the revision must be shown to improve the public user experience of agency websites or to improve the clarity of the standard. Revisions could be prompted by new technologies or changes in user behavior.
+#### Digital Experience (DX) Council
 
-### Withdraw a published standard
+The [DX Council](https://digital.gov/resources/an-introduction-to-the-digital-experience-council/) is a cross-functional, cross-agency group that coordinates and supports government-wide efforts to deliver a digital-first public experience. The DX Council is regularly briefed by the Federal Website Standards program and provides recommendations, input, and feedback throughout the standards development process.
 
-If we find evidence that a published standard should be withdrawn, we draft a justification. We share the justification with OMB, the DX Council, and other federal agency staff. The next steps are to withdraw and archive the standard. Withdrawals are formally approved by GSA’s Technology Transformation Services (TTS) and OMB. Standards are removed by the TTS Federal Website Standards program office.
+### Steps in the standards development process
 
+#### Discover
 
+The Federal Website Standards program maintains a [running backlog of potential standards on GitHub](https://github.com/orgs/GSA-TTS/projects/48/views/13) and regularly conducts discovery to understand the impact of standardization. For a potential standard to be considered, we must have evidence that it would improve the public’s user experience. **After conducting initial discovery, we propose standards for further research, obtain concurrence from OMB, and brief the DX Council.**
+
+#### Research
+
+We publish information on standards being researched on this site. We seek input from stakeholders, inside and outside of government, and conduct usability testing with the public as needed. We continue to validate that the standard would improve the public’s user experience. **Once we’ve conducted sufficient research, we begin to draft standards.**
+
+#### Draft
+
+We publish draft standards on this site and seek feedback from OMB, the DX Council, and other stakeholders. Draft standards will likely go through several iterations, each of which will be posted to this site. **Once draft standards are ready to be finalized, we obtain concurrence from OMB, and brief the DX Council.**
+
+#### Publish
+
+We publish finalized standards on this site and set a pending time period based on the relative level of effort to comply. **Agencies can begin working to comply with pending standards. Once the pending period has concluded, we update the status of standards to “required.”**
+
+#### Revise
+
+For a revision to be considered, we must have evidence that it would improve the public’s user experience or improve the clarity of the standard. Revisions could be prompted by new technologies or changes in user behavior. Any revisions to a published standard will be captured in the documentation for the standard itself. **Minor revisions may be made at the discretion of the Federal Website Standard program. Significant revisions will follow the development process described above.**
+
+#### Withdraw
+
+If we find evidence that a standard should be withdrawn, we draft a justification, obtain concurrence from OMB, and brief the DX Council. Withdrawn standards will remain available on this site.
 
 
