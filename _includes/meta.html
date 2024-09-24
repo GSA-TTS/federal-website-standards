@@ -16,7 +16,11 @@ to modify some of the meta-data for the site, this is the place to do it.
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Title and meta description
     ================================================== -->
-  <title>{{ title }} | {{ site.title }}</title>
+  {% if permalink == '/' %}
+    <title>Federal website standards for executive branch federal agencies</title>
+  {% else %}
+    <title>{{ title }} | {{ site.title }}</title>
+  {% endif %}
   <meta property="og:title" content="{{ title }} | {{ site.title }}" />
   <meta name="description" content="{{ description }}" />
   <meta property="og:description" content="{{ description }}" />
