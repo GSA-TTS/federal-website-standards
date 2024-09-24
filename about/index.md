@@ -15,22 +15,7 @@ Federal agencies are required to comply with website standards per the [21st Cen
 
 We’ll publish information about standards as they're being developed. Each standard will have a status to indicate where it is in the process. 
 
-<div class="usa-step-indicator usa-step-indicator--counters" aria-label="progress">
-  <ol class="usa-step-indicator__segments">
-    <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
-      <span class="usa-step-indicator__segment-label">Research<span class="usa-sr-only">completed</span></span>
-    </li>
-    <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
-      <span class="usa-step-indicator__segment-label">Draft<span class="usa-sr-only">completed</span></span>
-    </li>
-    <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
-      <span class="usa-step-indicator__segment-label">Pending<span class="usa-sr-only">completed</span></span>
-    </li>
-    <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
-      <span class="usa-step-indicator__segment-label">Required<span class="usa-sr-only">completed</span></span>
-    </li>
-  </ol>
-</div>
+{% include "_includes/step-indicator.html" %}
 
 - **Research**: This standard is being researched with the public, federal agencies, and other stakeholders.
 - **Draft**: This standard has been drafted and is being shared with federal agencies and other stakeholders.
