@@ -32,7 +32,9 @@ We’re researching this potential standard. Research questions include:
 - Do users have preferences on the length of time between updates for certain types of content? 
 - How do users respond to multiple dates (e.g., published and updated)?
 
-If you have research findings to share, let us know at website.standards@gsa.gov or [join a discussion on GitHub about content timeliness](https://github.com/GSA-TTS/federal-website-standards/discussions/188).
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="/assets/img/sprite.svg#comment"></use>
+      </svg> If you have research findings to share, let us know at website.standards@gsa.gov or [join a discussion on GitHub about content timeliness](https://github.com/GSA-TTS/federal-website-standards/discussions/188).
 
 ## Read more
 
