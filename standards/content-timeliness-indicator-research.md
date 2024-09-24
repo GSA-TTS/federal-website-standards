@@ -15,7 +15,7 @@ date: "2024-09-12"
 
 {% include "_includes/status/research.html" %}
 
-## Potential standard
+## Standard
 
 Inform users about the timeliness of content.
 
