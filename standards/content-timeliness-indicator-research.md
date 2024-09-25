@@ -10,7 +10,7 @@ description: Timeliness indicators can increase trust in the currency and accura
 surveyLink: 
 date: "2024-09-24"
 github_discussion_number: 188
-join_the_conversation_name: content timeliness
+join_the_conversation_name: content timeliness indicators
 ---
 
 ## Status
