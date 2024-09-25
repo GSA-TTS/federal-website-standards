@@ -1,14 +1,16 @@
 ---
 layout: layouts/page-single
 tags: standards
-title: Contact
+title: Contact page
 category:
   ["Information and services that are discoverable and optimized for search"]
 why: Contact information that is easily and consistently accessible builds trust and credibility.
 status: Research
 description: A contact page is important for building trust and serving your users. Learn how to create a good contact page for your federal government site.
 surveyLink: 
-date: "2024-09-12"
+date: "2024-09-25"
+github_discussion_number: 183
+join_the_conversation_name: contact pages
 ---
 
 ## Status
@@ -30,9 +32,6 @@ We’re researching this potential standard. Research questions include:
 - Are users able to find the contact link as easily in the header, footer, or mobile menu?
 - What kind of contact information do users expect to see (at a minimum)?
 
-If you have research findings to share, let us know at website.standards@gsa.gov or [join a discussion on GitHub about contact information](https://github.com/GSA-TTS/federal-website-standards/discussions/183). 
-
-
 ## Examples of agency contact pages
 
 - [Small Business Administration contact page](https://www.sba.gov/about-sba/organization/contact-sba)
@@ -40,7 +39,10 @@ If you have research findings to share, let us know at website.standards@gsa.gov
 - [Department of Energy contact page](https://www.energy.gov/contact-us)
 - [Office of Personnel Management contact page](https://www.opm.gov/about-us/contact-us/)
 
-
 ## Read more
 
 - [Nielsen/Norman 2019 report on contact pages](https://www.nngroup.com/articles/contact-us-pages/)
+
+## Feedback
+
+{% include "_includes/join-the-conversation.html" discussion_number: github_discussion_number name: join_the_conversation_name %}

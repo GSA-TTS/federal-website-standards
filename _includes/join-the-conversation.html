@@ -1,0 +1,9 @@
+{% assign name = name | default: "this standard" %}
+<div class="grid-row flex-row">
+  <div class="grid-col-auto flex-align-self-center padding-right-1">
+    {% image_with_class "./node_modules/@uswds/uswds/dist/img/usa-icons/comment.svg" "padding-right-1 flex" "" %}
+  </div>
+  <div class="grid-col">
+    <p>If you have feedback to share, let us know at <a href="mailto:website.standards@gsa.gov">website.standards@gsa.gov</a> or <a href="https://github.com/GSA-TTS/federal-website-standards/discussions/{{ discussion_number }}">join a discussion on GitHub about {{ name }}</a>.</p>
+  </div>
+</div>
