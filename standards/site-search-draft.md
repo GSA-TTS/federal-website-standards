@@ -18,7 +18,7 @@ join_the_conversation_name: site search
 
 {% include "_includes/status/draft.html" %}
 
-Email us if you have feedback at website.standards@gsa.gov or [join a discussion on GitHub about site search](https://github.com/GSA-TTS/federal-website-standards/discussions/233).
+{% include "_includes/join-the-conversation.html" discussion_number: github_discussion_number name: join_the_conversation_name %}
 
 ## Standard
 
@@ -49,4 +49,3 @@ Public-facing websites of executive branch federal agencies
 - [Get started with Search.gov](https://search.gov/get-started/)
 - [An introduction to search from Digital.gov](https://digital.gov/resources/an-introduction-to-search/)
 - [OMB memo on Delivering a Digital-First Public Experience: Information and services that are discoverable and optimized for search](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/#IIIA:~:text=4.%20Information%20and%20Services%20That%20Are%20Discoverable%20and%20Optimized%20for%20Search) 
-{% include "_includes/join-the-conversation.html" discussion_number: github_discussion_number name: join_the_conversation_name %}
