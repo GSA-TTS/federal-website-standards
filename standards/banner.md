@@ -44,7 +44,9 @@ Agencies are encouraged to [use the USWDS banner component to meet this standard
 
 ## How to implement
 
-Follow the current [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner/).
+These are tips to help you implement this standard.
+
+- Follow the current [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner/).
 
 ## Example
 
