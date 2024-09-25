@@ -47,7 +47,7 @@ These examples show the HTML code for HTML page titles.
 
 `<title>Medicaid and CHIP Quality Rating System | Medicaid</title>`
 
-`<title>Digital.gov Communities of Practice – Digital.gov</title>`
+`<title>Communities of Practice Job Board – Digital.gov</title>`
 
 ## Read more
 
