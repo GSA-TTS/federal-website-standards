@@ -19,7 +19,7 @@ We maintain a public [project board on GitHub for standards](https://github.com/
 
 We also have a public [repository for the standards website on GitHub](https://github.com/GSA-TTS/federal-website-standards). You can [make suggestions for the site or file a bug report](https://github.com/GSA-TTS/federal-website-standards/issues/new/choose) if you find an issue.
 
-### Discussion
+### Discussions
 
 We're testing [GitHub discussions as a place to discuss the standards](https://github.com/GSA-TTS/federal-website-standards/discussions). Federal agency staff and other stakeholders can participate in discussions, ask questions, or propose ideas. 
 
