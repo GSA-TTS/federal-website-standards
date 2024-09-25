@@ -17,7 +17,6 @@ join_the_conversation_name: site search
 ## Status
 
 {% include "_includes/status/draft.html" %}
-
 {% include "_includes/join-the-conversation.html" discussion_number: github_discussion_number name: join_the_conversation_name %}
 
 ## Standard
