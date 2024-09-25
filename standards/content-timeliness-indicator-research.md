@@ -8,7 +8,7 @@ why: Timeliness indicators can increase user trust in the currency and accuracy 
 status: Research
 description: Timeliness indicators can increase trust in the currency and accuracy of information. Learn how to add timeliness indicators on your federal government site.
 surveyLink: 
-date: "2024-09-24"
+date: "2024-09-25"
 github_discussion_number: 188
 join_the_conversation_name: content timeliness indicators
 ---
