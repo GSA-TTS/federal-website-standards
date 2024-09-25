@@ -9,6 +9,8 @@ status: Research
 description: A contact page is important for building trust and serving your users. Learn how to create a good contact page for your federal government site.
 surveyLink: 
 date: "2024-09-12"
+github_discussion_number: 183
+join_the_conversation_name: contact page
 ---
 
 ## Status
@@ -30,8 +32,7 @@ We’re researching this potential standard. Research questions include:
 - Are users able to find the contact link as easily in the header, footer, or mobile menu?
 - What kind of contact information do users expect to see (at a minimum)?
 
-If you have research findings to share, let us know at website.standards@gsa.gov or [join a discussion on GitHub about contact information](https://github.com/GSA-TTS/federal-website-standards/discussions/183). 
-
+{% include "_includes/join-the-conversation.html" discussion_number: github_discussion_number name: join_the_conversation_name %}
 
 ## Examples of agency contact pages
 

@@ -9,6 +9,8 @@ status: Research
 description: Timeliness indicators can increase trust in the currency and accuracy of information. Learn how to add timeliness indicators on your federal government site.
 surveyLink: 
 date: "2024-09-24"
+github_discussion_number: 188
+join_the_conversation_name: content timeliness
 ---
 
 ## Status
@@ -32,7 +34,7 @@ We’re researching this potential standard. Research questions include:
 - Do users have preferences on the length of time between updates for certain types of content? 
 - How do users respond to multiple dates (e.g., published and updated)?
 
-If you have research findings to share, let us know at website.standards@gsa.gov or [join a discussion on GitHub about content timeliness](https://github.com/GSA-TTS/federal-website-standards/discussions/188).
+{% include "_includes/join-the-conversation.html" discussion_number: github_discussion_number name: join_the_conversation_name %}
 
 ## Read more
 

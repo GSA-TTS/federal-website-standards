@@ -10,6 +10,8 @@ description: Search functionality is an expected feature for websites and digita
 surveyLink: 
 pageFlowSection:
 date: "2024-09-12"
+github_discussion_number: 233
+join_the_conversation_name: site search
 ---
 
 ## Status
@@ -42,9 +44,9 @@ Public-facing websites of executive branch federal agencies
 - Follow the [U.S. Web Design System (USWDS) guidance on search](https://designsystem.digital.gov/components/search/).
 - The search function should be a site-wide global search. When appropriate for your users, the search feature could search subsets of content (e.g., help, blog, videos).
 
-
 ## Read more
 
 - [Get started with Search.gov](https://search.gov/get-started/)
 - [An introduction to search from Digital.gov](https://digital.gov/resources/an-introduction-to-search/)
 - [OMB memo on Delivering a Digital-First Public Experience: Information and services that are discoverable and optimized for search](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/#IIIA:~:text=4.%20Information%20and%20Services%20That%20Are%20Discoverable%20and%20Optimized%20for%20Search) 
+{% include "_includes/join-the-conversation.html" discussion_number: github_discussion_number name: join_the_conversation_name %}
