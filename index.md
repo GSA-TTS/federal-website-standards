@@ -15,4 +15,4 @@ Federal agencies are required to comply with website standards per the [21st Cen
 
 ## Standards will be released incrementally
 
-The standards are being developed through a deliberative process that involves research with the public, federal agencies, and other stakeholders. We'll continue to post information about standards as they're being developed. We'll also improve this website based on your feedback. 
+The standards are developed through a rigorous and iterative process involving federal agencies, the public, and other stakeholders. We'll continue to post information about standards as they're being developed. We'll also improve this website based on your feedback. 
