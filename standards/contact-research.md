@@ -1,7 +1,7 @@
 ---
 layout: layouts/page-single
 tags: standards
-title: Agency contact page
+title: Contact page
 category:
   ["Information and services that are discoverable and optimized for search"]
 why: Contact information that is easily and consistently accessible builds trust and credibility.
@@ -10,7 +10,7 @@ description: A contact page is important for building trust and serving your use
 surveyLink: 
 date: "2024-09-12"
 github_discussion_number: 183
-join_the_conversation_name: agency contact pages
+join_the_conversation_name: contact pages
 ---
 
 ## Status
