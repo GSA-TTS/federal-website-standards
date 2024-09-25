@@ -19,7 +19,7 @@ We’ll publish information about standards as they're being developed. Each sta
 
 - **Research**: This standard is being researched with the public, federal agencies, and other stakeholders.
 - **Draft**: This standard has been drafted and is being shared with federal agencies and other stakeholders for feedback and iteration.
-- **Pending**: This standard has been finalized and will be required after a specified period of time following its initial publication. Federal agencies can begin working to comply with pending standards.
+- **Pending**: This standard has been finalized. It will be required after a specified time period following its move to the pending status. Federal agencies can begin working to comply with pending standards.
 - **Required**: Federal agencies must comply with this standard.
 
 ## How standards are developed
