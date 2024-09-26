@@ -14,7 +14,9 @@ This template is for a single page that does not have a date associated with it.
       {% endif %}
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
         {% if title %}
-          <h1 class="title"> {{ title }} </h1>
+          {% if permalink != '404.html' %}
+            <h1 class="title"> {{ title }} </h1>
+          {% endif %}
         {% endif %}
         {{ content }}
         {% if summary == true %}
