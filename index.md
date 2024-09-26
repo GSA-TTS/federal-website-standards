@@ -10,7 +10,7 @@ Federal agencies are required to comply with website standards per the [21st Cen
 
 ## Actions for federal agencies to take{.checklist}
 - Review the [standards](standards).
-- Consider how the standards apply to your public-facing websites.
+- Consider how the standards apply to your websites and digital services that are intended for use by the public.
 - Plan to evaluate your compliance with the [three pending standards](standards). Pending standards are finalized. They will be required after a specified time period following their move to the pending status. Federal agencies can begin working to comply with pending standards.
 
 ## Standards will be released incrementally
