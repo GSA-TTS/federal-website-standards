@@ -25,7 +25,7 @@ The meta description supports accessibility and discoverability. The meta descri
 
 ## Applies to
 
-Public-facing websites of executive branch federal agencies
+Executive branch agency websites and digital services that are intended for use by the public
 
 ## Acceptance criteria
 
