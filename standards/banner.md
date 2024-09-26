@@ -25,7 +25,7 @@ The banner identifies official websites of federal government organizations in t
 
 ## Applies to
 
-Public-facing websites of executive branch federal agencies using .gov or .mil domains
+Executive branch agency websites and digital services that are intended for use by the public and on .gov or .mil domains
 
 ## Acceptance criteria
 
