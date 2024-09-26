@@ -1,4 +1,4 @@
-# Federal website standards (DRAFT)
+# Federal website standards
 
 This repo is for federal website standards for U.S. executive branch federal agencies. We’re developing standards to help agencies provide high-quality, consistent digital experiences for everyone. Federal agencies are required to comply with website standards per the [21st Century Integrated Digital Experience Act (IDEA)](https://www.congress.gov/bill/115th-congress/house-bill/5759/text). Standards will align with the 21st Century IDEA, [OMB’s memo on Delivering a Digital-First Public Experience (M-23-22)](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/), and other relevant policy requirements and best practices.
 
