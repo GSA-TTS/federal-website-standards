@@ -25,7 +25,7 @@ A descriptive page title is important for accessibility and discoverability. Peo
 
 ## Applies to
 
-Public-facing websites of executive branch federal agencies
+Executive branch agency websites and digital services that are intended for use by the public
 
 ## Acceptance criteria
 
