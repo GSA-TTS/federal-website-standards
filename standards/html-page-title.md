@@ -25,7 +25,7 @@ A descriptive page title is important for accessibility and discoverability. Peo
 
 ## Applies to
 
-Public-facing websites of executive branch federal agencies
+Executive branch agency websites and digital services that are intended for use by the public
 
 ## Acceptance criteria
 
@@ -37,9 +37,12 @@ These conditions must be met to comply with this standard.
 
 ## How to implement
 
+These are tips to help you implement this standard.
+
 - Specify a title in the HTML `<title>` element for every page of your website. The `<title>` element is part of the `<head>` section in the web page HTML code.
-- Titles should be descriptive, unique, and concise. Try to keep titles to between 50 and 60 characters. Titles that are too short might not be descriptive enough and titles that are too long might be truncated on search results pages.
-- Provide context for visitors by including the site, product, service, or agency this page is part of in your HTML page title.
+- Titles should be unique, descriptive, and concise. Try to keep titles to between 50 and 60 characters. Titles that are too short might not be descriptive enough and titles that are too long might be truncated on search results pages.
+- Provide context for visitors by including branding information, like your site name, product, or agency, at the end of the HTML page title. The unique part of your page title should appear first.
+- The HTML page title pattern you choose should be consistent throughout the pages of your website.
 
 ## Examples
 

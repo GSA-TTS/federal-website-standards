@@ -25,7 +25,7 @@ The banner identifies official websites of federal government organizations in t
 
 ## Applies to
 
-Public-facing websites of executive branch federal agencies using .gov or .mil domains
+Executive branch agency websites and digital services that are intended for use by the public and on .gov or .mil domains
 
 ## Acceptance criteria
 
@@ -44,7 +44,9 @@ Agencies are encouraged to [use the USWDS banner component to meet this standard
 
 ## How to implement
 
-Follow the current [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner/).
+These are tips to help you implement this standard.
+
+- Follow the current [U.S. Web Design System (USWDS) guidance on the banner component](https://designsystem.digital.gov/components/banner/).
 
 ## Example
 

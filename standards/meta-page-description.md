@@ -6,7 +6,7 @@ category:
   ["Information and services that are discoverable and optimized for search"]
 why: The meta description supports accessibility and discoverability.
 status: Pending
-description: A descriptive and unique meta page description is important for accessibility and discoverability. Learn how to create quality meta page descriptions for your federal government site.
+description: A descriptive and unique meta page description is important for accessibility and discoverability. Learn how to create quality meta page descriptions for your site.
 surveyLink: 
 date: "2024-09-26"
 ---
@@ -25,7 +25,7 @@ The meta description supports accessibility and discoverability. The meta descri
 
 ## Applies to
 
-Public-facing websites of executive branch federal agencies
+Executive branch agency websites and digital services that are intended for use by the public
 
 ## Acceptance criteria
 
@@ -35,6 +35,8 @@ These conditions must be met to comply with this standard.
 - Meta page descriptions must be at least 50 characters to ensure that they provide enough detail about the page’s content.
 
 ## How to implement
+
+These are tips to help you implement this standard.
 
 - Include a description in the meta description tag for every page of your website. The meta description tag is part of the `<head>` section of a web page.
 - Page descriptions should summarize the content of a page. Descriptions should be written in plain language and include the most important information.

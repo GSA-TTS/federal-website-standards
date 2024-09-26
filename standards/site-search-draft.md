@@ -28,7 +28,7 @@ Search is a basic and universal part of using the internet, and search functiona
 
 ## Applies to
 
-Public-facing websites of executive branch federal agencies
+Executive branch agency websites and digital services that are intended for use by the public
 
 ## Acceptance criteria
 
@@ -37,6 +37,8 @@ Public-facing websites of executive branch federal agencies
 - The search function must be in the same place on every page of your site.
 
 ## How to implement
+
+These are tips to help you implement this standard.
 
 - Use [Search.gov](http://Search.gov) for on-site search solutions, or make sure your site can be indexed by Search.gov.
 - Follow the [U.S. Web Design System (USWDS) guidance on search](https://designsystem.digital.gov/components/search/).
