@@ -1,0 +1,10 @@
+Sitemap: https://standards.digital.gov/sitemap.xml
+
+User-agent: usasearch
+
+Allow: /
+Crawl-delay: 2
+
+User-agent: *
+Allow: /
+Crawl-delay: 10
