@@ -35,7 +35,7 @@ We’re researching this potential standard. Research questions include:
 ## Read more
 
 - [USWDS research on external link indicators (GitHub.com)](https://github.com/uswds/uswds/wiki/2021-07-29-External-Link-Indicator-Research-Findings)
-- [Links to new windows, pop-ups, other frames, or external web sites (WebAim.org)](http://WebAim.org)
+- [Links to new windows, pop-ups, other frames, or external web sites (WebAim.org)](https://webaim.org/techniques/hypertext/hypertext_links#new_window)
 - [External links (Moz.com)](https://moz.com/learn/seo/external-link)
 - [Australian government style manual: don’t use exit modals (stylemanual.gov.au)](https://www.stylemanual.gov.au/structuring-content/links#dont_use_exit_modals)
 - [Gov.UK design system: external links (Gov.UK)](https://design-system.service.gov.uk/styles/links/#external-links)
