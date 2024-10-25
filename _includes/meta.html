@@ -23,15 +23,18 @@ to modify some of the meta-data for the site, this is the place to do it.
   <meta property="og:title" content="{{ title }} | {{ site.title }}" />
   <meta name="description" content="{{ description }}" />
   <meta property="og:description" content="{{ description }}" />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="{{ page.url | url }}" />
+  <meta property="og:url" content="{{ page.url | url }}" />
+<meta property="og:site_name" content="Federal website standards" />
+<meta property="og:image" content="https://standards.digital.gov/_img/favicon/favicon.ico" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{{ title }} | {{ site.title }}" />
   <meta name="twitter:description" content="{{ description }}" />
 
-  <meta property="og:type" content="article" />
-  <link rel="canonical" href="{{ page.url | url }}" />
-  <meta property="og:url" content="{{ page.url | url }}" />
+  
   <script async="" src="{{ assetPaths['uswds.js'] }} "></script>
   <!-- CSS
     ================================================== -->
@@ -41,4 +44,7 @@ to modify some of the meta-data for the site, this is the place to do it.
   <!-- Google Search Console verification
     ================================================== -->
   <meta name="google-site-verification" content="qy96l97sLnNaIMIOFX5MfCSHPare7BlNI1z-gywFLYI" />
+
+      <!-- favicon -->
+    <link rel="icon" href="{{ '/_img/favicon/favicon.ico' | url }}" sizes="any" />
 </head>
