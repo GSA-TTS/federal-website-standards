@@ -46,15 +46,15 @@ These are tips to help you implement this standard.
 - Contact pages should be well-structured and include all contact options for your agency, product, or service.
 - Contact pages should include information to help people choose the best option (e.g., response times, hours of operation).
 
-| Contact option | Recommendation | Accessibility consideration | 
-| :-------- | :------- | :------- |
-| Email address| Include expected response time | | 
-| Phone number| Include hours of operation | | 
-| Contact form | Include expected response time | | 
-| Chat | Tell users whether they will interact with a person or a chatbot | |  
-| Social media channels | Include expected response time | | 
-| Physical address | Include a physical address if that’s appropriate for your audience. | | 
-| Mailing address | Include a mailing address if appropriate for your audience and if it’s different from the physical address. | | 
+| Contact option | Recommendation | 
+| :-------- | :------- |
+| Email address| Include expected response time | 
+| Phone number| Include hours of operation | 
+| Contact form | Include expected response time | 
+| Chat | Tell users whether they will interact with a person or a chatbot | 
+| Social media channels | Include expected response time | 
+| Physical address | Include a physical address if that’s appropriate for your audience. |
+| Mailing address | Include a mailing address if appropriate for your audience and if it’s different from the physical address. | 
 
 ## Examples
 
