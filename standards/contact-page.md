@@ -8,7 +8,7 @@ status: Draft
 description: Contact information that is easily and consistently accessible enables people to ask questions, give feedback, or get help with minimal obstacles. 
 github_discussion_number: 183
 join_the_conversation_name: contact pages
-date: "2024-10-26"
+date: "2024-10-28"
 ---
 
 ## Status
