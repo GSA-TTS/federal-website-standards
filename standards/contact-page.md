@@ -1,4 +1,3 @@
-
 ---
 layout: layouts/page-single
 tags: standards
