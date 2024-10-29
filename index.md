@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: layouts/page
-description: Federal website standards will help agencies provide high-quality, consistent experiences for everyone. Comply with standards to improve your federal site.
+description: Federal website standards will help U.S. government agencies provide high-quality, consistent experiences for everyone. Comply with standards to improve your federal government site.
 ---
 
 Most people interact with the federal government online. Websites, apps, and online services offered by federal agencies should be easy to use and effective. We’re developing federal website standards to help agencies provide high-quality, consistent digital experiences for everyone. 
