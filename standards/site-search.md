@@ -50,7 +50,7 @@ These are tips to help you implement this standard.
 - On a mobile view, the search function should be outside of the mobile menu or at the top of the mobile menu.
 - The search function should be a site-wide global search. When appropriate for your users, the search feature could search subsets of content (e.g., help, blog, videos).
 
-NOTE: [The U.S. Web Design System (USWDS) search component](https://designsystem.digital.gov/components/search/) does not currently align with all of the relevant acceptance criteria for this draft standard. The USWDS search component will be updated before this standard moves to the pending phase. USWDS and the federal website standards will always aim to be in alignment.
+NOTE: [The U.S. Web Design System (USWDS) search component](https://designsystem.digital.gov/components/search/) does not currently align with all of the relevant acceptance criteria for this draft standard. USWDS will update its search component before this standard moves to the pending phase. USWDS and the federal website standards will always aim to be in alignment.
 
 ## Read more
 
