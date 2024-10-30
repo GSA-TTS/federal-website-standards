@@ -32,8 +32,7 @@ This template is for a single page with meta data. It should feed the page-colum
       <span>Last updated&nbsp;</span>
       <time datetime="{{ page.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
        {{ page.date | toISOString: 'DDD' }}
-      </time>
-       (<a href="https://github.com/GSA-TTS/federal-website-standards/commits/main/{{ page.inputPath | remove_first: '.' }}">View the change history of this standard</a>.)
+      </time> | <a href="https://github.com/GSA-TTS/federal-website-standards/commits/main/{{ page.inputPath | remove_first: '.' }}">View the change history of this standard</a>
     </div>
     </div>
 </div>
