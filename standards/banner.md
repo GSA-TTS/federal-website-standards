@@ -2,12 +2,9 @@
 layout: layouts/page-single
 tags: standards
 title: Federal government banner
-category: ["Consistent visual design and agency brand identity"]
 why: The banner identifies official websites of federal government organizations in the United States.
 status: Pending
 description: The federal government banner identifies official federal government sites. Learn how to implement the banner on your federal government site.
-surveyLink: 
-eleventyExcludeFromCollections: false
 date: "2024-09-26"
 ---
 

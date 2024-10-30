@@ -2,12 +2,9 @@
 layout: layouts/page-single
 tags: standards
 title: Meta page description
-category:
-  ["Information and services that are discoverable and optimized for search"]
 why: The meta description supports accessibility and discoverability.
 status: Pending
 description: A descriptive and unique meta page description is important for accessibility and discoverability. Learn how to create quality meta page descriptions for your site.
-surveyLink: 
 date: "2024-09-26"
 ---
 
