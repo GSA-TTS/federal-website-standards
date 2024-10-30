@@ -9,7 +9,7 @@ status: Draft
 description: Search functionality is an expected feature for websites and digital services. Learn how to add a search capability to your federal government site.
 surveyLink: 
 pageFlowSection:
-date: "2024-09-25"
+date: "2024-10-30"
 github_discussion_number: 233
 join_the_conversation_name: site search
 ---
