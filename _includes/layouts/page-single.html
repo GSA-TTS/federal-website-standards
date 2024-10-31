@@ -33,6 +33,7 @@ This template is for a single page with meta data. It should feed the page-colum
       <time datetime="{{ page.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
        {{ page.date | toISOString: 'DDD' }}
       </time>
+      <span>&nbsp; | &nbsp;<a href="https://github.com/GSA-TTS/federal-website-standards/commits/main/{{ page.inputPath | remove_first: '.' }}">Version history</a></span>
     </div>
     </div>
 </div>
