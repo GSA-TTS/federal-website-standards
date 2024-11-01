@@ -62,7 +62,7 @@ Use the most appropriate indicators for the type of content being managed.
 #### Announcements, alerts 
 
 - Include a publication date.
-- Add an expiration date if applicable.
+- Add an effective date and/or an expiration date if applicable.
 
 #### Data, statistics
 
