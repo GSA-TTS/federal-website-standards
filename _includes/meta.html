@@ -7,39 +7,41 @@ to modify some of the meta-data for the site, this is the place to do it.
   <!-- Basic Page Needs
     ================================================== -->
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Specific Metas
-    ================================================== -->
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="MobileOptimized" content="320" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Title and meta description
-    ================================================== -->
   {% if permalink == '/' %}
     <title>Federal website standards for executive branch federal agencies</title>
   {% else %}
     <title>{{ title }} | {{ site.title }}</title>
   {% endif %}
+  <script src="{{ assetPaths['uswds-init.js'] }}"></script>
+  <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
+
+  {% comment %}
+  Preload only the files that are needed for the content in the initial viewport. This
+  will likely include the fonts needed for the navigation, page heading, and the font needed for the
+  first paragraph of body copy. The `crossorigin` attribute may be required based on the type
+  of asset you wish to preload in order for the preload to work properly.
+  {% endcomment %}
+  <link rel="preload" href="{{ assetPaths['PublicSans-Regular.woff2'] }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ assetPaths['PublicSans-Bold.woff2'] }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ assetPaths['Latin-Merriweather-Bold.woff2'] }}" as="font" type="font/woff2" crossorigin>
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  
   <meta property="og:title" content="{{ title }} | {{ site.title }}" />
   <meta name="description" content="{{ description }}" />
   <meta property="og:description" content="{{ description }}" />
   <meta property="og:type" content="website" />
   <link rel="canonical" href="{{ page.url | url }}" />
   <meta property="og:url" content="{{ page.url | url }}" />
-<meta property="og:site_name" content="Federal website standards" />
-<meta property="og:image" content="https://standards.digital.gov/_img/favicon/favicon.ico" />
+  <meta property="og:site_name" content="Federal website standards" />
+  <meta property="og:image" content="https://standards.digital.gov/_img/favicon/favicon.ico" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{{ title }} | {{ site.title }}" />
   <meta name="twitter:description" content="{{ description }}" />
-
-  
-  <script async="" src="{{ assetPaths['uswds.js'] }} "></script>
-  <!-- CSS
-    ================================================== -->
-    <link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />
-    <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
 
   <!-- Google Search Console verification
     ================================================== -->
