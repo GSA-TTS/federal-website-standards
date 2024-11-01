@@ -29,7 +29,6 @@
     "@11ty/eleventy-img": "^4.0.2",
     "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
-    "@fullhuman/postcss-purgecss": "^6.0.0",
     "autoprefixer": "^10.4.2",
     "chokidar-cli": "^3.0.0",
     "eleventy-plugin-svg-sprite": "^2.4.2",
