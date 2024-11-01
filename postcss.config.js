@@ -5,5 +5,6 @@ module.exports = {
         require('autoprefixer')({
             map: process.env.ELEVENTY_ENV !== 'production'
         }),
+        ...(process.env.ELEVENTY_ENV === 'production' ? [require("@fullhuman/postcss-purgecss")(purgeCSSOptions)] : [])
     ],
 };
