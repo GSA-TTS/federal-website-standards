@@ -17,7 +17,7 @@
     "dev:debug": "DEBUG=* npx @11ty/eleventy --serve --watch",
     "dev:serve": "npx @11ty/eleventy --serve --watch",
     "dev:cms": "npx netlify-cms-proxy-server",
-    "federalist": "ELEVENTY_ENV=production npm run build",
+    "federalist": "npm run build && ELEVENTY_ENV=production npm run assets:autoprefix",
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,6 +29,7 @@
     "@11ty/eleventy-img": "^4.0.2",
     "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "@fullhuman/postcss-purgecss": "^6.0.0",
     "autoprefixer": "^10.4.2",
     "chokidar-cli": "^3.0.0",
     "eleventy-plugin-svg-sprite": "^2.4.2",
