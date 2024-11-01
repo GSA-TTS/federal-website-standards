@@ -45,7 +45,7 @@ These are tips to help you implement this standard.
 - **Placement**: Put the timeliness indicator at the top or bottom of the page. Place the indicator in a consistent location on all pages of the same content type.
 - **Format**: Use the full month name followed by the day and year as in this example: `Updated June 27, 2024`. The full month name is clearer than using an abbreviation or only numbers.
 - **When to change the date**: Update the date if the content changes substantively. A substantive change is one that impacts the information in a way that is relevant to your audience.
-- **Language**: Use plain language to specify when content was published, last updated, or last reviewed. Acceptable phrases include:
+- **Language**: Use plain language to specify when content was published, last updated, or last reviewed. Recommended phrases include:
   - `Published May 8, 2024`
   - `Updated June 12, 2024`
   - `Reviewed July 1, 2024`
