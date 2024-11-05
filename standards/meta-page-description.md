@@ -6,7 +6,7 @@ why: The meta description supports accessibility and discoverability.
 status: Pending
 description: A descriptive and unique meta page description is important for accessibility and discoverability. Learn how to create quality meta page descriptions for your site.
 date: "2024-09-26"
-comply_by_date: "September 26th, 2025"
+comply_by_date: "September 26, 2025"
 ---
 
 ## Status
