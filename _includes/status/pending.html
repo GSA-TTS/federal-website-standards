@@ -1,3 +1,4 @@
+{% assign date = comply_by_date | default: "September 26th, 2025" %}
 <div class="usa-step-indicator usa-step-indicator--counters" aria-label="progress">
   <ol class="usa-step-indicator__segments">
     <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
@@ -16,6 +17,6 @@
 
   <div class="margin-top-4 usa-prose">
     <p class="desktop:display-none text-bold">Pending</p>
-    <p>This standard will be pending for one year. Agencies will be required to comply with this standard on September 26, 2025.</p>
+    <p>This standard will be pending for one year. Agencies will be required to comply with this standard on {{ date }}.</p>
   </div>
 </div>
