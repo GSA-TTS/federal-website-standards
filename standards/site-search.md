@@ -5,7 +5,7 @@ title: Site search
 why: Search functionality is an expected feature for websites and digital services.
 status: Draft
 description: Search functionality is an expected feature for websites and digital services. Learn how to add a search capability to your federal government site.
-date: "2024-10-30"
+date: "2024-11-05"
 github_discussion_number: 233
 join_the_conversation_name: site search
 ---
