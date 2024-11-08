@@ -1,13 +1,13 @@
 ---
 layout: layouts/page-single
 tags: standards
-title: External links
+title: External link
 why: Informing users when a link will take them to a different site helps them decide whether or not to click that link. 
 status: Research
 description: We're researching the value of indicating links to external sites clearly and consistently.
 date: "2024-10-11"
 github_discussion_number: 271
-join_the_conversation_name: external links
+join_the_conversation_name: external link
 ---
 
 ## Status
