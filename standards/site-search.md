@@ -28,7 +28,7 @@ Executive branch agency websites and digital services that are intended for use 
 
 ### Exemptions
 
-This standard is not practicable, and therefore does not apply, in the following cases:
+This standard is not practicable in the following circumstances:
 - Digital products with minimal content that can easily be navigated without a search function
 - Digital products whose sole purpose is to provide a lookup function (e.g., [https://data.census.gov/](https://data.census.gov/), [https://889.smartpay.gsa.gov/](https://889.smartpay.gsa.gov/), [https://www.usaspending.gov/](https://www.usaspending.gov/))
 - Narrowly-focused applications that require user input in which a site search would take the user away from the application (e.g., job application, benefit enrollment)
