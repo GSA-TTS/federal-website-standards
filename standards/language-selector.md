@@ -25,11 +25,12 @@ Language selectors that follow best practices significantly improve the user exp
 ## Research questions
 
 We’re researching this potential standard. Research questions include:
-- Would consistent labeling of external links on federal government sites be valuable for users?
-- How should an external link be defined? How do users define it? Should it be any link that takes users off the current site, or any link that takes users off a .gov site?
-- Do users notice and understand the external link icon?
-- How do users interpret textual indicators that a link will take them away from the current site (e.g., [Get started with Search.gov](https://search.gov/get-started/), [How to write meta descriptions [Google.com]](https://developers.google.com/search/docs/appearance/snippet#meta-descriptions))?
-- Should this standard include guidance on when a link should open in a new window?
+- What’s the most effective way to help users find their preferred language on desktop and mobile (text, icon, browser language, etc.)?
+- How should the number of languages offered impact the language selector?
+- What order makes sense to users when there are many languages (alphabetized by English name, by non-Latin script, etc.)
+- Where should the language selector be in relation to other utilities (e.g., login, search)?
+- What should the role of the language selector be when only selected content is available in multiple languages?
+
 
 ## Read more
 
