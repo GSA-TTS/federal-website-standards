@@ -9,7 +9,7 @@ to modify some of the meta-data for the site, this is the place to do it.
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {%- capture pageTitle -%}
-    {% if title %}{{ title }} | {{ site.title }}{% else %}Federal website standards for U.S. government agencies{% endif %}
+    {% if title %}{{ title }} | {{ site.title }}{% else %}Federal website standards{% endif %}
   {%- endcapture -%}
   <title>{{ pageTitle }}</title>
   <script src="{{ assetPaths['uswds-init.js'] }}"></script>
