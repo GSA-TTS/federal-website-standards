@@ -83,16 +83,35 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const selectAll = (clickEvent) => {
-    statusButtons.forEach(button => {
-      const status = button.dataset.status;
-      button.dataset.selected = true;
-      button.classList.remove(`${status}-outline`);
-    });
+    const clickedOn = clickEvent.target.checked;
 
-    requiredDiv.classList.remove('display-none');
-    pendingDiv.classList.remove('display-none');
-    draftDiv.classList.remove('display-none');
-    researchDiv.classList.remove('display-none');
+    if (clickedOn) {
+      statusButtons.forEach(button => {
+        const status = button.dataset.status;
+        button.dataset.selected = true;
+        button.classList.remove(`${status}-outline`);
+      });
+
+      requiredDiv.classList.remove('display-none');
+      pendingDiv.classList.remove('display-none');
+      draftDiv.classList.remove('display-none');
+      researchDiv.classList.remove('display-none');
+
+      noStatusesSelectedDiv.classList.add('display-none');
+    } else {
+      statusButtons.forEach(button => {
+        const status = button.dataset.status;
+        button.dataset.selected = false;
+        button.classList.add(`${status}-outline`);
+      });
+
+      requiredDiv.classList.add('display-none');
+      pendingDiv.classList.add('display-none');
+      draftDiv.classList.add('display-none');
+      researchDiv.classList.add('display-none');
+
+      noStatusesSelectedDiv.classList.remove('display-none');
+    }
   };
 
   statusButtons.forEach(button => {
