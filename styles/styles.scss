@@ -112,13 +112,31 @@ that class
 }
 
 .card-header-research-color-splash {
+  border: 2px solid $research;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   background-color: $research;
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-right: -2px;
 }
 
 .card-header-draft-color-splash {
+  border: 2px solid $draft;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   background-color: $draft;
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-right: -2px;
 }
 
 .card-header-pending-color-splash {
+  border: 2px solid $pending;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   background-color: $pending;
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-right: -2px;
 }
