@@ -8,11 +8,10 @@ to modify some of the meta-data for the site, this is the place to do it.
     ================================================== -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  {% if permalink == '/' %}
-    <title>Federal website standards for U.S. government agencies</title>
-  {% else %}
-    <title>{{ title }} | {{ site.title }}</title>
-  {% endif %}
+  {%- capture pageTitle -%}
+    {% if title %}{{ title }} | {{ site.title }}{% else %}Federal website standards for U.S. government agencies{% endif %}
+  {%- endcapture -%}
+  <title>{{ pageTitle }}</title>
   <script src="{{ assetPaths['uswds-init.js'] }}"></script>
   <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
 
@@ -28,14 +27,8 @@ to modify some of the meta-data for the site, this is the place to do it.
 
   <meta name="HandheldFriendly" content="True" />
   <meta name="MobileOptimized" content="320" />
-  
 
-  {% if permalink == '/' %}
-    <meta property="og:title" content="{{ site.title }}" />
-  {% else %}
-    <meta property="og:title" content="{{ title }} | {{ site.title }}" />
-  {% endif %}
-  <meta property="og:title" content="{{ title }} | {{ site.title }}" />
+  <meta property="og:title" content="{{ pageTitle }}" />
   <meta name="description" content="{{ description }}" />
   <meta property="og:description" content="{{ description }}" />
   <meta property="og:type" content="website" />
@@ -46,7 +39,7 @@ to modify some of the meta-data for the site, this is the place to do it.
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
-  <meta name="twitter:title" content="{{ title }} | {{ site.title }}" />
+  <meta name="twitter:title" content="{{ pageTitle }}" />
   <meta name="twitter:description" content="{{ description }}" />
 
   <!-- Google Search Console verification
