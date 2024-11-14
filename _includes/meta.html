@@ -29,6 +29,12 @@ to modify some of the meta-data for the site, this is the place to do it.
   <meta name="HandheldFriendly" content="True" />
   <meta name="MobileOptimized" content="320" />
   
+
+  {% if permalink == '/' %}
+    <meta property="og:title" content="{{ site.title }}" />
+  {% else %}
+    <meta property="og:title" content="{{ title }} | {{ site.title }}" />
+  {% endif %}
   <meta property="og:title" content="{{ title }} | {{ site.title }}" />
   <meta name="description" content="{{ description }}" />
   <meta property="og:description" content="{{ description }}" />
