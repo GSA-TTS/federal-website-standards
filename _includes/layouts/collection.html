@@ -16,22 +16,52 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
   <p>We’ll post information about standards as they're being developed. Each standard will have a status to indicate where it is in the process: research, draft, pending, or required. </p>
 
   <p class="margin-top-5">Select to view standards at specific stages.</p>
+  
   <div id="status-selectors">
-    <ul class="usa-button-group">
-      <li class="usa-button-group__item tablet:margin-right-2">
-        <button type="button" class="usa-button" id="research-button" data-status="research" data-selected="true">Research</button>
-      </li>
-      <li class="usa-button-group__item tablet:margin-right-2">
-        <button type="button" class="usa-button" id="draft-button" data-status="draft" data-selected="true">Draft</button>
-      </li>
-      <li class="usa-button-group__item tablet:margin-right-2">
-        <button type="button" class="usa-button" id="pending-button" data-status="pending" data-selected="true">Pending</button>
-      </li>
-      <li class="usa-button-group__item">
-        <button type="button" class="usa-button" id="required-button" data-status="required" data-selected="true">Required</button>
-      </li>
-    </ul>
+    <div class="display-none tablet:display-block">
+      <ul class="usa-button-group">
+        <li class="usa-button-group__item grid-col-6 tablet:grid-col-auto">
+          <button type="button" class="usa-button" id="research-button" data-status="research" data-selected="true">Research</button>
+        </li>
+        <li class="usa-button-group__item grid-col-6 tablet:grid-col-auto">
+          <button type="button" class="usa-button" id="draft-button" data-status="draft" data-selected="true">Draft</button>
+        </li>
+        <li class="usa-button-group__item grid-col-6 tablet:grid-col-auto">
+          <button type="button" class="usa-button" id="pending-button" data-status="pending" data-selected="true">Pending</button>
+        </li>
+        <li class="usa-button-group__item grid-col-6 tablet:grid-col-auto">
+          <button type="button" class="usa-button" id="required-button" data-status="required" data-selected="true">Required</button>
+        </li>
+      </ul>
+    </div>
+
+    {% comment %}
+    These are the status selectors for mobile, it's a different div because we wanted to split the buttons up into
+    two columns on mobile without affecting the desktop look
+    {% endcomment %}
+    <div class="tablet:display-none">
+      <ul class="usa-button-group">
+        <div class="grid-row">
+        <li class="usa-button-group__item grid-col-auto">
+          <button type="button" class="usa-button" id="research-button" data-status="research" data-selected="true">Research</button>
+        </li>
+        <li class="usa-button-group__item grid-col-auto">
+          <button type="button" class="usa-button" id="draft-button" data-status="draft" data-selected="true">Draft</button>
+        </li>
+        </div>
+        <div class="grid-row">
+        <li class="usa-button-group__item grid-col-auto">
+          <button type="button" class="usa-button" id="pending-button" data-status="pending" data-selected="true">Pending</button>
+        </li>
+        <li class="usa-button-group__item grid-col-auto">
+          <button type="button" class="usa-button" id="required-button" data-status="required" data-selected="true">Required</button>
+        </li>
+        </div>
+      </ul>
+    </div>
   </div>
+
+ 
 
   <div class="usa-checkbox margin-bottom-5">
     <input

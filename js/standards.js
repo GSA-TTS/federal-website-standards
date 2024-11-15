@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Render all standards based on what's selected
-  // Grab required-standards, pending-standards, draft-standards, research-standards to show/hide
-  // Add click listeners to the four buttons
 
   const statusButtons = document.querySelectorAll('#status-selectors button');
   const requiredDiv = document.getElementById('required-standards');
@@ -11,8 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const selectAllButton = document.getElementById('select-all-standards');
   const noStatusesSelectedDiv = document.getElementById('no-statuses-selected');
 
-  const yaClickedTheButton = (clickEvent) => {
-    console.log('Yep, you clicked. Nice job.');
+  const statusButtonClicked = (clickEvent) => {
     const button = clickEvent.target;
     const status = button.dataset.status;
     let isSelected = (button.dataset.selected === true || button.dataset.selected === 'true');
@@ -115,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   statusButtons.forEach(button => {
-    button.addEventListener('click', yaClickedTheButton);
+    button.addEventListener('click', statusButtonClicked);
   });
 
   selectAllButton.addEventListener('click', selectAll);
