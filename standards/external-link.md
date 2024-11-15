@@ -9,7 +9,7 @@ date: "2024-10-11"
 github_discussion_number: 271
 join_the_conversation_name: external link
 permalink: /standards/external-link/
-redirect_from: /standards/external-link/
+redirect_from: /standards/external-links/
 ---
 
 ## Status
