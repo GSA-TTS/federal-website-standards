@@ -8,6 +8,7 @@ description: We're researching the value of indicating links to external sites c
 date: "2024-10-11"
 github_discussion_number: 271
 join_the_conversation_name: external link
+permalink: /external-link/
 redirect_from: /external-links/
 ---
 
