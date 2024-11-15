@@ -35,14 +35,14 @@ to modify some of the meta-data for the site, this is the place to do it.
   <link rel="canonical" href="{{ page.url | url }}" />
   <meta property="og:url" content="{{ page.url | url }}" />
   <meta property="og:site_name" content="Federal website standards" />
-  <meta property="og:image" content="https://standards.digital.gov/_img/og_image.png" />
+
+  <meta property="og:image" content="{% image_path '_img/og_image.png' %}"/>
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{{ pageTitle }}" />
   <meta name="twitter:description" content="{{ description }}" />
-  <meta name="twitter:image" content="{{ '/_img/og_image.png' | url }}" />
-
+  <meta name="twitter:image" content="{% image_path '_img/og_image.png' %}"/>
 
   <!-- Google Search Console verification
     ================================================== -->
