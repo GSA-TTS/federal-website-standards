@@ -41,7 +41,8 @@ to modify some of the meta-data for the site, this is the place to do it.
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{{ pageTitle }}" />
   <meta name="twitter:description" content="{{ description }}" />
-  <meta name="twitter:image" content="https://standards.digital.gov/_img/og_image.png" />
+  <meta name="twitter:image" content="{{ '/_img/og_image.png' | url }}" />
+
 
   <!-- Google Search Console verification
     ================================================== -->
