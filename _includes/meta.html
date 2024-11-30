@@ -52,4 +52,13 @@ to modify some of the meta-data for the site, this is the place to do it.
 
       <!-- favicon -->
     <link rel="icon" href="{{ '/_img/favicon/favicon.ico' | url }}" sizes="any" />
+
+  {% comment %}
+  If you define a script in the front matter of a page or layout it will be included here in the head tag.
+  This is useful for scripts that don't need to run on every page. Make sure the script gets added to the
+  entryPoints array in the buildAssets script so that it's added to the assetPaths file.
+  {% endcomment %}
+  {% if script %}
+    <script src="{{ assetPaths[script] }}" defer></script>
+  {% endif %}
 </head>
