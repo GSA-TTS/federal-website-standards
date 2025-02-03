@@ -6,7 +6,7 @@ description: Federal website standards help U.S. government agencies provide hig
 
 Most people interact with the federal government online. Websites, apps, and online services offered by federal agencies should be easy to use and effective. We’re developing federal website standards to help agencies provide high-quality, consistent digital experiences for everyone. 
 
-Federal agencies are required to comply with website standards per the [21st Century Integrated Digital Experience Act (IDEA)](https://www.congress.gov/bill/115th-congress/house-bill/5759/text). Standards will align with the 21st Century IDEA, [OMB’s memo on Delivering a Digital-First Public Experience (M-23-22)](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/), and other relevant policy requirements and best practices. 
+Federal agencies are required to comply with website standards per the [21st Century Integrated Digital Experience Act (IDEA)](https://www.congress.gov/bill/115th-congress/house-bill/5759/text). Standards will align with the 21st Century IDEA and other relevant policy requirements and best practices. 
 
 ## Actions for federal agencies to take{.checklist}
 - Review the [standards](standards).
