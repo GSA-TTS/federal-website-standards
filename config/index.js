@@ -30,7 +30,21 @@ async function imageShortcode(src, alt, aria) {
   return await imageWithClassShortcode(src, '', alt, aria)
 };
 
+async function getImageData(imageSrc, fileType) {
+  return await Image(imageSrc, {
+    formats: [fileType],
+    outputDir: './_site/img/',
+  });
+}
+
+async function imagePathShortcode(imageSrc) {
+  const fileType = 'png';
+  const metadata = await getImageData(imageSrc, fileType);
+  return metadata[fileType][0].url;
+}
+
 module.exports = {
   imageWithClassShortcode,
-  imageShortcode
+  imageShortcode,
+  imagePathShortcode
 }
