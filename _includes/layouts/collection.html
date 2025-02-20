@@ -1,5 +1,6 @@
 ---
 layout: layouts/page-columns
+script: standards.js
 ---
 {% comment %}
 This template uses the USWDS card component.
@@ -14,104 +15,175 @@ See https://designsystem.digital.gov/components/card/#when-to-use-the-card-compo
   <p>Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone. The standards cover common visual and technical elements and reflect user experience best practices.</p>
   <p>We’ll post information about standards as they're being developed. Each standard will have a status to indicate where it is in the process: research, draft, pending, or required. </p>
 
-  {% include "_includes/step-indicator.html" %}
+  <p class="margin-top-5">Select to view standards at specific stages.</p>
+  
+  <div id="status-selectors">
+    <div class="display-none tablet:display-block">
+      <ul class="usa-button-group">
+        <li class="usa-button-group__item grid-col-6 tablet:grid-col-auto">
+          <button type="button" class="usa-button" id="research-button" data-status="research" data-selected="true">Research</button>
+        </li>
+        <li class="usa-button-group__item grid-col-6 tablet:grid-col-auto">
+          <button type="button" class="usa-button" id="draft-button" data-status="draft" data-selected="true">Draft</button>
+        </li>
+        <li class="usa-button-group__item grid-col-6 tablet:grid-col-auto">
+          <button type="button" class="usa-button" id="pending-button" data-status="pending" data-selected="true">Pending</button>
+        </li>
+        <li class="usa-button-group__item grid-col-6 tablet:grid-col-auto">
+          <button type="button" class="usa-button" id="required-button" data-status="required" data-selected="true">Required</button>
+        </li>
+      </ul>
+    </div>
 
-<h2 class="font-heading-xl padding-top-1">Required</h2>
-<p>There are no required standards at this time.</p>
+    {% comment %}
+    These are the status selectors for mobile, it's a different div because we wanted to split the buttons up into
+    two columns on mobile without affecting the desktop look
+    {% endcomment %}
+    <div class="tablet:display-none">
+      <ul class="usa-button-group">
+        <div class="grid-row">
+        <li class="usa-button-group__item grid-col-auto">
+          <button type="button" class="usa-button" id="research-button" data-status="research" data-selected="true">Research</button>
+        </li>
+        <li class="usa-button-group__item grid-col-auto">
+          <button type="button" class="usa-button" id="draft-button" data-status="draft" data-selected="true">Draft</button>
+        </li>
+        </div>
+        <div class="grid-row">
+        <li class="usa-button-group__item grid-col-auto">
+          <button type="button" class="usa-button" id="pending-button" data-status="pending" data-selected="true">Pending</button>
+        </li>
+        <li class="usa-button-group__item grid-col-auto">
+          <button type="button" class="usa-button" id="required-button" data-status="required" data-selected="true">Required</button>
+        </li>
+        </div>
+      </ul>
+    </div>
+  </div>
 
-<h2 class="font-heading-xl padding-top-1">Pending</h2>
-<p>Pending standards are finalized. They will be required after a specified time period following their publication to the pending status. Federal agencies can begin working to comply with pending standards.</p>
+ 
 
-<ul class="usa-card-group padding-top-2">
-{%- for standard in collections.standards -%}
-  {% if standard.data.status == "Pending" %}
-  <li class="usa-card mobile:grid-col desktop:grid-col-4">
-    <div class="usa-card__container">
-      <div class="usa-card__header">
-        <h4 class="usa-card__heading">
-          <a
-            class="usa-link font-heading-xl"
-            href="{{ standard.url | url }}"
-            >{{ standard.data.title }}</a
-          >
-        </h4>
-      </div>
-      <div class="usa-card__body">
-        <p><strong>Why: </strong>{{ standard.data.why }}</p>
-        <p><strong>Status: </strong>{{ standard.data.status }}</p>
-      </div>
-      <div class="usa-card__footer text-italic">
-        Published: <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
+  <div class="usa-checkbox margin-bottom-5">
+    <input
+      class="usa-checkbox__input"
+      id="select-all-standards"
+      type="checkbox"
+      name="select-all"
+      value="yes"
+      checked="checked"
+    />
+    <label class="usa-checkbox__label" for="select-all-standards">Select all</label>
+  </div>
+
+  <div class="display-none" id="no-statuses-selected">
+    <p class="usa-prose padding-top-1">There are no statuses selected. Please select a status to view a standard.</p>
+  </div>
+
+  <div id="required-standards">
+    <h2 class="font-heading-xl padding-top-1">Required</h2>
+    <p>There are no required standards at this time.</p>
+  </div>
+
+  <div id="pending-standards">
+    <h2 class="font-heading-xl padding-top-1">Pending</h2>
+    <p>Pending standards are finalized. They will be required after a specified time period following their publication to the pending status. Federal agencies can begin working to comply with pending standards.</p>
+    <ul class="usa-card-group padding-top-2" id="pending-ul">
+      {%- for standard in collections.standards -%}
+      {% if standard.data.status == "Pending" %}
+      <li class="usa-card mobile:grid-col desktop:grid-col-4" data-status="{{ standard.data.status | downcase }}">
+        <div class="usa-card__container">
+          <span class="card-header-pending-color-splash padding-y-1"></span>
+          <div class="usa-card__header">
+            <h4 class="usa-card__heading">
+              <a
+                class="usa-link font-heading-xl"
+                href="{{ standard.url | url }}"
+              >{{ standard.data.title }}</a
+              >
+            </h4>
+          </div>
+          <div class="usa-card__body">
+            <p><strong>Why: </strong>{{ standard.data.why }}</p>
+            <p><strong>Status: </strong>{{ standard.data.status }}</p>
+          </div>
+          <div class="usa-card__footer text-italic">
+            Published: <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
               {{ standard.date | toISOString: 'DDD' }}
             </time>
-      </div>
-    </div>
-  </li>
-  {% endif %}
-{%- endfor -%}
-</ul>
+          </div>
+        </div>
+      </li>
+      {% endif %}
+      {%- endfor -%}
+    </ul>
+  </div>
 
-<h2 class="font-heading-xl padding-top-1">Draft</h2>
-<p>This standard has been drafted and is being shared with federal agencies and other stakeholders. Agencies can review and provide feedback.</p>
+  <div id="draft-standards">
+    <h2 class="font-heading-xl padding-top-1">Draft</h2>
+    <p>This standard has been drafted and is being shared with federal agencies and other stakeholders. Agencies can review and provide feedback.</p>
 
-<ul class="usa-card-group padding-top-2">
-{%- for standard in collections.standards -%}
-  {% if standard.data.status == "Draft" %}
-  <li class="usa-card mobile:grid-col desktop:grid-col-4">
-    <div class="usa-card__container">
-      <div class="usa-card__header">
-        <h4 class="usa-card__heading">
-          <a
-            class="usa-link font-heading-xl"
-            href="{{ standard.url | url }}"
-            >{{ standard.data.title }}</a
-          >
-        </h4>
-      </div>
-      <div class="usa-card__body">
-        <p><strong>Why: </strong>{{ standard.data.why }}</p>
-        <p><strong>Status: </strong>{{ standard.data.status }}</p>
-      </div>
-      <div class="usa-card__footer text-italic">
-        Updated: <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
+    <ul class="usa-card-group padding-top-2" id="draft-ul">
+      {%- for standard in collections.standards -%}
+      {% if standard.data.status == "Draft" %}
+      <li class="usa-card mobile:grid-col desktop:grid-col-4" data-status="{{ standard.data.status | downcase }}">
+        <div class="usa-card__container">
+          <span class="card-header-draft-color-splash padding-y-1"></span>
+          <div class="usa-card__header">
+            <h4 class="usa-card__heading">
+              <a
+                class="usa-link font-heading-xl"
+                href="{{ standard.url | url }}"
+              >{{ standard.data.title }}</a
+              >
+            </h4>
+          </div>
+          <div class="usa-card__body">
+            <p><strong>Why: </strong>{{ standard.data.why }}</p>
+            <p><strong>Status: </strong>{{ standard.data.status }}</p>
+          </div>
+          <div class="usa-card__footer text-italic">
+            Updated: <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
               {{ standard.date | toISOString: 'DDD' }}
             </time>
-      </div>
-    </div>
-  </li>
-  {% endif %}
-{%- endfor -%}
-</ul>
+          </div>
+        </div>
+      </li>
+      {% endif %}
+      {%- endfor -%}
+    </ul>
+  </div>
 
+  <div id="research-standards">
+    <h2 class="font-heading-xl padding-top-1">Research</h2>
+    <p>These standards are being researched with the public, federal agencies, and other stakeholders. Agencies can contribute research and provide feedback.</p>
 
-<h2 class="font-heading-xl padding-top-1">Research</h2>
-<p>These standards are being researched with the public, federal agencies, and other stakeholders. Agencies can contribute research and provide feedback.</p>
-
-<ul class="usa-card-group padding-top-2">
-{%- for standard in collections.standards -%}
-  {% if standard.data.status == "Research" %}
-  <li class="usa-card mobile:grid-col desktop:grid-col-4">
-    <div class="usa-card__container">
-      <div class="usa-card__header">
-        <h4 class="usa-card__heading">
-          <a
-            class="usa-link font-heading-xl"
-            href="{{ standard.url | url }}"
-            >{{ standard.data.title }}</a
-          >
-        </h4>
-      </div>
-      <div class="usa-card__body">
-        <p><strong>Why: </strong>{{ standard.data.why }}</p>
-        <p><strong>Status: </strong>{{ standard.data.status }}</p>
-      </div>
-      <div class="usa-card__footer text-italic">
-        Updated: <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
+    <ul class="usa-card-group padding-top-2" id="research-ul">
+      {%- for standard in collections.standards -%}
+      {% if standard.data.status == "Research" %}
+      <li class="usa-card mobile:grid-col desktop:grid-col-4" data-status="{{ standard.data.status | downcase }}">
+        <div class="usa-card__container">
+          <span class="card-header-research-color-splash padding-y-1"></span>
+          <div class="usa-card__header">
+            <h4 class="usa-card__heading">
+              <a
+                class="usa-link font-heading-xl"
+                href="{{ standard.url | url }}"
+              >{{ standard.data.title }}</a
+              >
+            </h4>
+          </div>
+          <div class="usa-card__body">
+            <p><strong>Why: </strong>{{ standard.data.why }}</p>
+            <p><strong>Status: </strong>{{ standard.data.status }}</p>
+          </div>
+          <div class="usa-card__footer text-italic">
+            Updated: <time datetime="{{ standard.date | toISOString: 'yyyy-MM-dd TTZZ' }}">
               {{ standard.date | toISOString: 'DDD' }}
             </time>
-      </div>
-    </div>
-  </li>
-  {% endif %}
-{%- endfor -%}
-</ul>
+          </div>
+        </div>
+      </li>
+      {% endif %}
+      {%- endfor -%}
+    </ul>
+  </div>

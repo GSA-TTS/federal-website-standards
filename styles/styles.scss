@@ -22,6 +22,8 @@ Custom styling
 @forward "overrides/_global.scss";
 @forward "overrides/_usa-section.scss";
 
+@use './colors' as *;
+
 /*---------------------------------------------------------
 CHECKLIST 
 ----------------------------------------------------------*/
@@ -39,4 +41,102 @@ CHECKLIST
     content: "\200B"; // Marker is white space but still reads as list item
     padding-left: units(3);
   }
+}
+
+/*---------------------------------------------------------
+Standars index page status button colors and card toppers
+
+:not() is used because when the buttons are deselected,
+usa-button--outline class is added and we don't want to
+override the transparent background-color that comes with
+that class
+----------------------------------------------------------*/
+#status-selectors {
+  #research-button:not(.research-outline) {
+    background-color: $research;
+
+    &:hover {
+      background-color: darken($research, 10%);
+    }
+  }
+
+  .research-outline {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px $research;
+    color: #1b1b1b;
+  }
+
+  #draft-button:not(.draft-outline) {
+    background-color: $draft;
+
+    &:hover {
+      background-color: darken($draft, 10%);
+    }
+
+  }
+
+  .draft-outline {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px $draft;
+    color: #1b1b1b;
+  }
+
+  #pending-button:not(.pending-outline) {
+    background-color: $pending;
+
+    &:hover {
+      background-color: darken($pending, 10%);
+    }
+
+  }
+
+  .pending-outline {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px $pending;
+    color: #1b1b1b;
+  }
+
+  #required-button:not(.required-outline) {
+    background-color: $required;
+
+    &:hover {
+      background-color: darken($required, 10%);
+    }
+  }
+
+  .required-outline {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px $required;
+    color: #1b1b1b;
+  }
+}
+
+.card-header-research-color-splash {
+  border: 2px solid $research;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: $research;
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.card-header-draft-color-splash {
+  border: 2px solid $draft;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: $draft;
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.card-header-pending-color-splash {
+  border: 2px solid $pending;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: $pending;
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-right: -2px;
 }
