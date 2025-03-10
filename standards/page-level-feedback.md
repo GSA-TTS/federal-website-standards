@@ -5,7 +5,7 @@ title: Page-level feedback
 why: Allowing users to report content issues helps agencies identify potentially outdated, inaccurate, or unclear content, ensuring that government websites are accurate, user-friendly, and up-to-date.
 status: Research
 description: We're researching the value of adding page-level feedback to all .gov.
-date: "2025-02-24"
+date: "2025-03-10"
 github_discussion_number: 271
 join_the_conversation_name: page-level feedback
 permalink: /standards/page-level-feedback/
@@ -22,7 +22,7 @@ Collect page-level content feedback on federal websites.
 
 ## Why
 
-Allowing users to report content issues helps agencies identify potentially outdated, inaccurate, or confusing content, ensuring that government websites are up-to-date, accurate, and user-friendly.
+Collecting feedback from users on content issues helps agencies identify potentially outdated, inaccurate, or confusing content, ensuring that government websites are up-to-date, accurate, and user-friendly.
 
 ## Research questions
 
@@ -31,9 +31,8 @@ Allowing users to report content issues helps agencies identify potentially outd
 - How do users expect to interact with page-level content feedback mechanisms?
 - How can agencies balance standardization with flexibility based on their unique needs?
 - What challenges do agencies face in implementing feedback mechanisms, and how can these challenges be addressed?
+- How could page-level content feedback mechanisms be used alongside other feedback mechanisms (e.g., post-transaction)?
 - How might expanding feedback to all pages affect user engagement and agency processes?
-- What role does the feedback play, and how do agencies currently use it to improve content?
-- Is the page-level feedback component sufficient for agencies to gather all the necessary information about a website? Does it address the questions a web manager might have if they receive a 'no'?
 - What questions, if any, would further aid agencies in researching this standard?
 
 ## Read more
