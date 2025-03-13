@@ -3,11 +3,10 @@ layout: layouts/page-single
 tags: standards
 title: Contact page
 why: Contact pages that are informative, comprehensive, and accessible build trust and credibility.
-status: Draft
+status: Pending
 description: Contact information that is easily and consistently accessible enables people to ask questions, give feedback, or get help with minimal obstacles. 
-github_discussion_number: 183
-join_the_conversation_name: contact pages
 date: "2024-10-28"
+comply_by_date: "October 28, 2025"
 ---
 
 ## Status
@@ -68,7 +67,3 @@ These are tips to help you implement this standard.
 ## Read more
 
 - [Nielsen/Norman 2019 report on contact pages](https://www.nngroup.com/articles/contact-us-pages/)
-
-## Feedback
-
-{% include "_includes/join-the-conversation.html" discussion_number: github_discussion_number name: join_the_conversation_name %}
