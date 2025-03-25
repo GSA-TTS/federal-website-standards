@@ -53,8 +53,3 @@ These examples show the HTML code for HTML page titles.
 ## Read more
 
 - [Search.gov’s guidance for HTML page titles](https://search.gov/indexing/metadata.html#title)
-- [WCAG page titled success criterion](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html)
-- [How title links in Google Search are created](https://developers.google.com/search/docs/appearance/title-link#how-title-links-in-google-search-are-created)
-- [About the title element (MDN web docs)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
-- [OMB memo on Delivering a Digital-First Public Experience: Information and services that are discoverable and optimized for search](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/#IIIA:~:text=4.%20Information%20and%20Services%20That%20Are%20Discoverable%20and%20Optimized%20for%20Search) 
-

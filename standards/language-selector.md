@@ -35,10 +35,6 @@ We’re researching this potential standard. Research questions include:
 ## Read more
 
 - [USWDS guidance on language selectors](https://designsystem.digital.gov/components/language-selector/)
-- [Designing a perfect language selector UX (Smashing Magazine)](https://www.smashingmagazine.com/2022/05/designing-better-language-selector/)
-- 10x research on improving language access (TBD)
-- [Code for America research on language access](https://docs.google.com/presentation/d/1eV5if-e2P2sVyeJGMt3oLK15rpxM8UH8RC6Rnbf_7uk/edit#slide=id.g13ca625b299_1_10)
-
 
 ## Feedback
 

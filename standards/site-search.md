@@ -56,8 +56,6 @@ NOTE: [The U.S. Web Design System (USWDS) search component](https://designsystem
 
 - [Get started with Search.gov](https://search.gov/get-started/)
 - [An introduction to search from Digital.gov](https://digital.gov/resources/an-introduction-to-search/)
-- [Site searches (WebAim.org)](https://webaim.org/techniques/sitetools/#site)
-- [OMB memo on Delivering a Digital-First Public Experience: Information and services that are discoverable and optimized for search](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/#IIIA:~:text=4.%20Information%20and%20Services%20That%20Are%20Discoverable%20and%20Optimized%20for%20Search)
 
 ## Feedback
 

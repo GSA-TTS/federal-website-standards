@@ -38,8 +38,6 @@ Collecting feedback from users on content issues helps agencies identify potenti
 ## Read more
 
 - [How USAGov uses data to improve content (USA.gov)](https://blog.usa.gov/how-usagov-uses-data-to-improve-content)
-- [State of California Design System: Page-level feedback](https://designsystem.webstandards.ca.gov/components/page-feedback/readme/) 
-- [State of New Jersey Office of Innovation: Feedback Widget](https://innovation.nj.gov/projects/feedback-widget/)
 
 ## Feedback
 
