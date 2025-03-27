@@ -15,7 +15,7 @@ We welcome input from federal agency staff and others who are involved in creati
 
 ### Project board
 
-We maintain a public [project board on GitHub for standards](https://github.com/orgs/GSA-TTS/projects/48/views/1?filterQuery=label%3A%22Potential+standard%22). You can see the standards we're working on and provide your input. 
+We maintain a public [project board on GitHub for standards](https://github.com/orgs/GSA-TTS/projects/48/). You can see the standards we're working on and provide your input. 
 
 ### Website repository
 
