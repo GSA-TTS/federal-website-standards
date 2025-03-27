@@ -91,11 +91,6 @@ Use the most appropriate indicators for the type of content being managed.
 - Add an “Updated” date if the information substantively changed after it was first published.
 - Add a “Reviewed” date if the information was reviewed after publication or after being updated.
 
-## Read more
-
-- [Use clear, unambiguous formatting and punctuation (Web Accessibility Initiative)](https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p06-format-punctuation/#examples)
-- [Express dates and times in a clear and unambiguous way (Google developer documentation)](https://developers.google.com/style/dates-times)
-
 ## Feedback
 
 {% include "_includes/join-the-conversation.html" discussion_number: github_discussion_number name: join_the_conversation_name %}

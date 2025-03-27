@@ -64,11 +64,6 @@ These are tips to help you implement this standard.
 - [Department of Justice contact page](https://www.justice.gov/contact-us)
 - [USDA contact page](https://ask.usda.gov/s/contactsupport)
 
-
-## Read more
-
-- [Nielsen/Norman 2019 report on contact pages](https://www.nngroup.com/articles/contact-us-pages/)
-
 ## Feedback
 
 {% include "_includes/join-the-conversation.html" discussion_number: github_discussion_number name: join_the_conversation_name %}
