@@ -5,7 +5,7 @@ title: HTML page title
 why: A descriptive page title is important for accessibility and discoverability.
 status: Pending
 description: Descriptive and unique page titles are important for accessibility and discoverability. Learn to create quality HTML page titles for your government site.
-date: "2024-09-26"
+date: "2025-09-11"
 comply_by_date: "September 26, 2025"
 ---
 
