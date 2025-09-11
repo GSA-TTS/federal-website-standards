@@ -5,7 +5,7 @@ title: Federal government banner
 why: The banner identifies official websites of federal government organizations in the United States.
 status: Pending
 description: The federal government banner identifies official federal government sites. Learn how to implement the banner on your federal government site.
-date: "2025-09-11"
+date: "2024-09-26"
 comply_by_date: "September 26, 2025"
 ---
 
