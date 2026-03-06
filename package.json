@@ -47,6 +47,6 @@
   },
   "dependencies": {
     "@uswds/uswds": "3.8.0",
-    "markdown-it-attrs": "^4.2.0"
+    "markdown-it-attrs": "^4.3.1"
   }
 }
