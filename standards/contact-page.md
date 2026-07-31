@@ -62,7 +62,6 @@ These are tips to help you implement this standard.
 
 - [Consumer Financial Protection Bureau contact page](https://www.consumerfinance.gov/about-us/contact-us/)
 - [Department of Justice contact page](https://www.justice.gov/contact-us)
-- [USDA contact page](https://ask.usda.gov/s/contactsupport)
 
 ## Feedback
 
